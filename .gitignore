@@ -1,5 +1,9 @@
 ### .gitignore for Android ###
 
+# clean IDE Stuff
+.idea
+.gradle
+
 # built application files
 *.apk
 *.ap_
