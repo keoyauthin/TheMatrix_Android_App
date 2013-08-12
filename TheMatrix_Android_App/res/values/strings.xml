@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<resources>
+
+    <!-- important Strings -->
+    <string name="app_name">The Matrix</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- the Slider Menu -->
+    <string-array name="drawerTitles_array">
+        <item>Overview</item>
+        <item>Dropbox</item>
+        <item>Google Drive</item>
+        <item>Twitter</item>
+        <item>Facebook</item>
+        <item>Google+</item>
+    </string-array>
+
+    <!-- the Slider Sub Menu -->
+    <string-array name="drawerSubtitles_array">
+        <item>&#8230;see more</item>
+        <item>&#8230;view your Dropbox Content</item>
+        <item>&#8230;the legendary GoogleDrive</item>
+        <item>&#8230;tweet some more</item>
+        <item>&#8230;greetings from Marc</item>
+        <item>&#8230;the other Child</item>
+    </string-array>
+
+    <!-- About Strings -->
+    <string name="about_menu_button">About</string>
+    <string name="about_title">About "The Matrix"</string>
+    <string name="about_description">Developed by:\nWastl Kraus</string>
+    <string name="about_website">Website</string>
+    <string name="about_website_dot">Website:</string>
+    <string name="about_siteurl">http://wir-sind-die-matrix.de</string>
+    <string name="about_email">Email:</string>
+    <string name="about_emailurl">derdoktor667.dev@gmail.com</string>
+    <string name="about_version">Version:</string>
+
+    <!-- Stuff Strings -->
+    <string name="exit_this">Exit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="entry_icon">Entry-Icon</string>
+    <string name="hello_world"></string>
+
+</resources>
