@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
-  ~
-  ~    Licensed under the Apache License, Version 2.0 (the "License");
-  ~    you may not use this file except in compliance with the License.
-  ~    You may obtain a copy of the License at
-  ~
-  ~        http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~    Unless required by applicable law or agreed to in writing, software
-  ~    distributed under the License is distributed on an "AS IS" BASIS,
-  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~    See the License for the specific language governing permissions and
-  ~    limitations under the License.
-  -->
-
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/res/values/strings.xml -->
     <string-array name="drawerSubtitles_array">
         <item>…see more</item>
         <item>…view your Dropbox Content</item>
@@ -34,7 +18,7 @@
         <item>Facebook</item>
         <item>Google+</item>
     </string-array>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
     <attr name="background" format="reference|color" />
     <attr name="backgroundSplit" format="reference|color" />
     <attr name="divider" format="reference" />
@@ -55,13 +39,13 @@
     <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
     <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
     <color name="com_facebook_blue">#3B5998</color>
     <color name="com_facebook_loginview_text_color">#FFFFFF</color>
     <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
     <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
     <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Main_FolderGooglePlayServices_libUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml -->
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
     <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
@@ -95,7 +79,7 @@
         <attr name="useViewLifecycle" format="boolean" />
         <attr name="zOrderOnTop" format="boolean" />
     </declare-styleable>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
     <declare-styleable name="SherlockActionBar">
 
         <!-- The type of navigation to use. -->
@@ -540,7 +524,7 @@
     <declare-styleable name="SherlockView">
         <attr name="android:focusable" />
     </declare-styleable>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
     <declare-styleable name="com_facebook_friend_picker_fragment">
         <attr name="multi_select" format="boolean" />
     </declare-styleable>
@@ -575,7 +559,7 @@
         </attr>
         <attr name="is_cropped" format="boolean" />
     </declare-styleable>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
     <dimen name="abs__action_bar_default_height">48dip</dimen>
     <dimen name="abs__action_bar_icon_vertical_padding">8dip</dimen>
     <dimen name="abs__action_bar_subtitle_bottom_margin">5dip</dimen>
@@ -589,7 +573,7 @@
     <dimen name="abs__dropdownitem_text_padding_right">8dip</dimen>
     <dimen name="abs__search_view_preferred_width">320dip</dimen>
     <dimen name="abs__search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
     <dimen name="com_facebook_loginview_height">44dp</dimen>
     <dimen name="com_facebook_loginview_padding_bottom">0dp</dimen>
     <dimen name="com_facebook_loginview_padding_left">42dp</dimen>
@@ -602,7 +586,7 @@
     <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
     <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
     <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
     <item name="abs__action_menu_divider" type="id"/>
     <item name="abs__action_menu_presenter" type="id"/>
     <item name="abs__home" type="id"/>
@@ -611,7 +595,7 @@
     <item name="abs__up" type="id"/>
 
     <integer name="abs__max_action_buttons">2</integer>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/res/values/strings.xml -->
     <string name="about_description">Developed by:\nWastl Kraus</string>
     <string name="about_email">Email:</string>
     <string name="about_emailurl">derdoktor667.dev@gmail.com</string>
@@ -621,7 +605,7 @@
     <string name="about_version">Version:</string>
     <string name="about_website">Website</string>
     <string name="about_website_dot">Website:</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
     <string name="abs__action_bar_home_description">Navigate home</string>
     <string name="abs__action_bar_up_description">Navigate up</string>
     <string name="abs__action_menu_overflow_description">More options</string>
@@ -635,19 +619,19 @@
     <string name="abs__searchview_description_voice">Voice search</string>
     <string name="abs__shareactionprovider_share_with">Share with</string>
     <string name="abs__shareactionprovider_share_with_application">Share with <ns1:g id="application_name" example="Bluetooth">%s</ns1:g></string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">The Matrix</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Main_FolderGooglePlayServices_libUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml -->
     <string name="auth_client_needs_enabling_title">        An application requires Google Play Services to be enabled.</string>
     <string name="auth_client_needs_installation_title">        An application requires installation of Google Play Services.</string>
     <string name="auth_client_needs_update_title">        An application requires an update for Google Play Services.</string>
     <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
     <string name="auth_client_requested_by_msg">Requested by<ns1:g id="app_name">%1$s</ns1:g></string>
     <string name="auth_client_using_bad_version_title">        An application attempted to use a bad version of Google Play Services.</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/res/values/strings.xml -->
     <string name="cancel">Cancel</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
     <string name="com_facebook_choose_friends">Choose Friends</string>
     <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
@@ -673,7 +657,7 @@
     <string name="com_facebook_usersettingsfragment_log_in_button">Log In…</string>
     <string name="com_facebook_usersettingsfragment_logged_in">Logged In</string>
     <string name="com_facebook_usersettingsfragment_not_logged_in">Not Logged In</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Main_FolderGooglePlayServices_libUnspecified.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml -->
     <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable
         Google Play services</string>
     <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app
@@ -701,14 +685,14 @@
         Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/res/values/strings.xml -->
     <string name="drawer_close">Close navigation drawer</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="entry_icon">Entry-Icon</string>
     <string name="exit_this">Exit</string>
     <string name="hello_world"></string>
     <string name="ok">OK</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml -->
     <style name="Sherlock.__TextAppearance.Small" parent="Widget">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
@@ -1324,7 +1308,7 @@
         <item name="android:paddingLeft">8dp</item>
         <item name="android:paddingRight">8dp</item>
     </style>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml -->
     <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
         <item name="android:width">@dimen/com_facebook_loginview_width</item>
         <item name="android:height">@dimen/com_facebook_loginview_height</item>

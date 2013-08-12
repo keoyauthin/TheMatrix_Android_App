@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
-  ~
-  ~    Licensed under the Apache License, Version 2.0 (the "License");
-  ~    you may not use this file except in compliance with the License.
-  ~    You may obtain a copy of the License at
-  ~
-  ~        http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~    Unless required by applicable law or agreed to in writing, software
-  ~    distributed under the License is distributed on an "AS IS" BASIS,
-  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~    See the License for the specific language governing permissions and
-  ~    limitations under the License.
-  -->
-
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Main_FolderGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml -->
     <string name="auth_client_needs_enabling_title" msgid="3983201110833868073">"יש אפליקציה המחייבת
         הפעלה של שירותי Google Play."</string>
     <string name="auth_client_needs_installation_title" msgid="7999585836145154206">"יש אפליקציה
@@ -29,7 +13,7 @@
     <string name="auth_client_requested_by_msg" msgid="6304135633531965756">"התבקשה על ידי<ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
     <string name="auth_client_using_bad_version_title" msgid="2534454398764507874">"יש אפליקציה
         שניסתה להשתמש בגרסה שגויה של שירותי Google Play."</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-iw/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-iw/values.xml -->
     <string name="com_facebook_choose_friends">בחר חברים</string>
     <string name="com_facebook_dialogloginactivity_ok_button">אישור</string>
     <string name="com_facebook_internet_permission_error_message">ההתחברות לתצוגת אתר דורשת אישור אינטרנט</string>
@@ -55,7 +39,7 @@
     <string name="com_facebook_usersettingsfragment_log_in_button">התחבר…</string>
     <string name="com_facebook_usersettingsfragment_logged_in">מחובר</string>
     <string name="com_facebook_usersettingsfragment_not_logged_in">לא מחובר</string>
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Main_FolderGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/TheMatrix_Android_App/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml -->
     <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"הפעל את
         שירותי Google Play"</string>
     <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"יישום זה לא

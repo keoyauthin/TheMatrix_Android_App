@@ -6,7 +6,286 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3aef912-a2a8-4be2-959e-777d6a345e12" name="Default" comment="" />
+    <list default="true" id="f3aef912-a2a8-4be2-959e-777d6a345e12" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/buildConfig/debug/com/derdoktor667/dev/thematrix/BuildConfig.java" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/buildConfig/debug/com/derdoktor667/dev/thematrix/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/actionbarsherlock/R.java" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/actionbarsherlock/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/derdoktor667/dev/thematrix/R.java" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/derdoktor667/dev/thematrix/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/facebook/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/source/r/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/google-play-services_lib/build/source/r/debug/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/source/r/release/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/google-play-services_lib/build/source/r/release/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/TheMatrix_Android_App.iml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/TheMatrix_Android_App.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_home.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_home.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_tab.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_tab_bar_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_title_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_bar_title_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_menu_layout.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_menu_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_mode_bar.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_mode_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__action_mode_close_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-large/abs__action_mode_close_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__activated_background_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__activated_background_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__activity_chooser_view.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__activity_chooser_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__activity_chooser_view_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__btn_cab_done_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__btn_cab_done_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_clear.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_clear.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_clear_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__ic_menu_moreoverflow_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__item_background_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__item_background_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__item_background_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__list_menu_item_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__list_menu_item_icon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__list_menu_item_radio.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_background_transition_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__list_selector_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__popup_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_disable_only_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_disable_only_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/abs__primary_text_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__progress_horizontal_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__progress_horizontal_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__progress_medium_holo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable-v11/abs__progress_medium_holo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_action_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-xlarge/abs__screen_action_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_action_bar_overlay.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-xlarge/abs__screen_action_bar_overlay.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_simple.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_simple.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__screen_simple_overlay_action_mode.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__search_dropdown_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__search_dropdown_item_icons_2line.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__search_dropdown_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__search_dropdown_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__search_view.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__search_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/abs__simple_dropdown_hint.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__spinner_ab_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__spinner_ab_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__tab_indicator_ab_holo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/abs__textfield_searchview_right_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_button_check.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_button_check.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_friendpickerfragment.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_login_activity_layout.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_login_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_loginbutton_blue.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_loginbutton_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_loginbutton_silver.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_activity_circle_row.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_checkbox.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_image.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_item_background.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_item_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_list_row.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_list_section_header.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_list_selector.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_list_selector_background_transition.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_search_box.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_search_box.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_title_bar.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_title_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_title_bar_stub.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_top_button.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_picker_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_placepickerfragment.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_placepickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_placepickerfragment_list_row.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_top_background.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_top_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_top_button.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_usersettingsfragment.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_icon_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_icon_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/color/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_text_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/color/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/drawable/common_signin_btn_text_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/drawer_list_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/drawer_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/intent_about.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/intent_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/sherlock_spinner_dropdown_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-v14/sherlock_spinner_dropdown_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout/sherlock_spinner_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/layout-v14/sherlock_spinner_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-af/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-af/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-am/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-am/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ar/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ar/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-be/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-be/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-bg/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-bg/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ca/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ca/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-cs/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-cs/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-da/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-da/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-de/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-de/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-el/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-el/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-en-rGB/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-es-rUS/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-et/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-et/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-fa/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-fa/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-fi/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-fi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-fr/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-fr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-he/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-he/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-hi/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-hi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-hr/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-hr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-hu/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-hu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-in/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-in/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-it/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-it/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-iw/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ja/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ja/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ko/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ko/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-land/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-hdpi-1024x600/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-land-hdpi-1024x600/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-land-mdpi-1024x600/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-mdpi-1024x600/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-large-mdpi-1024x600/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-lt/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-lt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-lv/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-lv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ms/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ms/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-nb/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-nb/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-nl/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-nl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pl/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pt/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pt-rBR/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pt-rBR/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-pt-rPT/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ro/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ro/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ru/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-ru/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sk/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sk/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sl/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sr/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sv/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sw/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sw600dp/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-sw600dp/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-th/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-th/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-tl/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-tl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-tr/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-tr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-uk/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-uk/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-vi/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-vi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w360dp/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w360dp/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w480dp/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w480dp/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w500dp/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w500dp/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w600dp/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-w600dp/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-xlarge/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-xlarge/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-zh-rCN/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-zh-rTW/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-zu/values.xml" afterPath="$PROJECT_DIR$/TheMatrix_Android_App/build/res/all/debug/values-zu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-af/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-af/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-am/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-am/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ar/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ar/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-be/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-be/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-bg/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-bg/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ca/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ca/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-cs/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-cs/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-da/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-da/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-de/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-de/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-el/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-el/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-en-rGB/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-es-rUS/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-et/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-et/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-fa/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-fa/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-fi/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-fi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-fr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-fr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-hi/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-hi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-hr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-hr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-hu/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-hu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-in/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-in/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-it/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-it/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-iw/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ja/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ja/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ko/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ko/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-lt/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-lt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-lv/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-lv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ms/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ms/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-nb/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-nb/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-nl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-nl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pt/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pt-rBR/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pt-rBR/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-pt-rPT/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ro/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ro/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ru/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-ru/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sk/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sk/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sv/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sw/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-sw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-th/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-th/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-tl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-tl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-tr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-tr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-uk/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-uk/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-vi/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-vi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-zh-rCN/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-zh-rTW/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-zu/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/debug/values-zu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-af/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-af/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-am/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-am/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ar/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ar/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-be/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-be/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-bg/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-bg/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ca/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ca/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-cs/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-cs/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-da/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-da/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-de/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-de/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-el/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-el/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-en-rGB/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-es/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-es-rUS/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-et/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-et/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-fa/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-fa/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-fi/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-fi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-fr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-fr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-hi/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-hi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-hr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-hr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-hu/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-hu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-in/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-in/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-it/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-it/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-iw/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ja/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ja/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ko/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ko/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-lt/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-lt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-lv/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-lv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ms/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ms/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-nb/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-nb/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-nl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-nl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pt/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pt-rBR/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pt-rBR/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-pt-rPT/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ro/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ro/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ru/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-ru/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sk/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sk/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sv/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sw/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-sw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-th/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-th/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-tl/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-tl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-tr/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-tr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-uk/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-uk/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-vi/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-vi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-zh-rCN/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-zh-rTW/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-zu/values.xml" afterPath="$PROJECT_DIR$/google-play-services_lib/build/res/all/release/values-zu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TheMatrix_Main_Folder.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,6 +382,30 @@
         <entry>
           <key>
             <ExternalProjectPojo>
+              <option name="name" value="TheMatrix_Android_App" />
+              <option name="path" value="C:\Users\Administrator.HEADROOM\Documents\TheMatrix_Android_App" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="TheMatrix_Android_App-TheMatrix_Android_App" />
+                <option name="path" value="$PROJECT_DIR$/TheMatrix_Android_App" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="google-play-services_lib" />
+                <option name="path" value="$PROJECT_DIR$/google-play-services_lib" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="TheMatrix_Android_App" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
               <option name="name" value="TheMatrix_Main_Folder" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
@@ -130,11 +433,11 @@
       <map>
         <entry key="$PROJECT_DIR$/../TheMatrix-1.0.9.0_Base" value="1375993580908" />
         <entry key="$PROJECT_DIR$/../TheMatrix_1.0.9.0_BaseApp" value="1376014591804" />
-        <entry key="$PROJECT_DIR$/../TheMatrix_Android_App" value="1376059090488" />
         <entry key="$PROJECT_DIR$" value="1376200949880" />
         <entry key="$PROJECT_DIR$/../TheMatrix_Main_Source" value="1376129863231" />
         <entry key="$PROJECT_DIR$/../TheMatrix_Studio/TheMatrix_Android_App" value="1376187577064" />
         <entry key="$USER_HOME$/Downloads/android-menudrawer-master/menudrawer-samples" value="1376135215666" />
+        <entry key="C:\Users\Administrator.HEADROOM\Documents\TheMatrix_Android_App" value="1376339218126" />
       </map>
     </option>
   </component>
@@ -159,9 +462,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="26" />
-    <option name="width" value="1366" />
-    <option name="height" value="742" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -213,6 +517,10 @@
               <option name="myItemId" value="TheMatrix_Main_Folder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -220,7 +528,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="TheMatrix_Android_App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheMatrix_Android_App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="TheMatrix_Main_Folder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheMatrix_Android_App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheMatrix_Android_App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheMatrix_Android_App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,7 +561,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -246,10 +576,10 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Android Application.TheMatrix_Android_App">
+  <component name="RunManager" selected="Android Application.TheMatrix_Android_App-TheMatrix_Android_App">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -366,8 +696,25 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="TheMatrix_Android_App-TheMatrix_Android_App" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="TheMatrix_Android_App-TheMatrix_Android_App" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.TheMatrix_Android_App" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.TheMatrix_Android_App-TheMatrix_Android_App" />
     </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -415,11 +762,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1366" height="742" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7360406" sideWeight="0.7511381" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6214058" sideWeight="0.7511381" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -433,8 +780,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24886191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38257575" sideWeight="0.37859425" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -455,19 +802,19 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.7507576" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.7507576" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293919" sideWeight="0.7507576" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -554,22 +901,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheMatrix_Android_App/src/com/derdoktor667/dev/thematrix/MenuListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.06394316" vertical-offset="0" max-vertical-offset="1062">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.06394316" vertical-offset="0" max-vertical-offset="1062" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheMatrix_Android_App/src/com/derdoktor667/dev/thematrix/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="19" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.3321492" vertical-offset="119" max-vertical-offset="3852">
-          <folding>
-            <element signature="e#5829#5860#0" expanded="false" />
-            <element signature="e#5918#5951#0" expanded="false" />
-            <element signature="e#5958#6238#0" expanded="false" />
-            <element signature="e#6230#6231#0" expanded="false" />
-            <element signature="e#6298#6320#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="52" column="19" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.3321492" vertical-offset="119" max-vertical-offset="3852" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -579,9 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheMatrix_Android_App/gen/com/actionbarsherlock/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11196">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11196" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheMatrix_Android_App/.project">
@@ -665,7 +1000,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

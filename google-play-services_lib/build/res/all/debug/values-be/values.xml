@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-be/strings.xml -->
+    <!-- From: file:/C:/Users/Administrator.HEADROOM/Documents/TheMatrix_Android_App/google-play-services_lib/res/values-be/strings.xml -->
     <string name="auth_client_needs_enabling_title" msgid="3983201110833868073">"Прыкладанне
         патрабуе ўключэння службаў Google Play."</string>
     <string name="auth_client_needs_installation_title" msgid="7999585836145154206">"Прыкладанне

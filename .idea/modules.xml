@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TheMatrix_Android_App/TheMatrix_Android_App.iml" filepath="$PROJECT_DIR$/TheMatrix_Android_App/TheMatrix_Android_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheMatrix_Android_App/TheMatrix_Android_App-TheMatrix_Android_App.iml" filepath="$PROJECT_DIR$/TheMatrix_Android_App/TheMatrix_Android_App-TheMatrix_Android_App.iml" />
       <module fileurl="file://$PROJECT_DIR$/TheMatrix_Main_Folder.iml" filepath="$PROJECT_DIR$/TheMatrix_Main_Folder.iml" />
       <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
     </modules>
