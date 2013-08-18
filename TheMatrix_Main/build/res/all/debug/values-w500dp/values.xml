@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w500dp/values.xml -->
+    <integer name="abs__max_action_buttons">4</integer>
+
+</resources>
