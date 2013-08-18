@@ -2,9 +2,9 @@
 <merger xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" >
 
     <dataSet config="main" >
-        <source path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res" >
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res" >
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-hr/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-hr/strings.xml"
                 qualifiers="hr" >
                 <string
                     name="common_google_play_services_update_button"
@@ -115,7 +115,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-de/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-de/strings.xml"
                 qualifiers="de" >
                 <string
                     name="common_google_play_services_enable_button"
@@ -225,7 +225,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-lv/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-lv/strings.xml"
                 qualifiers="lv" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -335,7 +335,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-en-rGB/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-en-rGB/strings.xml"
                 qualifiers="en-rGB" >
                 <string
                     name="common_google_play_services_unsupported_text"
@@ -444,7 +444,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-hi/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-hi/strings.xml"
                 qualifiers="hi" >
                 <string
                     name="common_google_play_services_install_button"
@@ -554,7 +554,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-sv/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-sv/strings.xml"
                 qualifiers="sv" >
                 <string
                     name="common_google_play_services_enable_title"
@@ -664,7 +664,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-iw/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-iw/strings.xml"
                 qualifiers="iw" >
                 <string
                     name="common_google_play_services_install_text_tablet"
@@ -773,7 +773,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-sw/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-sw/strings.xml"
                 qualifiers="sw" >
                 <string
                     name="auth_client_requested_by_msg"
@@ -882,7 +882,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-el/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-el/strings.xml"
                 qualifiers="el" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -993,7 +993,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-ja/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-ja/strings.xml"
                 qualifiers="ja" >
                 <string
                     name="common_google_play_services_install_button"
@@ -1090,7 +1090,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-nl/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-nl/strings.xml"
                 qualifiers="nl" >
                 <string
                     name="auth_client_needs_enabling_title"
@@ -1200,7 +1200,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-pl/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-pl/strings.xml"
                 qualifiers="pl" >
                 <string
                     name="auth_client_needs_enabling_title"
@@ -1310,7 +1310,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-uk/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-uk/strings.xml"
                 qualifiers="uk" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -1417,7 +1417,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-bg/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-bg/strings.xml"
                 qualifiers="bg" >
                 <string
                     name="common_google_play_services_install_button"
@@ -1523,7 +1523,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-sl/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-sl/strings.xml"
                 qualifiers="sl" >
                 <string
                     name="common_google_play_services_enable_button"
@@ -1631,7 +1631,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-ko/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-ko/strings.xml"
                 qualifiers="ko" >
                 <string
                     name="common_google_play_services_install_title"
@@ -1739,126 +1739,126 @@
             </file>
             <file
                 name="common_signin_btn_icon_pressed_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable/common_signin_btn_icon_light.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="common_signin_btn_text_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable/common_signin_btn_text_dark.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable/common_signin_btn_icon_dark.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="common_signin_btn_text_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable/common_signin_btn_text_light.xml"
                 qualifiers=""
                 type="drawable" />
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-lt/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-lt/strings.xml"
                 qualifiers="lt" >
                 <string
                     name="common_google_play_services_enable_button"
@@ -1966,7 +1966,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-es-rUS/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-es-rUS/strings.xml"
                 qualifiers="es-rUS" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -2076,106 +2076,106 @@
             </file>
             <file
                 name="common_signin_btn_icon_pressed_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-zu/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-zu/strings.xml"
                 qualifiers="zu" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -2284,7 +2284,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-pt-rBR/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-pt-rBR/strings.xml"
                 qualifiers="pt-rBR" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -2393,7 +2393,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-ro/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-ro/strings.xml"
                 qualifiers="ro" >
                 <string
                     name="auth_client_needs_update_title"
@@ -2499,16 +2499,16 @@
             </file>
             <file
                 name="common_signin_btn_text_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/color/common_signin_btn_text_dark.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/color/common_signin_btn_text_dark.xml"
                 qualifiers=""
                 type="color" />
             <file
                 name="common_signin_btn_text_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/color/common_signin_btn_text_light.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/color/common_signin_btn_text_light.xml"
                 qualifiers=""
                 type="color" />
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-ru/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-ru/strings.xml"
                 qualifiers="ru" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -2613,7 +2613,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-cs/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-cs/strings.xml"
                 qualifiers="cs" >
                 <string
                     name="common_signin_button_text_long"
@@ -2722,7 +2722,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-ar/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-ar/strings.xml"
                 qualifiers="ar" >
                 <string
                     name="common_google_play_services_update_text"
@@ -2832,7 +2832,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-tr/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-tr/strings.xml"
                 qualifiers="tr" >
                 <string
                     name="auth_client_needs_update_title"
@@ -2940,7 +2940,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-af/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-af/strings.xml"
                 qualifiers="af" >
                 <string
                     name="auth_client_needs_update_title"
@@ -3048,7 +3048,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-es/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-es/strings.xml"
                 qualifiers="es" >
                 <string
                     name="auth_client_requested_by_msg"
@@ -3157,7 +3157,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-tl/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-tl/strings.xml"
                 qualifiers="tl" >
                 <string
                     name="auth_client_play_services_err_notification_msg"
@@ -3268,7 +3268,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-am/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-am/strings.xml"
                 qualifiers="am" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -3375,7 +3375,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-fa/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-fa/strings.xml"
                 qualifiers="fa" >
                 <string
                     name="auth_client_using_bad_version_title"
@@ -3486,106 +3486,106 @@
             </file>
             <file
                 name="common_signin_btn_icon_pressed_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_light"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_dark"
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-fr/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-fr/strings.xml"
                 qualifiers="fr" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -3696,7 +3696,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-it/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-it/strings.xml"
                 qualifiers="it" >
                 <string
                     name="auth_client_play_services_err_notification_msg"
@@ -3801,7 +3801,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-fi/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-fi/strings.xml"
                 qualifiers="fi" >
                 <string
                     name="common_google_play_services_unsupported_text"
@@ -3911,7 +3911,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-sr/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-sr/strings.xml"
                 qualifiers="sr" >
                 <string
                     name="auth_client_needs_installation_title"
@@ -4020,7 +4020,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-nb/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-nb/strings.xml"
                 qualifiers="nb" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -4129,7 +4129,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-pt-rPT/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-pt-rPT/strings.xml"
                 qualifiers="pt-rPT" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -4240,7 +4240,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-ca/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-ca/strings.xml"
                 qualifiers="ca" >
                 <string
                     name="auth_client_needs_installation_title"
@@ -4349,7 +4349,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-th/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-th/strings.xml"
                 qualifiers="th" >
                 <string
                     name="auth_client_requested_by_msg"
@@ -4446,7 +4446,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-ms/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-ms/strings.xml"
                 qualifiers="ms" >
                 <string
                     name="auth_client_needs_update_title"
@@ -4557,7 +4557,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-zh-rTW/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-zh-rTW/strings.xml"
                 qualifiers="zh-rTW" >
                 <string
                     name="auth_client_needs_enabling_title"
@@ -4661,7 +4661,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values/maps_attrs.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values/maps_attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="MapAttrs" >
                     <attr
@@ -4725,7 +4725,7 @@
                 </declare-styleable>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values/strings.xml"
                 qualifiers="" >
                 <string name="auth_client_needs_update_title" >        An application requires an update for Google Play Services.
                 </string>
@@ -4805,7 +4805,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values/colors.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values/colors.xml"
                 qualifiers="" >
                 <color name="common_signin_btn_light_text_pressed" >@android:color/white
                 </color>
@@ -4829,7 +4829,7 @@
                 </color>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-zh-rCN/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-zh-rCN/strings.xml"
                 qualifiers="zh-rCN" >
                 <string
                     name="common_google_play_services_enable_title"
@@ -4933,7 +4933,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-hu/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-hu/strings.xml"
                 qualifiers="hu" >
                 <string
                     name="auth_client_using_bad_version_title"
@@ -5043,7 +5043,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-pt/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-pt/strings.xml"
                 qualifiers="pt" >
                 <string
                     name="auth_client_needs_update_title"
@@ -5152,7 +5152,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-da/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-da/strings.xml"
                 qualifiers="da" >
                 <string
                     name="auth_client_play_services_err_notification_msg"
@@ -5260,7 +5260,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-in/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-in/strings.xml"
                 qualifiers="in" >
                 <string
                     name="common_google_play_services_install_button"
@@ -5366,7 +5366,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-vi/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-vi/strings.xml"
                 qualifiers="vi" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -5479,7 +5479,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-et/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-et/strings.xml"
                 qualifiers="et" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -5588,7 +5588,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-sk/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-sk/strings.xml"
                 qualifiers="sk" >
                 <string
                     name="auth_client_play_services_err_notification_msg"
@@ -5695,7 +5695,7 @@
                 </string>
             </file>
             <file
-                path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/res/values-be/strings.xml"
+                path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/res/values-be/strings.xml"
                 qualifiers="be" >
                 <string
                     name="common_google_play_services_update_title"
@@ -5803,10 +5803,10 @@
                 </string>
             </file>
         </source>
-        <source path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/build/res/rs/release" />
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/build/res/rs/release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Main_Folder/google-play-services_lib/build-types/release/res" />
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/build-types/release/res" />
     </dataSet>
 
 </merger>
