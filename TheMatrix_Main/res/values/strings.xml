@@ -18,11 +18,7 @@
 
 <resources>
 
-    <!-- important Strings -->
-    <string name="app_name">The Matrix</string>
-    <string name="action_settings">Settings</string>
-    <string name="drawer_open">Open navigation drawer</string>
-    <string name="drawer_close">Close navigation drawer</string>
+    <!-- This is the Sliding Menu ...later the main strings -->
 
     <!-- the Slider Menu -->
     <string-array name="drawerTitles_array">
@@ -44,6 +40,14 @@
         <item>&#8230;the other Child</item>
     </string-array>
 
+    <!-- these are the main strings -->
+
+    <!-- important Strings -->
+    <string name="app_name">The Matrix</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="hello_world">...testing</string>
+
     <!-- About Strings -->
     <string name="about_menu_button">About</string>
     <string name="about_title">About "The Matrix"</string>
@@ -55,11 +59,16 @@
     <string name="about_emailurl">derdoktor667.dev@gmail.com</string>
     <string name="about_version">Version:</string>
 
+    <!-- the menu strings -->
+    <string name="get_about_title">About</string>
+    <string name="get_help_title">Help</string>
+    <string name="take_exit_title">Exit</string>
+    <string name="get_settings_title">Settings</string>
+
     <!-- Stuff Strings -->
-    <string name="exit_this">Exit</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="entry_icon">Entry-Icon</string>
-    <string name="hello_world"></string>
 
 </resources>
+

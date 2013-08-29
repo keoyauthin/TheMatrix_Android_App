@@ -17,15 +17,15 @@
 apply plugin: 'android'
 repositories {
     maven {
-        url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
+        url 'https://github.com/Goddchen/mvn-repo/raw/master/'
     }
     mavenCentral()
 }
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
-    compile 'com.android.support:support-v4:18.0.+'
+    compile "com.android.support:support-v4:18.0.+"
     compile "com.actionbarsherlock:actionbarsherlock:4.3.1"
-    compile project(':google-play-services_lib')
+    compile project(":google-play-services_lib")
     compile "com.facebook.android:facebook:3.0.2"
 }
 

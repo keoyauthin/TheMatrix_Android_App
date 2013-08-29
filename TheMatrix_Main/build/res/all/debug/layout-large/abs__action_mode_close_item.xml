@@ -38,4 +38,4 @@
               android:textAllCaps="true"
               android:text="@string/abs__action_mode_done" />
 </com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout>
-<!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/layout-large/abs__action_mode_close_item.xml -->
+<!-- From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/layout-large/abs__action_mode_close_item.xml -->

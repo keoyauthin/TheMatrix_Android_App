@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/google-play-services_lib/assets" />
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/google-play-services_lib/build-types/debug/assets" />
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/google-play-services_lib/build-types/debug/assets" />
     </dataSet>
 
 </merger>

@@ -15,42 +15,42 @@
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              style="?attr/spinnerDropDownItemStyle"
-              android:layout_width="match_parent"
-              android:layout_height="?attr/dropdownListPreferredItemHeight"
-              android:orientation="horizontal">
+    style="?attr/spinnerDropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/dropdownListPreferredItemHeight"
+    android:orientation="horizontal">
 
     <ImageView
-            android:id="@+id/icon"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:paddingLeft="4dp"
-            android:paddingRight="4dp"
-            android:contentDescription="@string/entry_icon"/>
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:contentDescription="@string/entry_icon" />
 
     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            style="?android:attr/spinnerDropDownItemStyle"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical|left"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textSize="17sp"
+            android:singleLine="true" />
 
         <TextView
-                android:id="@+id/title"
-                style="?android:attr/spinnerDropDownItemStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:textSize="17sp"
-                android:singleLine="true"/>
-
-        <TextView
-                android:id="@+id/subtitle"
-                style="?attr/spinnerDropDownItemStyle"
-                android:layout_width="wrap_content"
-                android:ellipsize="end"
-                android:textSize="13sp"
-                android:singleLine="true"
-                android:layout_height="wrap_content"/>
+            android:id="@+id/subtitle"
+            style="?attr/spinnerDropDownItemStyle"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:textSize="13sp"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>

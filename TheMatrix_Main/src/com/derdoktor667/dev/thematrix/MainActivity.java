@@ -165,11 +165,11 @@ public class MainActivity extends SherlockActivity {
         // Gibt den ActionBar-Buttons Funktionen
         switch (item.getItemId()) {
 
-            case R.id.action_settings:
+            case R.id.get_settings_mmenu:
                 // Tu' etwas!
                 return true;
 
-            case R.id.about_menu_button:
+            case R.id.get_about_mmenu:
                 LayoutInflater li = LayoutInflater.from(this);
                 View view = li.inflate(R.layout.intent_about, null);
 
@@ -219,7 +219,7 @@ public class MainActivity extends SherlockActivity {
 
                 return false;
 
-            case R.id.exit_this:
+            case R.id.take_exit_mmenu:
                 finish();
                 return false;
 

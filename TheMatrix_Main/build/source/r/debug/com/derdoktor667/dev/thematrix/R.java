@@ -9,7 +9,7 @@ package com.derdoktor667.dev.thematrix;
 
 public final class R {
     public static final class array {
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
          */
         public static final int drawerSubtitles_array=0x7f040000;
         public static final int drawerTitles_array=0x7f040001;
@@ -162,7 +162,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int activityChooserViewStyle=0x7f01006d;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -938,10 +938,10 @@ containing a value of this type.
         public static final int zOrderOnTop=0x7f010013;
     }
     public static final class bool {
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w480dp/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w480dp/values.xml 
          */
         public static final int abs__action_bar_embed_tabs=0x7f050000;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-sw600dp/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-sw600dp/values.xml 
          */
         public static final int abs__action_bar_expanded_action_views_exclusive=0x7f050001;
         public static final int abs__config_actionMenuItemAllCaps=0x7f050002;
@@ -960,14 +960,14 @@ containing a value of this type.
         public static final int abs__primary_text_disable_only_holo_light=0x7f060016;
         public static final int abs__primary_text_holo_dark=0x7f060017;
         public static final int abs__primary_text_holo_light=0x7f060018;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
          */
         public static final int com_facebook_blue=0x7f060006;
         public static final int com_facebook_loginview_text_color=0x7f060007;
         public static final int com_facebook_usersettingsfragment_connected_shadow_color=0x7f060008;
         public static final int com_facebook_usersettingsfragment_connected_text_color=0x7f060009;
         public static final int com_facebook_usersettingsfragment_not_connected_text_color=0x7f06000a;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml 
          */
         public static final int common_action_bar_splitter=0x7f06000b;
         public static final int common_signin_btn_dark_text_default=0x7f06000c;
@@ -983,13 +983,13 @@ containing a value of this type.
         public static final int common_signin_btn_text_light=0x7f06001a;
     }
     public static final class dimen {
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-land/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-hdpi-1024x600/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-mdpi-1024x600/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-land-hdpi-1024x600/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-land-mdpi-1024x600/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-xlarge/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-land/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-hdpi-1024x600/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-mdpi-1024x600/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-land-hdpi-1024x600/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-large-land-mdpi-1024x600/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-xlarge/values.xml 
          */
         public static final int abs__action_bar_default_height=0x7f080000;
         public static final int abs__action_bar_icon_vertical_padding=0x7f080001;
@@ -1006,7 +1006,7 @@ containing a value of this type.
         public static final int abs__dropdownitem_text_padding_right=0x7f08000a;
         public static final int abs__search_view_preferred_width=0x7f08000b;
         public static final int abs__search_view_text_min_width=0x7f08000c;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
          */
         public static final int com_facebook_loginview_height=0x7f08000d;
         public static final int com_facebook_loginview_padding_bottom=0x7f08000e;
@@ -1196,13 +1196,12 @@ containing a value of this type.
         public static final int ic_navigation_drawer=0x7f0200ab;
     }
     public static final class id {
-        public static final int about_menu_button=0x7f07005a;
         public static final int abs__action_bar=0x7f070026;
         public static final int abs__action_bar_container=0x7f070025;
         public static final int abs__action_bar_subtitle=0x7f070017;
         public static final int abs__action_bar_title=0x7f070016;
         public static final int abs__action_context_bar=0x7f070027;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
          */
         public static final int abs__action_menu_divider=0x7f070010;
         public static final int abs__action_menu_presenter=0x7f070011;
@@ -1238,7 +1237,6 @@ containing a value of this type.
         public static final int abs__textButton=0x7f070019;
         public static final int abs__title=0x7f070021;
         public static final int abs__up=0x7f070015;
-        public static final int action_settings=0x7f070058;
         public static final int com_facebook_login_activity_progress_bar=0x7f07003d;
         public static final int com_facebook_picker_activity_circle=0x7f07003c;
         public static final int com_facebook_picker_checkbox=0x7f07003f;
@@ -1263,7 +1261,9 @@ containing a value of this type.
         public static final int edit_query=0x7f07002c;
         public static final int email=0x7f070056;
         public static final int emailurl=0x7f070057;
-        public static final int exit_this=0x7f070059;
+        public static final int get_about_mmenu=0x7f07005a;
+        public static final int get_help_mmenu=0x7f070059;
+        public static final int get_settings_mmenu=0x7f070058;
         public static final int homeAsUp=0x7f070009;
         public static final int hybrid=0x7f070004;
         public static final int icon=0x7f070050;
@@ -1283,6 +1283,7 @@ containing a value of this type.
         public static final int small=0x7f07000e;
         public static final int subtitle=0x7f070052;
         public static final int tabMode=0x7f070006;
+        public static final int take_exit_mmenu=0x7f07005b;
         public static final int terrain=0x7f070003;
         public static final int textView1=0x7f070039;
         public static final int title=0x7f070051;
@@ -1291,9 +1292,9 @@ containing a value of this type.
         public static final int wrap_content=0x7f07000d;
     }
     public static final class integer {
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w360dp/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w500dp/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w600dp/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w360dp/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w500dp/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-w600dp/values.xml 
          */
         public static final int abs__max_action_buttons=0x7f090000;
     }
@@ -1342,7 +1343,7 @@ containing a value of this type.
         public static final int main=0x7f0c0000;
     }
     public static final class string {
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
          */
         public static final int about_description=0x7f0a0000;
         public static final int about_email=0x7f0a0001;
@@ -1353,7 +1354,7 @@ containing a value of this type.
         public static final int about_version=0x7f0a0006;
         public static final int about_website=0x7f0a0007;
         public static final int about_website_dot=0x7f0a0008;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
          */
         public static final int abs__action_bar_home_description=0x7f0a0009;
         public static final int abs__action_bar_up_description=0x7f0a000a;
@@ -1368,134 +1369,136 @@ containing a value of this type.
         public static final int abs__searchview_description_voice=0x7f0a0013;
         public static final int abs__shareactionprovider_share_with=0x7f0a0014;
         public static final int abs__shareactionprovider_share_with_application=0x7f0a0015;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
          */
-        public static final int action_settings=0x7f0a0016;
-        public static final int app_name=0x7f0a0017;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-af/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-am/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ar/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-be/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-bg/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ca/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-cs/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-da/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-de/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-el/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-en-rGB/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-es/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-es-rUS/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-et/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-fa/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-fi/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-fr/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-hi/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-hr/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-hu/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-in/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-it/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ja/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ko/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-lt/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-lv/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ms/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-nb/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-nl/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pl/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pt/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pt-rBR/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pt-rPT/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ro/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ru/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sk/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sl/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sr/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sv/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sw/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-th/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-tl/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-tr/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-uk/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-vi/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-zh-rCN/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-zh-rTW/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-zu/values.xml 
+        public static final int app_name=0x7f0a0016;
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-af/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-am/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ar/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-be/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-bg/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ca/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-cs/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-da/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-de/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-el/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-en-rGB/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-es/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-es-rUS/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-et/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-fa/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-fi/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-fr/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-hi/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-hr/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-hu/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-in/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-it/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ja/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ko/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-lt/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-lv/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ms/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-nb/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-nl/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pl/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pt/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pt-rBR/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-pt-rPT/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ro/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-ru/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sk/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sl/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sr/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sv/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-sw/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-th/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-tl/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-tr/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-uk/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-vi/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-zh-rCN/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-zh-rTW/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-zu/values.xml 
          */
-        public static final int auth_client_needs_enabling_title=0x7f0a0018;
-        public static final int auth_client_needs_installation_title=0x7f0a0019;
-        public static final int auth_client_needs_update_title=0x7f0a001a;
-        public static final int auth_client_play_services_err_notification_msg=0x7f0a001b;
-        public static final int auth_client_requested_by_msg=0x7f0a001c;
-        public static final int auth_client_using_bad_version_title=0x7f0a001d;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
+        public static final int auth_client_needs_enabling_title=0x7f0a0017;
+        public static final int auth_client_needs_installation_title=0x7f0a0018;
+        public static final int auth_client_needs_update_title=0x7f0a0019;
+        public static final int auth_client_play_services_err_notification_msg=0x7f0a001a;
+        public static final int auth_client_requested_by_msg=0x7f0a001b;
+        public static final int auth_client_using_bad_version_title=0x7f0a001c;
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
          */
-        public static final int cancel=0x7f0a001e;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-es/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-he/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-iw/values.xml 
+        public static final int cancel=0x7f0a001d;
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-es/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-he/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values-iw/values.xml 
          */
-        public static final int com_facebook_choose_friends=0x7f0a001f;
-        public static final int com_facebook_dialogloginactivity_ok_button=0x7f0a0020;
-        public static final int com_facebook_internet_permission_error_message=0x7f0a0021;
-        public static final int com_facebook_internet_permission_error_title=0x7f0a0022;
-        public static final int com_facebook_loading=0x7f0a0023;
-        public static final int com_facebook_loginview_cancel_action=0x7f0a0024;
-        public static final int com_facebook_loginview_log_in_button=0x7f0a0025;
-        public static final int com_facebook_loginview_log_out_action=0x7f0a0026;
-        public static final int com_facebook_loginview_log_out_button=0x7f0a0027;
-        public static final int com_facebook_loginview_logged_in_as=0x7f0a0028;
-        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f0a0029;
-        public static final int com_facebook_logo_content_description=0x7f0a002a;
-        public static final int com_facebook_nearby=0x7f0a002b;
-        public static final int com_facebook_picker_done_button_text=0x7f0a002c;
-        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f0a002d;
-        public static final int com_facebook_placepicker_subtitle_format=0x7f0a002e;
-        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f0a002f;
-        public static final int com_facebook_requesterror_password_changed=0x7f0a0030;
-        public static final int com_facebook_requesterror_permissions=0x7f0a0031;
-        public static final int com_facebook_requesterror_reconnect=0x7f0a0032;
-        public static final int com_facebook_requesterror_relogin=0x7f0a0033;
-        public static final int com_facebook_requesterror_web_login=0x7f0a0034;
-        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f0a0035;
-        public static final int com_facebook_usersettingsfragment_logged_in=0x7f0a0036;
-        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f0a0037;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-es/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml 
+        public static final int com_facebook_choose_friends=0x7f0a001e;
+        public static final int com_facebook_dialogloginactivity_ok_button=0x7f0a001f;
+        public static final int com_facebook_internet_permission_error_message=0x7f0a0020;
+        public static final int com_facebook_internet_permission_error_title=0x7f0a0021;
+        public static final int com_facebook_loading=0x7f0a0022;
+        public static final int com_facebook_loginview_cancel_action=0x7f0a0023;
+        public static final int com_facebook_loginview_log_in_button=0x7f0a0024;
+        public static final int com_facebook_loginview_log_out_action=0x7f0a0025;
+        public static final int com_facebook_loginview_log_out_button=0x7f0a0026;
+        public static final int com_facebook_loginview_logged_in_as=0x7f0a0027;
+        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f0a0028;
+        public static final int com_facebook_logo_content_description=0x7f0a0029;
+        public static final int com_facebook_nearby=0x7f0a002a;
+        public static final int com_facebook_picker_done_button_text=0x7f0a002b;
+        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f0a002c;
+        public static final int com_facebook_placepicker_subtitle_format=0x7f0a002d;
+        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f0a002e;
+        public static final int com_facebook_requesterror_password_changed=0x7f0a002f;
+        public static final int com_facebook_requesterror_permissions=0x7f0a0030;
+        public static final int com_facebook_requesterror_reconnect=0x7f0a0031;
+        public static final int com_facebook_requesterror_relogin=0x7f0a0032;
+        public static final int com_facebook_requesterror_web_login=0x7f0a0033;
+        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f0a0034;
+        public static final int com_facebook_usersettingsfragment_logged_in=0x7f0a0035;
+        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f0a0036;
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-es/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-iw/values.xml 
          */
-        public static final int common_google_play_services_enable_button=0x7f0a0038;
-        public static final int common_google_play_services_enable_text=0x7f0a0039;
-        public static final int common_google_play_services_enable_title=0x7f0a003a;
-        public static final int common_google_play_services_install_button=0x7f0a003b;
-        public static final int common_google_play_services_install_text_phone=0x7f0a003c;
-        public static final int common_google_play_services_install_text_tablet=0x7f0a003d;
-        public static final int common_google_play_services_install_title=0x7f0a003e;
-        public static final int common_google_play_services_unknown_issue=0x7f0a003f;
-        public static final int common_google_play_services_unsupported_text=0x7f0a0040;
-        public static final int common_google_play_services_unsupported_title=0x7f0a0041;
-        public static final int common_google_play_services_update_button=0x7f0a0042;
-        public static final int common_google_play_services_update_text=0x7f0a0043;
-        public static final int common_google_play_services_update_title=0x7f0a0044;
-        public static final int common_signin_button_text=0x7f0a0045;
-        public static final int common_signin_button_text_long=0x7f0a0046;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
+        public static final int common_google_play_services_enable_button=0x7f0a0037;
+        public static final int common_google_play_services_enable_text=0x7f0a0038;
+        public static final int common_google_play_services_enable_title=0x7f0a0039;
+        public static final int common_google_play_services_install_button=0x7f0a003a;
+        public static final int common_google_play_services_install_text_phone=0x7f0a003b;
+        public static final int common_google_play_services_install_text_tablet=0x7f0a003c;
+        public static final int common_google_play_services_install_title=0x7f0a003d;
+        public static final int common_google_play_services_unknown_issue=0x7f0a003e;
+        public static final int common_google_play_services_unsupported_text=0x7f0a003f;
+        public static final int common_google_play_services_unsupported_title=0x7f0a0040;
+        public static final int common_google_play_services_update_button=0x7f0a0041;
+        public static final int common_google_play_services_update_text=0x7f0a0042;
+        public static final int common_google_play_services_update_title=0x7f0a0043;
+        public static final int common_signin_button_text=0x7f0a0044;
+        public static final int common_signin_button_text_long=0x7f0a0045;
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
          */
-        public static final int drawer_close=0x7f0a0047;
-        public static final int drawer_open=0x7f0a0048;
-        public static final int entry_icon=0x7f0a0049;
-        public static final int exit_this=0x7f0a004a;
-        public static final int hello_world=0x7f0a004b;
-        public static final int ok=0x7f0a004c;
+        public static final int drawer_close=0x7f0a0046;
+        public static final int drawer_open=0x7f0a0047;
+        public static final int entry_icon=0x7f0a0048;
+        public static final int get_about_title=0x7f0a0049;
+        public static final int get_help_title=0x7f0a004a;
+        public static final int get_settings_title=0x7f0a004b;
+        public static final int hello_world=0x7f0a004c;
+        public static final int ok=0x7f0a004d;
+        public static final int take_exit_title=0x7f0a004e;
     }
     public static final class style {
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
          */
         public static final int Sherlock___TextAppearance_Small=0x7f0b0000;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-v11/values.xml 
- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-v14/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-v11/values.xml 
+ From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values-v14/values.xml 
          */
         public static final int Sherlock___Theme=0x7f0b0001;
         public static final int Sherlock___Theme_DarkActionBar=0x7f0b0002;
@@ -1585,7 +1588,7 @@ containing a value of this type.
         public static final int Widget_Sherlock_SearchAutoCompleteTextView=0x7f0b0056;
         public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0b0057;
         public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0b0058;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
          */
         public static final int com_facebook_loginview_default_style=0x7f0b0059;
         public static final int com_facebook_loginview_silver_style=0x7f0b005a;
@@ -1835,7 +1838,7 @@ containing a value of this type.
           @attr name com.derdoktor667.dev.thematrix:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 13;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/values/values.xml 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
@@ -4074,7 +4077,7 @@ containing a value of this type.
           @attr name android:focusable
         */
         public static final int SherlockView_android_focusable = 0;
-        /**  From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/res/values/values.xml 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />

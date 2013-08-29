@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-vi/values.xml -->
+    <!-- From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/res/values-vi/values.xml -->
     <string name="auth_client_needs_enabling_title" msgid="3983201110833868073">"Ứng dụng yêu cầu
         Dịch vụ của Google Play phải được bật."</string>
     <string name="auth_client_needs_installation_title" msgid="7999585836145154206">"Ứng dụng yêu

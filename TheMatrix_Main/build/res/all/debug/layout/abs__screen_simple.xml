@@ -36,4 +36,4 @@ enabled.
          android:foregroundGravity="fill_horizontal|top"
          android:foreground="?attr/windowContentOverlay" />
 </LinearLayout>
-<!-- From: file:/home/derdoktor/AndroidStudioProjects/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/layout/abs__screen_simple.xml -->
+<!-- From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/res/layout/abs__screen_simple.xml -->
