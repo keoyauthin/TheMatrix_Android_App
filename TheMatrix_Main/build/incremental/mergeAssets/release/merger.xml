@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComFacebookAndroidFacebook302.aar" >
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComFacebookAndroidFacebook302.aar/assets" />
+    </dataSet>
+    <dataSet config="TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar" >
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/TheMatrix_Android_AppGooglePlayServices_libUnspecified.aar/assets" />
+    </dataSet>
+    <dataSet config="ComActionbarsherlockActionbarsherlock431.aar" >
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build/exploded-bundles/ComActionbarsherlockActionbarsherlock431.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/build-types/release/assets" />
+    </dataSet>
+
+</merger>
