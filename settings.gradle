@@ -1,1 +1,1 @@
-include ':google-play-services_lib', ':TheMatrix_Main'
+include ':TheMatrix_Main'
