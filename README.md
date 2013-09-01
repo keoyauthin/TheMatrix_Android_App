@@ -7,6 +7,10 @@ This is the main source for the Android app to access your account on
 
 ...much more to come ...step by step ...stay tuned
 
+Finally I started fresh after spending hours trying to match the
+Google Design Guidelines. Now I code on a brand new fabric ...hope
+it will help to bring it on bigger, better, faster ^^
+
 
 Developed By
 ============

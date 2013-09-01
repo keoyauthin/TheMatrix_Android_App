@@ -48,18 +48,29 @@ public class MainActivity extends SherlockActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position,
                                 long id) {
 
-            if (position == 0) {
-                // Aktion
-            } else if (position == 1) {
-                // Aktion
-            } else if (position == 2) {
-                // Aktion
-            } else if (position == 3) {
-                // Aktion
-            } else if (position == 4) {
-                // Aktion
-            } else if (position == 5) {
-                // Aktion
+            switch (position) {
+                case 0:
+                    // Aktion
+                    break;
+                default:
+                    switch (position) {
+                        case 1:
+                            // Aktion
+                            break;
+                        case 2:
+                            // Aktion
+                            break;
+                        case 3:
+                            // Aktion
+                            break;
+                        case 4:
+                            // Aktion
+                            break;
+                        case 5:
+                            // Aktion
+                            break;
+                    }
+                    break;
             }
 
             mDrawerList.setItemChecked(position, true);
@@ -78,7 +89,7 @@ public class MainActivity extends SherlockActivity {
 
     // private int[] drawerIcons;
 
-    private String[] drawerSubtitles;
+    protected String[] drawerSubtitles;
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
@@ -174,14 +185,22 @@ public class MainActivity extends SherlockActivity {
                 View view = li.inflate(R.layout.intent_about, null);
 
                 // Fill in the version...
-                TextView tv = (TextView) view.findViewById(R.id.version);
+                TextView tv = null;
+                if (view != null) {
+                    tv = (TextView) view.findViewById(R.id.version);
+                }
                 PackageManager pm = getPackageManager();
 
                 try {
 
-                    PackageInfo pi = pm.getPackageInfo(getApplicationContext()
-                            .getPackageName(), 0);
-                    tv.setText(pi.versionName);
+                    PackageInfo pi = null;
+                    if (pm != null)
+                        pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
+                    if (pi != null) {
+                        if (tv != null) {
+                            tv.setText(pi.versionName);
+                        }
+                    }
 
                 } catch (Exception e) {
 
