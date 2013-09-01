@@ -3,7 +3,7 @@ The Matrix Android App
 
 This is the main source for the Android app to access your account on
 
-[http://wir-sind-die-matrix.de][2]
+[http://wir-sind-die-matrix.de][1]
 
 ...much more to come ...step by step ...stay tuned
 
@@ -35,6 +35,4 @@ License
 
 
 
-
- [1]: http://android-developers.blogspot.com/2011/03/fragments-for-all.html
- [2]: http://wir-sind-die-matrix.de
+ [1]: http://wir-sind-die-matrix.de
