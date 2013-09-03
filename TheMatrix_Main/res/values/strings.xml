@@ -18,28 +18,6 @@
 
 <resources>
 
-    <!-- This is the Sliding Menu ...later the main strings -->
-
-    <!-- the Slider Menu -->
-    <string-array name="drawerTitles_array">
-        <item>Overview</item>
-        <item>Dropbox</item>
-        <item>Google Drive</item>
-        <item>Twitter</item>
-        <item>Facebook</item>
-        <item>Google+</item>
-    </string-array>
-
-    <!-- the Slider Sub Menu -->
-    <string-array name="drawerSubtitles_array">
-        <item>&#8230;see more</item>
-        <item>&#8230;view your Dropbox Content</item>
-        <item>&#8230;the legendary GoogleDrive</item>
-        <item>&#8230;tweet some more</item>
-        <item>&#8230;greetings from Marc</item>
-        <item>&#8230;the other Child</item>
-    </string-array>
-
     <!-- these are the main strings -->
 
     <!-- important Strings -->
@@ -48,22 +26,11 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="hello_world">...testing</string>
 
-    <!-- About Strings -->
-    <string name="about_menu_button">About</string>
-    <string name="about_title">About "The Matrix"</string>
-    <string name="about_description">Developed by:\nWastl Kraus</string>
-    <string name="about_website">Website</string>
-    <string name="about_website_dot">Website:</string>
-    <string name="about_siteurl">http://wir-sind-die-matrix.de</string>
-    <string name="about_email">Email:</string>
-    <string name="about_emailurl">derdoktor667@gmail.com</string>
-    <string name="about_version">Version:</string>
-
     <!-- the menu strings -->
     <string name="get_about_title">About</string>
     <string name="get_help_title">Help</string>
-    <string name="take_exit_title">Exit</string>
     <string name="get_settings_title">Settings</string>
+    <string name="take_exit_title">Exit</string>
 
     <!-- Stuff Strings -->
     <string name="ok">OK</string>

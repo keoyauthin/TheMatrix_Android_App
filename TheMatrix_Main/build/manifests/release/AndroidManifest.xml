@@ -12,7 +12,7 @@
   ~     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~     See the License for the specific language governing permissions and
   ~     limitations under the License.
-  --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1093" android:versionName="1.0.9.3" package="com.derdoktor667.dev.thematrix">
+  --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1095" android:versionName="1.0.9.5" package="com.derdoktor667.dev.thematrix">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
 

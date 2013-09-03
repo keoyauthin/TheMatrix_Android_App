@@ -13,14 +13,13 @@ it will help to bring it on bigger, better, faster ^^
 
 
 Developed By
-============
+------------
 
 * Wastl Kraus - <derdoktor667@gmail.com>
 
 
-
 License
-=======
+-------
 
     Copyright 2013 Wastl Kraus
 

@@ -56,10 +56,9 @@ public class MenuListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        inflater = (LayoutInflater) context
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View itemView = inflater.inflate(R.layout.drawer_list_item, parent,
-                false);
+
+        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View itemView = inflater.inflate(R.layout.drawer_list_item, parent,false);
 
         TextView txtTitle = (TextView) itemView.findViewById(R.id.title);
         TextView txtSubTitle = (TextView) itemView.findViewById(R.id.subtitle);

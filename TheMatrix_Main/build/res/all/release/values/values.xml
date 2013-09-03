@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml -->
+    <!-- From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings_slider.xml -->
     <string-array name="drawerSubtitles_array">
-        <item>…see more</item>
+        <item>…look, all your Stuff</item>
         <item>…view your Dropbox Content</item>
         <item>…the legendary GoogleDrive</item>
         <item>…tweet some more</item>
@@ -541,7 +541,7 @@
     <item name="abs__up" type="id"/>
 
     <integer name="abs__max_action_buttons">2</integer>
-    <!-- From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml -->
+    <!-- From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings_about.xml -->
     <string name="about_description">Developed by:\nWastl Kraus</string>
     <string name="about_email">Email:</string>
     <string name="about_emailurl">derdoktor667@gmail.com</string>

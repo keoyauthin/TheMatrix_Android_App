@@ -9,7 +9,7 @@ package com.derdoktor667.dev.thematrix;
 
 public final class R {
     public static final class array {
-        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings_slider.xml 
          */
         public static final int drawerSubtitles_array=0x7f040000;
         public static final int drawerTitles_array=0x7f040001;
@@ -1112,7 +1112,7 @@ containing a value of this type.
         public static final int main=0x7f0c0000;
     }
     public static final class string {
-        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings.xml 
+        /**  From: file:/home/derdoktor/Github/TheMatrix_Android_App/TheMatrix_Main/res/values/strings_about.xml 
          */
         public static final int about_description=0x7f0a0000;
         public static final int about_email=0x7f0a0001;

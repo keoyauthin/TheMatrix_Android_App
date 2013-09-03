@@ -41,35 +41,41 @@ import com.actionbarsherlock.view.MenuItem;
 
 public class MainActivity extends SherlockActivity {
 
-    private class DrawerItemClickListener implements
-            ListView.OnItemClickListener {
+    private class DrawerItemClickListener implements ListView.OnItemClickListener {
 
         @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position,
-                                long id) {
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
             switch (position) {
+
                 case 0:
                     // Aktion
                     break;
+
                 default:
                     switch (position) {
                         case 1:
                             // Aktion
                             break;
+
                         case 2:
                             // Aktion
                             break;
+
                         case 3:
                             // Aktion
                             break;
+
                         case 4:
                             // Aktion
                             break;
+
                         case 5:
                             // Aktion
                             break;
+
                     }
+
                     break;
             }
 
@@ -77,7 +83,9 @@ public class MainActivity extends SherlockActivity {
             mTitle = drawerTitles[position];
             getSupportActionBar().setTitle(mTitle);
             mDrawerLayout.closeDrawer(mDrawerList);
+
         }
+
     }
 
     private DrawerLayout mDrawerLayout;
@@ -106,16 +114,13 @@ public class MainActivity extends SherlockActivity {
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
-        mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow,
-                GravityCompat.START);
+        mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 
         // Hole die Titel aus einem Array aus der strings.xml
-        drawerTitles = getResources()
-                .getStringArray(R.array.drawerTitles_array);
+        drawerTitles = getResources().getStringArray(R.array.drawerTitles_array);
 
         // Hole die Untertitel aus einem Array aus der strings.xml
-        drawerSubtitles = getResources().getStringArray(
-                R.array.drawerSubtitles_array);
+        drawerSubtitles = getResources().getStringArray(R.array.drawerSubtitles_array);
 
         // Setzt die Icons zu den Einträgen
         // drawerIcons = new int[] {android.R.drawable.ic_menu_info_details,
@@ -123,8 +128,7 @@ public class MainActivity extends SherlockActivity {
         // android.R.drawable.ic_menu_delete};
 
         // Erstellt den neuen MenuAdapter aus der Klasse MenuListAdapter
-        MenuListAdapter mMenuAdapter = new MenuListAdapter(this, drawerTitles,
-                drawerSubtitles, null); // drawerIcons);
+        MenuListAdapter mMenuAdapter = new MenuListAdapter(this, drawerTitles, drawerSubtitles, null); // drawerIcons);
         mDrawerList.setAdapter(mMenuAdapter);
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
@@ -133,9 +137,7 @@ public class MainActivity extends SherlockActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         // Fügt den Navigation Drawer zur ActionBar hinzu
-        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
-                R.drawable.ic_drawer, R.string.drawer_open,
-                R.string.drawer_close) {
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close) {
 
             @Override
             public void onDrawerClosed(View view) {
@@ -148,6 +150,7 @@ public class MainActivity extends SherlockActivity {
                 getSupportActionBar().setTitle(R.string.app_name);
                 supportInvalidateOptionsMenu();
             }
+
         };
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
@@ -174,6 +177,7 @@ public class MainActivity extends SherlockActivity {
         }
 
         // Gibt den ActionBar-Buttons Funktionen
+
         switch (item.getItemId()) {
 
             case R.id.get_settings_mmenu:
@@ -202,41 +206,35 @@ public class MainActivity extends SherlockActivity {
                         }
                     }
 
-                } catch (Exception e) {
-
                 }
+
+                catch (Exception e) { }
 
                 Builder p = new AlertDialog.Builder(this).setView(view);
                 final AlertDialog alrt = p.create();
                 alrt.setIcon(R.drawable.about_icon);
                 alrt.setTitle(getString(R.string.about_title));
-                alrt.setButton(DialogInterface.BUTTON_NEUTRAL,
-                        getString(R.string.about_website),
-                        new DialogInterface.OnClickListener() {
+                alrt.setButton(DialogInterface.BUTTON_NEUTRAL, getString(R.string.about_website), new DialogInterface.OnClickListener() {
 
                             @Override
-                            public void onClick(DialogInterface dialog,
-                                                int whichButton) {
+                            public void onClick(DialogInterface dialog, int whichButton) {
 
-                                Uri uri = Uri
-                                        .parse("http://wir-sind-die-matrix.de");
+                                Uri uri = Uri.parse("http://wir-sind-die-matrix.de");
                                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
 
                             }
+
                         });
 
-                alrt.setButton(DialogInterface.BUTTON_NEGATIVE,
-                        getString(R.string.ok),
-                        new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog,
-                                                int whichButton) {
-                            }
-                        });
+                alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
 
-                alrt.show();
+                @Override
+                public void onClick(DialogInterface dialog, int whichButton) { }
 
-                return false;
+                });
+
+            alrt.show();
+            return false;
 
             case R.id.take_exit_mmenu:
                 finish();
