@@ -11,7 +11,7 @@ apply plugin: 'android'
 
 repositories {
     maven {
-        url 'https://github.com/Goddchen/mvn-repo/raw/master/'
+        url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
     }
     mavenCentral()
 }
@@ -30,4 +30,5 @@ dependencies {
     compile 'com.android.support:support-v4:18.0.+'
     compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
     compile 'com.google.android.gms:play-services:3.2.+'
+    compile 'com.facebook.android:facebook:3.0.2'
 }
