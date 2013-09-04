@@ -28,8 +28,6 @@ public class MenuListAdapter extends BaseAdapter {
     private Context context;
     private String[] mTitle;
     private String[] mSubTitle;
-    // private int[] mIcon;
-    private LayoutInflater inflater;
 
     public MenuListAdapter(Context pContext, String[] pTitle,
                            String[] pSubtitle, int[] pIcon) {
@@ -57,15 +55,25 @@ public class MenuListAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View itemView = inflater.inflate(R.layout.drawer_list_item, parent,false);
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View itemView = inflater.inflate(R.layout.drawer_list_item, parent, false);
 
-        TextView txtTitle = (TextView) itemView.findViewById(R.id.title);
-        TextView txtSubTitle = (TextView) itemView.findViewById(R.id.subtitle);
+        TextView txtTitle = null;
+        if (itemView != null) {
+            txtTitle = (TextView) itemView.findViewById(R.id.title);
+        }
+        TextView txtSubTitle = null;
+        if (itemView != null) {
+            txtSubTitle = (TextView) itemView.findViewById(R.id.subtitle);
+        }
         // ImageView imgIcon = (ImageView) itemView.findViewById(R.id.icon);
 
-        txtTitle.setText(mTitle[position]);
-        txtSubTitle.setText(mSubTitle[position]);
+        if (txtTitle != null) {
+            txtTitle.setText(mTitle[position]);
+        }
+        if (txtSubTitle != null) {
+            txtSubTitle.setText(mSubTitle[position]);
+        }
         // imgIcon.setImageResource(mIcon[position]);
 
         return itemView;

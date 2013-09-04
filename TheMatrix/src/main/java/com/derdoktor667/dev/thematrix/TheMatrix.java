@@ -23,7 +23,7 @@ import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 
-public class BaseActivity extends SherlockActivity {
+public class TheMatrix extends SherlockActivity {
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
 
@@ -188,7 +188,8 @@ public class BaseActivity extends SherlockActivity {
                     assert tv != null;
                     tv.setText(pi.versionName);
 
-                } catch (PackageManager.NameNotFoundException ignored) { }
+                } catch (PackageManager.NameNotFoundException ignored) {
+                }
 
                 Builder p = new AlertDialog.Builder(this).setView(view);
                 final AlertDialog alrt = p.create();
@@ -209,7 +210,8 @@ public class BaseActivity extends SherlockActivity {
                 alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
 
                     @Override
-                    public void onClick(DialogInterface dialog, int whichButton) { }
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                    }
 
                 });
 
