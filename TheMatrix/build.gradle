@@ -31,4 +31,6 @@ dependencies {
     compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
     compile 'com.google.android.gms:play-services:3.2.+'
     compile 'com.facebook.android:facebook:3.0.2'
+    compile 'com.squareup.dagger:dagger:1.1.0'
+    compile 'com.google.apis:google-api-services-plus:v1-rev93-1.16.0-rc'
 }

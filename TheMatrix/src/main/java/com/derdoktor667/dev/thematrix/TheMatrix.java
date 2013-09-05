@@ -181,12 +181,10 @@ public class TheMatrix extends SherlockActivity {
 
                 try {
 
-                    assert pm != null;
                     PackageInfo pi;
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
 
-                    assert tv != null;
-                    tv.setText(pi.versionName);
+                    if (tv != null) tv.setText(pi.versionName);
 
                 } catch (PackageManager.NameNotFoundException ignored) {
                 }
