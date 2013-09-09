@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
   ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
   ~
@@ -20,6 +19,7 @@
 
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
-    <string name="exit">Exit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
 
 </resources>

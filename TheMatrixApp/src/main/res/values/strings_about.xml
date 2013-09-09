@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
   ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
   ~
@@ -26,7 +25,7 @@
     <string name="about_website_dot">Website:</string>
     <string name="about_siteurl">http://wir-sind-die-matrix.de</string>
     <string name="about_email">Email:</string>
-    <string name="about_emailurl">derdoktor667@gmail.com</string>
+    <string name="about_emailurl">derdoktor667.dev@gmail.com</string>
     <string name="about_version">Version:</string>
 
 </resources>

@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
+  ~
+  ~     Licensed under the Apache License, Version 2.0 (the "License");
+  ~     you may not use this file except in compliance with the License.
+  ~     You may obtain a copy of the License at
+  ~
+  ~         http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~     Unless required by applicable law or agreed to in writing, software
+  ~     distributed under the License is distributed on an "AS IS" BASIS,
+  ~     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~     See the License for the specific language governing permissions and
+  ~     limitations under the License.
+  -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.derdoktor667.dev.thematrix"
-    android:versionCode="1096"
-    android:versionName="1.0.9.6">
+    android:installLocation="auto"
+    android:versionCode="1100"
+    android:versionName="1.1.0.0">
 
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.TheMatrix_CompatTheme">
+        android:theme="@style/TheMatrix.Compat.Universal.Theme"
+        android:hardwareAccelerated="true"
+        android:uiOptions="splitActionBarWhenNarrow">
         <activity
-            android:name="com.derdoktor667.dev.thematrix.MainActivity"
+            android:name=".TheMainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.TheMatrix_CompatTheme">
+            android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
   ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
   ~
@@ -18,6 +17,16 @@
 
 <resources>
 
-    <string name="app_name">The Matrix</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="navigation_array">
+        <item>Overview</item>
+        <item>Dropbox</item>
+        <item>Google Drive</item>
+        <item>Facebook</item>
+        <item>Google+</item>
+        <item>Twitter</item>
+    </string-array>
 
 </resources>

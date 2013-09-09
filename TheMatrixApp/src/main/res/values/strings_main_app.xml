@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
   ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
   ~
@@ -18,6 +17,6 @@
 
 <resources>
 
-    <string name="section_overview">Overview</string>
+    <string name="app_name">The Matrix</string>
 
 </resources>
