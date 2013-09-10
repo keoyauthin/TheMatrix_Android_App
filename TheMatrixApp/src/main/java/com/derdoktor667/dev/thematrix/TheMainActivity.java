@@ -47,15 +47,19 @@ public class TheMainActivity extends ActionBarActivity {
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
 
+    private CharSequence mDrawerTitle;
     private CharSequence mTitle;
+    private String[] mNavigationTitles;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTitle = getTitle();
-        String[] mNavigationTitles = getResources().getStringArray(R.array.navigation_array);
+        mTitle = mDrawerTitle;
+        mDrawerTitle = getTitle();
+        mNavigationTitles = getResources().getStringArray(R.array.navigation_array);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
 
@@ -66,6 +70,10 @@ public class TheMainActivity extends ActionBarActivity {
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
                 R.layout.drawer_list_item,
                 mNavigationTitles));
+
+        // set up the drawer's list view with items and click listener
+        mDrawerList.setAdapter(new ArrayAdapter<String>(this,
+                R.layout.drawer_list_item, mNavigationTitles));
 
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
@@ -81,36 +89,70 @@ public class TheMainActivity extends ActionBarActivity {
                 R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
                 R.string.drawer_open,  /* "open drawer" description for accessibility */
                 R.string.drawer_close  /* "close drawer" description for accessibility */
-        );
+        )
+
+        /** ...can´t get it to run with support.compat.v7
+
+
+         {
+
+            public void onDrawerClosed(View view) {
+                getActionBar().setTitle(mTitle);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+
+            public void onDrawerOpened(View drawerView) {
+                getActionBar().setTitle(mDrawerTitle);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+
+        }
+
+        */
+
+        ;
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
+
         if (savedInstanceState == null) {
             selectItem(0);
+
         }
+
     }
 
     // ...draw the Main Menu into the ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.ab_main_menu, menu);
         return super.onCreateOptionsMenu(menu);
+
     }
 
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
+
         return super.onPrepareOptionsMenu(menu);
+
     }
 
     // ...give the Main Menu some actions
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (mDrawerToggle.onOptionsItemSelected(item)) {
+
+        if (mDrawerToggle.onOptionsItemSelected(item))  {
+
             return true;
+
         }
+
         switch (item.getItemId()) {
+
             case R.id.ab_action_settings:
                 // ...open the Main Settings
                 return true;
+
             case R.id.ab_action_about:
                 // ...get the Layout for this Action
                 LayoutInflater li = LayoutInflater.from(this);
@@ -118,17 +160,26 @@ public class TheMainActivity extends ActionBarActivity {
                 // ...fill in the version...
                 TextView tv = null;
                 if (view != null) {
+
                     tv = (TextView) view.findViewById(R.id.version);
+
                 }
+
                 PackageManager pm = getPackageManager();
+
                 try {
+
                     PackageInfo pi;
                     //noinspection ConstantConditions
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
                     if (tv != null) tv.setText(pi.versionName);
-                } catch (PackageManager.NameNotFoundException ignored) {
+
                 }
+
+                catch (PackageManager.NameNotFoundException ignored) { }
+
                 AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
+
                 final AlertDialog alrt = p.create();
                 alrt.setIcon(R.drawable.ic_launcher);
                 alrt.setTitle(getString(R.string.section_about));
@@ -138,26 +189,36 @@ public class TheMainActivity extends ActionBarActivity {
 
                             @Override
                             public void onClick(DialogInterface dialog, int whichButton) {
+
                                 Uri uri = Uri.parse("http://wir-sind-die-matrix.de");
                                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
+
                             }
-                        });
-                alrt.setButton(DialogInterface.BUTTON_NEGATIVE,
-                        getString(R.string.ok),
-                        new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog,
-                                                int whichButton) {
-                            }
+
                         }
+
                 );
+
+                alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int whichButton) { }
+
+                        }
+
+                );
+
                 alrt.show();
                 return true;
+
             case R.id.ab_action_exit:
                 finish();
                 return true;
+
         }
+
         return super.onOptionsItemSelected(item);
+
     }
 
     /* The click listener for ListView in the navigation drawer */
@@ -165,71 +226,83 @@ public class TheMainActivity extends ActionBarActivity {
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            selectItem(position);
-        }
-    }
 
-    @Override
-    public void setTitle(CharSequence title) {
-        mTitle = title;
-        getSupportActionBar().setTitle(mTitle);
+            selectItem(position);
+
+        }
+
     }
 
     private void selectItem(int position) {
 
         // update the main content by replacing fragments
-        Fragment mfragment;
-        mfragment = new MainContentFragment();
+        Fragment fragment = new MainFragment();
         Bundle args = new Bundle();
-        args.putInt(MainContentFragment.ARG_NAVIGATION_NUMBER,
-                position);
-        mfragment.setArguments(args);
-        FragmentManager fragmentManager;
-        fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.main_content_frame,
-                mfragment).commit();
+        args.putInt(MainFragment.ARG_NAVIGATION_NUMBER, position);
+        fragment.setArguments(args);
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.main_content_frame, fragment).commit();
 
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);
+        setTitle(mNavigationTitles[position]);
         mDrawerLayout.closeDrawer(mDrawerList);
+
     }
 
-    /**
-     * When using the ActionBarDrawerToggle, you must call it during
-     * onPostCreate() and onConfigurationChanged()...
-     */
+    @Override
+    public void setTitle(CharSequence title) {
+
+        mTitle = title;
+        getSupportActionBar().setTitle(mTitle);
+
+    }
+
+    // When using the ActionBarDrawerToggle, you must call it during onPostCreate() and onConfigurationChanged()
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
 
         super.onPostCreate(savedInstanceState);
         // Sync the toggle state after onRestoreInstanceState has occurred.
         mDrawerToggle.syncState();
+
     }
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
+
         super.onConfigurationChanged(newConfig);
+
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
+
     }
 
-    /**
-     * Fragment that appears in the "content_frame", shows a new content
-     */
-    public static class MainContentFragment extends Fragment {
+    // ...the Fragment that "is" the Main Content
+    public static class MainFragment extends Fragment {
+
         public static final String ARG_NAVIGATION_NUMBER = "navigation_number";
 
-        public MainContentFragment() {
+        public MainFragment() {
+
             // Empty constructor required for fragment subclasses
+
         }
 
         @Override
-        public View onCreateView(LayoutInflater inflater,
-                                 ViewGroup container,
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            return inflater.inflate(R.layout.activity_main,
-                    container,
-                    false);
+
+            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            int i = getArguments().getInt(ARG_NAVIGATION_NUMBER);
+
+            String main_content = getResources().getStringArray(R.array.navigation_array)[i];
+            getActivity().setTitle(main_content);
+            return rootView;
+
         }
+
     }
+
 }
