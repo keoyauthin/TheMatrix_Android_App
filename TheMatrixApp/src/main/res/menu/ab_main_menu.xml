@@ -14,57 +14,43 @@
   ~     limitations under the License.
   -->
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <!--
-      ~ Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
-      ~
-      ~     Licensed under the Apache License, Version 2.0 (the "License");
-      ~     you may not use this file except in compliance with the License.
-      ~     You may obtain a copy of the License at
-      ~
-      ~         http://www.apache.org/licenses/LICENSE-2.0
-      ~
-      ~     Unless required by applicable law or agreed to in writing, software
-      ~     distributed under the License is distributed on an "AS IS" BASIS,
-      ~     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-      ~     See the License for the specific language governing permissions and
-      ~     limitations under the License.
-      -->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:thematrix="http://schemas.android.com/apk/res-auto" >
 
     <item
         android:id="@+id/ab_action_refresh"
         android:icon="@drawable/ic_action_refresh_light"
         android:title="@string/ab_action_refresh"
         android:orderInCategory="60"
-        android:showAsAction="never" />
+        thematrix:showAsAction="always" />
 
     <item
         android:id="@+id/ab_action_settings"
         android:icon="@drawable/ic_action_settings_light"
         android:title="@string/ab_action_settings"
         android:orderInCategory="70"
-        android:showAsAction="never" />
+        thematrix:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/ab_action_about"
         android:icon="@drawable/ic_action_about_light"
         android:title="@string/ab_action_about"
         android:orderInCategory="80"
-        android:showAsAction="never" />
+        thematrix:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/ab_action_help"
         android:icon="@drawable/ic_action_help_light"
         android:title="@string/ab_action_help"
         android:orderInCategory="90"
-        android:showAsAction="never" />
+        thematrix:showAsAction="never" />
 
     <item
         android:id="@+id/ab_action_exit"
         android:icon="@drawable/ic_action_exit_light"
         android:title="@string/ab_action_exit"
         android:orderInCategory="100"
-        android:showAsAction="never" />
+        thematrix:showAsAction="never" />
 
 </menu>

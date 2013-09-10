@@ -55,7 +55,7 @@ public class TheMainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.thematrix_main_layout);
 
         mTitle = mDrawerTitle;
         mDrawerTitle = getTitle();
@@ -154,9 +154,11 @@ public class TheMainActivity extends ActionBarActivity {
                 return true;
 
             case R.id.ab_action_about:
+
                 // ...get the Layout for this Action
                 LayoutInflater li = LayoutInflater.from(this);
                 View view = li.inflate(R.layout.ab_action_layout_about, null);
+
                 // ...fill in the version...
                 TextView tv = null;
                 if (view != null) {
@@ -242,7 +244,7 @@ public class TheMainActivity extends ActionBarActivity {
         fragment.setArguments(args);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.main_content_frame, fragment).commit();
+        fragmentManager.beginTransaction().replace(R.id.main_content, fragment).commit();
 
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);
@@ -291,10 +293,11 @@ public class TheMainActivity extends ActionBarActivity {
         }
 
         @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+        public View onCreateView(LayoutInflater inflater,
+                                 ViewGroup container,
                                  Bundle savedInstanceState) {
 
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            View rootView = inflater.inflate(R.layout.content_container_fragment, container, false);
             int i = getArguments().getInt(ARG_NAVIGATION_NUMBER);
 
             String main_content = getResources().getStringArray(R.array.navigation_array)[i];
