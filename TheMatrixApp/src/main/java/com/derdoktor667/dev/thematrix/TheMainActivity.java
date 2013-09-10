@@ -96,19 +96,19 @@ public class TheMainActivity extends ActionBarActivity {
 
          {
 
-            public void onDrawerClosed(View view) {
-                getActionBar().setTitle(mTitle);
-                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-            }
+         public void onDrawerClosed(View view) {
+         getActionBar().setTitle(mTitle);
+         invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+         }
 
-            public void onDrawerOpened(View drawerView) {
-                getActionBar().setTitle(mDrawerTitle);
-                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-            }
+         public void onDrawerOpened(View drawerView) {
+         getActionBar().setTitle(mDrawerTitle);
+         invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+         }
 
-        }
+         }
 
-        */
+         */
 
         ;
 
@@ -141,7 +141,7 @@ public class TheMainActivity extends ActionBarActivity {
     // ...give the Main Menu some actions
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        if (mDrawerToggle.onOptionsItemSelected(item))  {
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
 
             return true;
 
@@ -174,9 +174,8 @@ public class TheMainActivity extends ActionBarActivity {
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
                     if (tv != null) tv.setText(pi.versionName);
 
+                } catch (PackageManager.NameNotFoundException ignored) {
                 }
-
-                catch (PackageManager.NameNotFoundException ignored) { }
 
                 AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
 
@@ -202,9 +201,10 @@ public class TheMainActivity extends ActionBarActivity {
                 alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
 
                     @Override
-                    public void onClick(DialogInterface dialog, int whichButton) { }
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                    }
 
-                        }
+                }
 
                 );
 
