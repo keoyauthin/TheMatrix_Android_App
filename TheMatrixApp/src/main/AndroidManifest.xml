@@ -19,8 +19,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.derdoktor667.dev.thematrix"
     android:installLocation="auto"
-    android:versionCode="1097"
-    android:versionName="1.0.9.7">
+    android:versionCode="1098"
+    android:versionName="1.0.9.8">
 
     <uses-sdk
         android:minSdkVersion="8"
