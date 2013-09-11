@@ -14,36 +14,21 @@
  *     limitations under the License.
  */
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
-    }
-}
-apply plugin: 'android'
+package com.derdoktor667.dev.thematrix.fragments;
 
-repositories {
-    maven {
-        url 'https://github.com/Goddchen/mvn-repo/raw/master/'
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.derdoktor667.dev.thematrix.R;
+
+public class DropboxFragment extends Fragment {
+
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.dropbox_fragment_layout, container, false);
     }
-    mavenCentral()
-}
 
-android {
-    compileSdkVersion 18
-    buildToolsVersion "18.0.1"
-
-    defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 18
-    }
-}
-
-dependencies {
-    compile 'com.android.support:appcompat-v7:18.0.+'
-    compile 'com.android.support:support-v4:18.0.+'
-    compile 'com.google.android.gms:play-services:3.2.+'
-    compile 'com.facebook.android:facebook:3.0.2'
 }

@@ -25,8 +25,7 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -35,11 +34,17 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.derdoktor667.dev.thematrix.fragments.DropboxFragment;
+import com.derdoktor667.dev.thematrix.fragments.FacebookFragment;
+import com.derdoktor667.dev.thematrix.fragments.GoogleDriveFragment;
+import com.derdoktor667.dev.thematrix.fragments.GooglePlusFragment;
+import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
+import com.derdoktor667.dev.thematrix.fragments.TwitterFragment;
 
 public class TheMainActivity extends ActionBarActivity {
 
@@ -53,7 +58,6 @@ public class TheMainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.thematrix_main_layout);
 
@@ -67,13 +71,7 @@ public class TheMainActivity extends ActionBarActivity {
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 
         // set up the drawer's list view with items and click listener
-        mDrawerList.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.drawer_list_item,
-                mNavigationTitles));
-
-        // set up the drawer's list view with items and click listener
-        mDrawerList.setAdapter(new ArrayAdapter<String>(this,
-                R.layout.drawer_list_item, mNavigationTitles));
+        mDrawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_list_item, mNavigationTitles));
 
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
@@ -89,62 +87,45 @@ public class TheMainActivity extends ActionBarActivity {
                 R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
                 R.string.drawer_open,  /* "open drawer" description for accessibility */
                 R.string.drawer_close  /* "close drawer" description for accessibility */
-        )
+        );
 
         /** ...can´t get it to run with support.compat.v7
+        {
+             public void onDrawerClosed(View view) {
+             getActionBar().setTitle(mTitle);
+             invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+             }
 
-
-         {
-
-         public void onDrawerClosed(View view) {
-         getActionBar().setTitle(mTitle);
-         invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-         }
-
-         public void onDrawerOpened(View drawerView) {
-         getActionBar().setTitle(mDrawerTitle);
-         invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-         }
-
-         }
-
-         */
-
-        ;
+             public void onDrawerOpened(View drawerView) {
+             getActionBar().setTitle(mDrawerTitle);
+             invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+             }
+        } */
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
         if (savedInstanceState == null) {
             selectItem(0);
-
         }
-
     }
 
     // ...draw the Main Menu into the ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.ab_main_menu, menu);
         return super.onCreateOptionsMenu(menu);
-
     }
 
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
-
         return super.onPrepareOptionsMenu(menu);
-
     }
 
     // ...give the Main Menu some actions
     public boolean onOptionsItemSelected(MenuItem item) {
-
         if (mDrawerToggle.onOptionsItemSelected(item)) {
-
             return true;
-
         }
 
         switch (item.getItemId()) {
@@ -154,73 +135,67 @@ public class TheMainActivity extends ActionBarActivity {
                 return true;
 
             case R.id.ab_action_about:
-
                 // ...get the Layout for this Action
                 LayoutInflater li = LayoutInflater.from(this);
                 View view = li.inflate(R.layout.ab_action_layout_about, null);
 
                 // ...fill in the version...
                 TextView tv = null;
+
                 if (view != null) {
-
                     tv = (TextView) view.findViewById(R.id.version);
+                    }
 
-                }
-
-                PackageManager pm = getPackageManager();
+                    PackageManager pm = getPackageManager();
 
                 try {
-
                     PackageInfo pi;
                     //noinspection ConstantConditions
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
-                    if (tv != null) tv.setText(pi.versionName);
 
-                } catch (PackageManager.NameNotFoundException ignored) {
+                if (tv != null) tv.setText(pi.versionName);
+            }
+
+                catch (PackageManager.NameNotFoundException ignored) {
+                // ...insert empty line ^^
                 }
 
-                AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
+            AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
 
-                final AlertDialog alrt = p.create();
-                alrt.setIcon(R.drawable.ic_launcher);
-                alrt.setTitle(getString(R.string.section_about));
-                alrt.setButton(DialogInterface.BUTTON_NEUTRAL,
-                        getString(R.string.about_website),
-                        new DialogInterface.OnClickListener() {
+            final AlertDialog alrt = p.create();
 
-                            @Override
-                            public void onClick(DialogInterface dialog, int whichButton) {
+            alrt.setIcon(R.drawable.ic_launcher);
+            alrt.setTitle(getString(R.string.section_about));
 
-                                Uri uri = Uri.parse("http://wir-sind-die-matrix.de");
-                                startActivity(new Intent(Intent.ACTION_VIEW, uri));
+            alrt.setButton(DialogInterface.BUTTON_NEUTRAL, getString(R.string.about_website),
 
-                            }
+            new DialogInterface.OnClickListener() {
 
-                        }
-
-                );
-
-                alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
-
-                    @Override
-                    public void onClick(DialogInterface dialog, int whichButton) {
+                @Override
+                public void onClick(DialogInterface dialog, int whichButton) {
+                    Uri uri = Uri.parse(getString(R.string.thematrix_http_url));
+                    startActivity(new Intent(Intent.ACTION_VIEW, uri));
                     }
-
                 }
+            );
 
-                );
+            alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
+                 @Override
+                 public void onClick(DialogInterface dialog, int whichButton) {
+                 // ....empty again
+                 }
+            }
+        );
 
-                alrt.show();
-                return true;
+        alrt.show();
+        return true;
 
-            case R.id.ab_action_exit:
-                finish();
-                return true;
-
+        case R.id.ab_action_exit:
+            finish();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
-
     }
 
     /* The click listener for ListView in the navigation drawer */
@@ -228,84 +203,75 @@ public class TheMainActivity extends ActionBarActivity {
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
             selectItem(position);
-
         }
-
     }
 
     private void selectItem(int position) {
 
-        // update the main content by replacing fragments
-        Fragment fragment = new MainFragment();
-        Bundle args = new Bundle();
-        args.putInt(MainFragment.ARG_NAVIGATION_NUMBER, position);
-        fragment.setArguments(args);
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            
+            // Locate Position
+            switch (position) {
 
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.main_content, fragment).commit();
+                case 0:
+                    OverviewFragment overviewFragment = new OverviewFragment();
+                    ft.replace(R.id.main_content, overviewFragment);
+                    break;
 
-        // update selected item and title, then close the drawer
-        mDrawerList.setItemChecked(position, true);
-        setTitle(mNavigationTitles[position]);
-        mDrawerLayout.closeDrawer(mDrawerList);
+                case 1:
+                    DropboxFragment dropboxFragment = new DropboxFragment();
+                    ft.replace(R.id.main_content, dropboxFragment);
+                    break;
 
-    }
+                case 2:
+                    GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
+                    ft.replace(R.id.main_content, googleDriveFragment);
+                    break;
+
+                case 3:
+                    FacebookFragment facebookFragment = new FacebookFragment();
+                    ft.replace(R.id.main_content, facebookFragment);
+                    break;
+
+                case 4:
+                    GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
+                    ft.replace(R.id.main_content, googlePlusFragment);
+                    break;
+
+                case 5:
+                    TwitterFragment twitterFragment = new TwitterFragment();
+                    ft.replace(R.id.main_content, twitterFragment);
+                    break;
+            }
+
+            ft.commit();
+
+            mDrawerList.setItemChecked(position, true);
+            setTitle(mNavigationTitles[position]);
+            mDrawerLayout.closeDrawer(mDrawerList);
+        }
 
     @Override
     public void setTitle(CharSequence title) {
-
         mTitle = title;
         getSupportActionBar().setTitle(mTitle);
-
     }
 
     // When using the ActionBarDrawerToggle, you must call it during onPostCreate() and onConfigurationChanged()
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
-
         super.onPostCreate(savedInstanceState);
+
         // Sync the toggle state after onRestoreInstanceState has occurred.
         mDrawerToggle.syncState();
-
     }
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
-
         super.onConfigurationChanged(newConfig);
 
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
-
     }
-
-    // ...the Fragment that "is" the Main Content
-    public static class MainFragment extends Fragment {
-
-        public static final String ARG_NAVIGATION_NUMBER = "navigation_number";
-
-        public MainFragment() {
-
-            // Empty constructor required for fragment subclasses
-
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater,
-                                 ViewGroup container,
-                                 Bundle savedInstanceState) {
-
-            View rootView = inflater.inflate(R.layout.content_container_fragment, container, false);
-            int i = getArguments().getInt(ARG_NAVIGATION_NUMBER);
-
-            String main_content = getResources().getStringArray(R.array.navigation_array)[i];
-            getActivity().setTitle(main_content);
-            return rootView;
-
-        }
-
-    }
-
 }
