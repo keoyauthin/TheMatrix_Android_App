@@ -14,7 +14,7 @@
  *     limitations under the License.
  */
 
-package com.derdoktor667.dev.thematrix.fragments;
+package com.derdoktor667.dev.thematrix.fragments.facebook;
 
 
 import android.os.Bundle;

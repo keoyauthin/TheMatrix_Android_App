@@ -40,7 +40,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.derdoktor667.dev.thematrix.fragments.DropboxFragment;
-import com.derdoktor667.dev.thematrix.fragments.FacebookFragment;
+import com.derdoktor667.dev.thematrix.fragments.facebook.FacebookFragment;
 import com.derdoktor667.dev.thematrix.fragments.GoogleDriveFragment;
 import com.derdoktor667.dev.thematrix.fragments.GooglePlusFragment;
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;

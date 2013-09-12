@@ -22,11 +22,12 @@ buildscript {
         classpath 'com.android.tools.build:gradle:0.5.+'
     }
 }
+
 apply plugin: 'android'
 
 repositories {
     maven {
-        url 'https://github.com/Goddchen/mvn-repo/raw/master/'
+        url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
     }
     mavenCentral()
 }

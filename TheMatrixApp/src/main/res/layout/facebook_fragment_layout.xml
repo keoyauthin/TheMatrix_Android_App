@@ -21,7 +21,7 @@
         android:layout_height="42dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="LoginButton" >
+        android:text="@string/loginbutton" >
     </com.facebook.widget.LoginButton>
 
 </RelativeLayout>
