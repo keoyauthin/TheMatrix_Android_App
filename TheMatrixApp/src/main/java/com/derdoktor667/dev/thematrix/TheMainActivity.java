@@ -40,11 +40,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.derdoktor667.dev.thematrix.fragments.DropboxFragment;
-import com.derdoktor667.dev.thematrix.fragments.facebook.FacebookFragment;
 import com.derdoktor667.dev.thematrix.fragments.GoogleDriveFragment;
 import com.derdoktor667.dev.thematrix.fragments.GooglePlusFragment;
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
 import com.derdoktor667.dev.thematrix.fragments.TwitterFragment;
+import com.derdoktor667.dev.thematrix.fragments.facebook.FacebookFragment;
 
 public class TheMainActivity extends ActionBarActivity {
 
@@ -82,25 +82,25 @@ public class TheMainActivity extends ActionBarActivity {
         // ActionBarDrawerToggle ties together the the proper interactions
         // between the sliding drawer and the action bar app icon
         mDrawerToggle = new ActionBarDrawerToggle(
+
                 this,                  /* host Activity */
                 mDrawerLayout,         /* DrawerLayout object */
                 R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
                 R.string.drawer_open,  /* "open drawer" description for accessibility */
                 R.string.drawer_close  /* "close drawer" description for accessibility */
-        );
+        )
 
-        /** ...can´t get it to run with support.compat.v7
         {
-             public void onDrawerClosed(View view) {
-             getActionBar().setTitle(mTitle);
-             invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-             }
+            public void onDrawerClosed(View view) {
+                getSupportActionBar().setTitle(mTitle);
+                supportInvalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
 
-             public void onDrawerOpened(View drawerView) {
-             getActionBar().setTitle(mDrawerTitle);
-             invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
-             }
-        } */
+            public void onDrawerOpened(View drawerView) {
+                getSupportActionBar().setTitle(mDrawerTitle);
+                supportInvalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+        };
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
@@ -124,8 +124,11 @@ public class TheMainActivity extends ActionBarActivity {
 
     // ...give the Main Menu some actions
     public boolean onOptionsItemSelected(MenuItem item) {
+
         if (mDrawerToggle.onOptionsItemSelected(item)) {
+
             return true;
+
         }
 
         switch (item.getItemId()) {
@@ -144,55 +147,53 @@ public class TheMainActivity extends ActionBarActivity {
 
                 if (view != null) {
                     tv = (TextView) view.findViewById(R.id.version);
-                    }
+                }
 
-                    PackageManager pm = getPackageManager();
+                PackageManager pm = getPackageManager();
 
                 try {
                     PackageInfo pi;
                     //noinspection ConstantConditions
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
 
-                if (tv != null) tv.setText(pi.versionName);
-            }
-
-                catch (PackageManager.NameNotFoundException ignored) {
-                // ...insert empty line ^^
+                    if (tv != null) tv.setText(pi.versionName);
+                } catch (PackageManager.NameNotFoundException ignored) {
+                    // ...insert empty line ^^
                 }
 
-            AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
+                AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
 
-            final AlertDialog alrt = p.create();
+                final AlertDialog alrt = p.create();
 
-            alrt.setIcon(R.drawable.ic_launcher);
-            alrt.setTitle(getString(R.string.section_about));
+                alrt.setIcon(R.drawable.ic_launcher);
+                alrt.setTitle(getString(R.string.section_about));
 
-            alrt.setButton(DialogInterface.BUTTON_NEUTRAL, getString(R.string.about_website),
+                alrt.setButton(DialogInterface.BUTTON_NEUTRAL, getString(R.string.about_website),
 
-            new DialogInterface.OnClickListener() {
+                        new DialogInterface.OnClickListener() {
 
-                @Override
-                public void onClick(DialogInterface dialog, int whichButton) {
-                    Uri uri = Uri.parse(getString(R.string.thematrix_http_url));
-                    startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                            @Override
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                Uri uri = Uri.parse(getString(R.string.thematrix_http_url));
+                                startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                            }
+                        }
+                );
+
+                alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        // ....empty again
                     }
                 }
-            );
+                );
 
-            alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
-                 @Override
-                 public void onClick(DialogInterface dialog, int whichButton) {
-                 // ....empty again
-                 }
-            }
-        );
+                alrt.show();
+                return true;
 
-        alrt.show();
-        return true;
-
-        case R.id.ab_action_exit:
-            finish();
-            return true;
+            case R.id.ab_action_exit:
+                finish();
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -210,47 +211,47 @@ public class TheMainActivity extends ActionBarActivity {
     private void selectItem(int position) {
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            
-            // Locate Position
-            switch (position) {
 
-                case 0:
-                    OverviewFragment overviewFragment = new OverviewFragment();
-                    ft.replace(R.id.main_content, overviewFragment);
-                    break;
+        // Locate Position
+        switch (position) {
 
-                case 1:
-                    DropboxFragment dropboxFragment = new DropboxFragment();
-                    ft.replace(R.id.main_content, dropboxFragment);
-                    break;
+            case 0:
+                OverviewFragment overviewFragment = new OverviewFragment();
+                ft.replace(R.id.main_content, overviewFragment);
+                break;
 
-                case 2:
-                    GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
-                    ft.replace(R.id.main_content, googleDriveFragment);
-                    break;
+            case 1:
+                DropboxFragment dropboxFragment = new DropboxFragment();
+                ft.replace(R.id.main_content, dropboxFragment);
+                break;
 
-                case 3:
-                    FacebookFragment facebookFragment = new FacebookFragment();
-                    ft.replace(R.id.main_content, facebookFragment);
-                    break;
+            case 2:
+                GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
+                ft.replace(R.id.main_content, googleDriveFragment);
+                break;
 
-                case 4:
-                    GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
-                    ft.replace(R.id.main_content, googlePlusFragment);
-                    break;
+            case 3:
+                FacebookFragment facebookFragment = new FacebookFragment();
+                ft.replace(R.id.main_content, facebookFragment);
+                break;
 
-                case 5:
-                    TwitterFragment twitterFragment = new TwitterFragment();
-                    ft.replace(R.id.main_content, twitterFragment);
-                    break;
-            }
+            case 4:
+                GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
+                ft.replace(R.id.main_content, googlePlusFragment);
+                break;
 
-            ft.commit();
-
-            mDrawerList.setItemChecked(position, true);
-            setTitle(mNavigationTitles[position]);
-            mDrawerLayout.closeDrawer(mDrawerList);
+            case 5:
+                TwitterFragment twitterFragment = new TwitterFragment();
+                ft.replace(R.id.main_content, twitterFragment);
+                break;
         }
+
+        ft.commit();
+
+        mDrawerList.setItemChecked(position, true);
+        setTitle(mNavigationTitles[position]);
+        mDrawerLayout.closeDrawer(mDrawerList);
+    }
 
     @Override
     public void setTitle(CharSequence title) {

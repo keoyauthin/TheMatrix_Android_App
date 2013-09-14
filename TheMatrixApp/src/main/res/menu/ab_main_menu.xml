@@ -14,16 +14,15 @@
   ~     limitations under the License.
   -->
 
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:thematrix="http://schemas.android.com/apk/res-auto" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:thematrix="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/ab_action_refresh"
         android:icon="@drawable/ic_action_refresh_light"
         android:title="@string/ab_action_refresh"
         android:orderInCategory="60"
-        thematrix:showAsAction="always" />
+        thematrix:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/ab_action_settings"
