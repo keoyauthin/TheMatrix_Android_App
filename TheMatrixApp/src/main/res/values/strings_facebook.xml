@@ -17,7 +17,11 @@
 <resources>
 
     <string name="facebook_title">Facebook</string>
-    <string name="facebook_logo">Facebook Banner</string>
+    <string name="facebook_logo">Facebook Logo</string>
     <string name="loginbutton">LoginButton</string>
+    <string name="facebook_start">...easily log into Facebook</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="instructions">Login to create a link to fetch account data</string>
 
 </resources>

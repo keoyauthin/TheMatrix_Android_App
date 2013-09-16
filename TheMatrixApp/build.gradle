@@ -14,15 +14,6 @@
  *     limitations under the License.
  */
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
-    }
-}
-
 apply plugin: 'android'
 
 repositories {
@@ -45,6 +36,7 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:18.0.+'
     compile 'com.android.support:support-v4:18.0.+'
-    compile 'com.google.android.gms:play-services:3.2.+'
-    compile 'com.facebook.android:facebook:3.0.+'
+    compile 'com.google.android.gms:play-services:3.+'
+    compile 'com.facebook.android:facebook:3.+'
+    compile 'com.squareup.dagger:dagger:1.1.0'
 }

@@ -24,4 +24,4 @@
     android:paddingRight="16dp"
     android:textColor="#fff"
     android:background="@android:color/transparent"
-    android:minHeight="@dimen/abc_action_button_min_width" />
+    android:height="48sp" />

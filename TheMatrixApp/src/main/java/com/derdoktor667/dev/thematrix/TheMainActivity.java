@@ -44,7 +44,7 @@ import com.derdoktor667.dev.thematrix.fragments.GoogleDriveFragment;
 import com.derdoktor667.dev.thematrix.fragments.GooglePlusFragment;
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
 import com.derdoktor667.dev.thematrix.fragments.TwitterFragment;
-import com.derdoktor667.dev.thematrix.fragments.facebook.FacebookFragment;
+import com.derdoktor667.dev.thematrix.fragments.facebook.TheFacebookNoAuthFragment;
 
 public class TheMainActivity extends ActionBarActivity {
 
@@ -123,6 +123,7 @@ public class TheMainActivity extends ActionBarActivity {
     }
 
     // ...give the Main Menu some actions
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (mDrawerToggle.onOptionsItemSelected(item)) {
@@ -217,22 +218,22 @@ public class TheMainActivity extends ActionBarActivity {
 
             case 0:
                 OverviewFragment overviewFragment = new OverviewFragment();
-                ft.replace(R.id.main_content, overviewFragment);
+               ft.replace(R.id.main_content, overviewFragment);
                 break;
 
             case 1:
                 DropboxFragment dropboxFragment = new DropboxFragment();
-                ft.replace(R.id.main_content, dropboxFragment);
+               ft.replace(R.id.main_content, dropboxFragment);
                 break;
 
             case 2:
                 GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
-                ft.replace(R.id.main_content, googleDriveFragment);
+               ft.replace(R.id.main_content, googleDriveFragment);
                 break;
 
             case 3:
-                FacebookFragment facebookFragment = new FacebookFragment();
-                ft.replace(R.id.main_content, facebookFragment);
+                TheFacebookNoAuthFragment theFacebookNoAuthFragment = new TheFacebookNoAuthFragment();
+                ft.replace(R.id.main_content, theFacebookNoAuthFragment);
                 break;
 
             case 4:
