@@ -61,6 +61,13 @@ public class TheMainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.thematrix_main_layout);
 
+        if (savedInstanceState == null) {
+            FragmentTransaction fmo = getSupportFragmentManager().beginTransaction();
+            OverviewFragment overviewFragment = new OverviewFragment();
+            fmo.replace(R.id.main_content, overviewFragment);
+            fmo.commit();
+        }
+
         mTitle = mDrawerTitle;
         mDrawerTitle = getTitle();
         mNavigationTitles = getResources().getStringArray(R.array.navigation_array);
@@ -104,16 +111,13 @@ public class TheMainActivity extends ActionBarActivity {
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
-        if (savedInstanceState == null) {
-            selectItem(0);
-        }
     }
 
     // ...draw the Main Menu into the ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.ab_main_menu, menu);
+        inflater.inflate(R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -154,6 +158,7 @@ public class TheMainActivity extends ActionBarActivity {
 
                 try {
                     PackageInfo pi;
+
                     //noinspection ConstantConditions
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
 
@@ -186,8 +191,7 @@ public class TheMainActivity extends ActionBarActivity {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         // ....empty again
                     }
-                }
-                );
+                });
 
                 alrt.show();
                 return true;
@@ -218,22 +222,26 @@ public class TheMainActivity extends ActionBarActivity {
 
             case 0:
                 OverviewFragment overviewFragment = new OverviewFragment();
-               ft.replace(R.id.main_content, overviewFragment);
+                ft.replace(R.id.main_content, overviewFragment);
                 break;
 
             case 1:
                 DropboxFragment dropboxFragment = new DropboxFragment();
-               ft.replace(R.id.main_content, dropboxFragment);
+                ft.replace(R.id.main_content, dropboxFragment);
                 break;
 
             case 2:
                 GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
-               ft.replace(R.id.main_content, googleDriveFragment);
+                ft.replace(R.id.main_content, googleDriveFragment);
                 break;
 
             case 3:
+                TheEmptyContainer theEmptyContainer = new TheEmptyContainer();
+                ft.replace(R.id.main_content, theEmptyContainer);
+
+                // ...finally the "magic"
                 TheFacebookNoAuthFragment theFacebookNoAuthFragment = new TheFacebookNoAuthFragment();
-                ft.replace(R.id.main_content, theFacebookNoAuthFragment);
+                ft.replace(R.id.the_empty_container_layout, theFacebookNoAuthFragment);
                 break;
 
             case 4:

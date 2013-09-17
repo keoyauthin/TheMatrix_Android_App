@@ -1,0 +1,6 @@
+# ...just edit this for setting your app-version
+code = 1099
+name = 1.0.99
+
+# Latest beta number for this version. Only applies to beta builds.
+betaNumber = 2
