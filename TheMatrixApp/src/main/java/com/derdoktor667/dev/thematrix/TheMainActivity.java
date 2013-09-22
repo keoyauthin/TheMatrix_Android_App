@@ -145,7 +145,7 @@ public class TheMainActivity extends ActionBarActivity {
             case R.id.ab_action_about:
                 // ...get the Layout for this Action
                 LayoutInflater li = LayoutInflater.from(this);
-                View view = li.inflate(R.layout.ab_action_layout_about, null);
+                View view = li.inflate(R.layout.about_popup_layout, null);
 
                 // ...fill in the version...
                 TextView tv = null;
@@ -236,12 +236,8 @@ public class TheMainActivity extends ActionBarActivity {
                 break;
 
             case 3:
-                TheEmptyContainer theEmptyContainer = new TheEmptyContainer();
-                ft.replace(R.id.main_content, theEmptyContainer);
-
-                // ...finally the "magic"
                 TheFacebookNoAuthFragment theFacebookNoAuthFragment = new TheFacebookNoAuthFragment();
-                ft.replace(R.id.the_empty_container_layout, theFacebookNoAuthFragment);
+                ft.replace(R.id.main_content, theFacebookNoAuthFragment);
                 break;
 
             case 4:
