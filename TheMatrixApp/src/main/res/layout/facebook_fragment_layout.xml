@@ -16,26 +16,39 @@
   ~     limitations under the License.
   -->
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical"
     android:background="@drawable/com_facebook_usersettingsfragment_background_gradient">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/com_facebook_logo"
+        android:padding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/facebook_logo" />
+
+    <TextView
+        android:id="@+id/instructionsOrLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook_empty"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center"
+        android:layout_margin="30dp" />
+
     <com.facebook.widget.LoginButton
-        android:id="@+id/login_button"
+        android:id="@+id/buttonLoginLogout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         style="@style/com_facebook_loginview_silver_style" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:src="@drawable/facebook_logo"
-        android:layout_gravity="center_horizontal|top"
-        android:contentDescription="@string/facebook_logo"
-        android:layout_margin="30sp" />
-
-</FrameLayout>
+</LinearLayout>

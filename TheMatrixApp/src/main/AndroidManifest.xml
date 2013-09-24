@@ -16,7 +16,8 @@
   ~     limitations under the License.
   -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.derdoktor667.dev.thematrix"
     android:installLocation="auto"
     android:versionCode="1099"
@@ -39,29 +40,37 @@
         android:backupAgent="com.derdoktor667.dev.thematrix.BackupAgent"
         android:hardwareAccelerated="true"
         android:uiOptions="splitActionBarWhenNarrow">
+
         <activity
             android:name=".TheMainActivity"
             android:label="@string/app_name"
             android:theme="@style/TheMatrix.Compat.Universal.Theme"
             android:uiOptions="splitActionBarWhenNarrow"
             android:configChanges="keyboardHidden|orientation|screenSize">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
-        <meta-data
-            android:name="com.google.android.backup.api_key"
-            android:value="@string/backup_agent_key_string" />
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-
+        <!-- ...the Facebook Login Part like provided by the SDK -->
         <activity
             android:name="com.facebook.LoginActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- ...the Facebook API Key -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!-- ...the Google BackupAgent Key -->
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="@string/backup_agent_key_string" />
 
     </application>
 

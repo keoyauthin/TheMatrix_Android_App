@@ -44,10 +44,23 @@ import com.derdoktor667.dev.thematrix.fragments.GoogleDriveFragment;
 import com.derdoktor667.dev.thematrix.fragments.GooglePlusFragment;
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
 import com.derdoktor667.dev.thematrix.fragments.TwitterFragment;
-import com.derdoktor667.dev.thematrix.fragments.facebook.TheFacebookNoAuthFragment;
+import com.derdoktor667.dev.thematrix.fragments.facebook.TheFacebookLoaderFragment;
 
 public class TheMainActivity extends ActionBarActivity {
 
+    // Tag used when logging messages
+    private static final String TAG = TheMainActivity.class.getSimpleName();
+
+    // Boolean recording whether the activity has been resumed so that
+    // the logic in onSessionStateChange is only executed if this is the case
+    public boolean isResumed = false;
+
+    // Constructor
+    public TheMainActivity() {
+        super();
+    }
+
+    // ...set up the needed Stuff for the Side Navigation Drawer
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -56,6 +69,7 @@ public class TheMainActivity extends ActionBarActivity {
     private CharSequence mTitle;
     private String[] mNavigationTitles;
 
+    // ...start with the usual onCreate Boilerplate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -79,15 +93,13 @@ public class TheMainActivity extends ActionBarActivity {
 
         // set up the drawer's list view with items and click listener
         mDrawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_list_item, mNavigationTitles));
-
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
         // enable SupportActionBar app icon to behave as action to toggle nav drawer
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
-        // ActionBarDrawerToggle ties together the the proper interactions
-        // between the sliding drawer and the action bar app icon
+        // ActionBarDrawerToggle ties together the the proper interactions between the sliding drawer and the action bar app icon
         mDrawerToggle = new ActionBarDrawerToggle(
 
                 this,                  /* host Activity */
@@ -97,6 +109,7 @@ public class TheMainActivity extends ActionBarActivity {
                 R.string.drawer_close  /* "close drawer" description for accessibility */
         )
 
+        // ...set the matching Titels by the array Names
         {
             public void onDrawerClosed(View view) {
                 getSupportActionBar().setTitle(mTitle);
@@ -113,6 +126,13 @@ public class TheMainActivity extends ActionBarActivity {
 
     }
 
+    // ...add a onResume Listener
+    @Override
+    public void onResume() {
+        super.onResume();
+        isResumed = true;
+    }
+
     // ...draw the Main Menu into the ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -121,6 +141,7 @@ public class TheMainActivity extends ActionBarActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    // ...some Placeholder for now
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         return super.onPrepareOptionsMenu(menu);
@@ -131,9 +152,7 @@ public class TheMainActivity extends ActionBarActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (mDrawerToggle.onOptionsItemSelected(item)) {
-
             return true;
-
         }
 
         switch (item.getItemId()) {
@@ -151,20 +170,26 @@ public class TheMainActivity extends ActionBarActivity {
                 TextView tv = null;
 
                 if (view != null) {
+
                     tv = (TextView) view.findViewById(R.id.version);
+
                 }
 
                 PackageManager pm = getPackageManager();
 
                 try {
+
                     PackageInfo pi;
 
                     //noinspection ConstantConditions
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
 
                     if (tv != null) tv.setText(pi.versionName);
+
                 } catch (PackageManager.NameNotFoundException ignored) {
+
                     // ...insert empty line ^^
+
                 }
 
                 AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
@@ -182,14 +207,18 @@ public class TheMainActivity extends ActionBarActivity {
                             public void onClick(DialogInterface dialog, int whichButton) {
                                 Uri uri = Uri.parse(getString(R.string.thematrix_http_url));
                                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
+
                             }
                         }
+
                 );
 
                 alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int whichButton) {
+
                         // ....empty again
+
                     }
                 });
 
@@ -199,85 +228,102 @@ public class TheMainActivity extends ActionBarActivity {
             case R.id.ab_action_exit:
                 finish();
                 return true;
+
         }
 
         return super.onOptionsItemSelected(item);
+
     }
 
-    /* The click listener for ListView in the navigation drawer */
+    // The click listener for ListView in the navigation drawer
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
             selectItem(position);
-        }
-    }
 
-    private void selectItem(int position) {
-
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-
-        // Locate Position
-        switch (position) {
-
-            case 0:
-                OverviewFragment overviewFragment = new OverviewFragment();
-                ft.replace(R.id.main_content, overviewFragment);
-                break;
-
-            case 1:
-                DropboxFragment dropboxFragment = new DropboxFragment();
-                ft.replace(R.id.main_content, dropboxFragment);
-                break;
-
-            case 2:
-                GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
-                ft.replace(R.id.main_content, googleDriveFragment);
-                break;
-
-            case 3:
-                TheFacebookNoAuthFragment theFacebookNoAuthFragment = new TheFacebookNoAuthFragment();
-                ft.replace(R.id.main_content, theFacebookNoAuthFragment);
-                break;
-
-            case 4:
-                GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
-                ft.replace(R.id.main_content, googlePlusFragment);
-                break;
-
-            case 5:
-                TwitterFragment twitterFragment = new TwitterFragment();
-                ft.replace(R.id.main_content, twitterFragment);
-                break;
         }
 
-        ft.commit();
 
-        mDrawerList.setItemChecked(position, true);
-        setTitle(mNavigationTitles[position]);
-        mDrawerLayout.closeDrawer(mDrawerList);
-    }
+            private void selectItem(int position) {
 
+                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+
+                // Locate Position
+                switch (position) {
+
+                    case 0:
+                        OverviewFragment overviewFragment = new OverviewFragment();
+                        ft.replace(R.id.main_content, overviewFragment);
+                        break;
+
+                    case 1:
+                        DropboxFragment dropboxFragment = new DropboxFragment();
+                        ft.replace(R.id.main_content, dropboxFragment);
+                        break;
+
+                    case 2:
+                        GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
+                        ft.replace(R.id.main_content, googleDriveFragment);
+                        break;
+
+                    case 3:
+                        TheFacebookLoaderFragment theFacebookLoaderFragment = new TheFacebookLoaderFragment();
+                        ft.replace(R.id.main_content, theFacebookLoaderFragment);
+                        break;
+
+                    case 4:
+                        GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
+                        ft.replace(R.id.main_content, googlePlusFragment);
+                        break;
+
+                    case 5:
+                        TwitterFragment twitterFragment = new TwitterFragment();
+                        ft.replace(R.id.main_content, twitterFragment);
+                        break;
+                }
+
+                ft.commit();
+
+                mDrawerList.setItemChecked(position, true);
+                setTitle(mNavigationTitles[position]);
+                mDrawerLayout.closeDrawer(mDrawerList);
+
+            }
+
+        }
+
+
+    // ...to change the Titels on click events
     @Override
     public void setTitle(CharSequence title) {
+
         mTitle = title;
         getSupportActionBar().setTitle(mTitle);
+
     }
 
     // When using the ActionBarDrawerToggle, you must call it during onPostCreate() and onConfigurationChanged()
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
+
         super.onPostCreate(savedInstanceState);
 
         // Sync the toggle state after onRestoreInstanceState has occurred.
         mDrawerToggle.syncState();
+
     }
 
+    // ...keep the NaviDrawer up-to-date
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
+
         super.onConfigurationChanged(newConfig);
 
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
+
     }
+
 }

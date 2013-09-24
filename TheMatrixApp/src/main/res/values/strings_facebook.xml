@@ -22,6 +22,6 @@
     <string name="facebook_start">...easily log into Facebook</string>
     <string name="login">Login</string>
     <string name="logout">Logout</string>
-    <string name="instructions">Login to create a link to fetch account data</string>
+    <string name="facebook_empty"> </string>
 
 </resources>
