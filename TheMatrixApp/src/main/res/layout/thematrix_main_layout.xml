@@ -15,11 +15,10 @@
   -->
 
 <!-- The "App View" -->
-<android.support.v4.widget.DrawerLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/drawer_layout"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent">
 
     <!-- The main content view -->
     <LinearLayout
@@ -27,15 +26,15 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
-           <!-- The navigation drawer -->
-            <ListView
-                android:id="@+id/left_drawer"
-                android:layout_width="250dp"
-                android:layout_height="fill_parent"
-                android:layout_gravity="left"
-                android:choiceMode="singleChoice"
-                android:divider="@android:color/transparent"
-                android:dividerHeight="0dp"
-                android:background="#ff222222" />
+    <!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="250dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#ff222222" />
 
 </android.support.v4.widget.DrawerLayout>

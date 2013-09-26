@@ -49,7 +49,7 @@ import com.derdoktor667.dev.thematrix.fragments.facebook.TheFacebookLoaderFragme
 public class TheMainActivity extends ActionBarActivity {
 
     // Tag used when logging messages
-    private static final String TAG = TheMainActivity.class.getSimpleName();
+    protected static final String TAG = TheMainActivity.class.getSimpleName();
 
     // Boolean recording whether the activity has been resumed so that
     // the logic in onSessionStateChange is only executed if this is the case
@@ -109,7 +109,7 @@ public class TheMainActivity extends ActionBarActivity {
                 R.string.drawer_close  /* "close drawer" description for accessibility */
         )
 
-        // ...set the matching Titels by the array Names
+                // ...set the matching Titels by the array Names
         {
             public void onDrawerClosed(View view) {
                 getSupportActionBar().setTitle(mTitle);
@@ -246,54 +246,54 @@ public class TheMainActivity extends ActionBarActivity {
         }
 
 
-            private void selectItem(int position) {
+        private void selectItem(int position) {
 
-                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
-                // Locate Position
-                switch (position) {
+            // Locate Position
+            switch (position) {
 
-                    case 0:
-                        OverviewFragment overviewFragment = new OverviewFragment();
-                        ft.replace(R.id.main_content, overviewFragment);
-                        break;
+                case 0:
+                    OverviewFragment overviewFragment = new OverviewFragment();
+                    ft.replace(R.id.main_content, overviewFragment);
+                    break;
 
-                    case 1:
-                        DropboxFragment dropboxFragment = new DropboxFragment();
-                        ft.replace(R.id.main_content, dropboxFragment);
-                        break;
+                case 1:
+                    DropboxFragment dropboxFragment = new DropboxFragment();
+                    ft.replace(R.id.main_content, dropboxFragment);
+                    break;
 
-                    case 2:
-                        GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
-                        ft.replace(R.id.main_content, googleDriveFragment);
-                        break;
+                case 2:
+                    GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
+                    ft.replace(R.id.main_content, googleDriveFragment);
+                    break;
 
-                    case 3:
-                        TheFacebookLoaderFragment facebookFragment = new TheFacebookLoaderFragment();
-                        ft.replace(R.id.main_content, facebookFragment);
-                        break;
-                    case 4:
-                        GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
-                        ft.replace(R.id.main_content, googlePlusFragment);
-                        break;
+                case 3:
+                    TheFacebookLoaderFragment facebookFragment = new TheFacebookLoaderFragment();
+                    ft.replace(R.id.main_content, facebookFragment);
+                    break;
+                case 4:
+                    GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
+                    ft.replace(R.id.main_content, googlePlusFragment);
+                    break;
 
-                    case 5:
-                        TwitterFragment twitterFragment = new TwitterFragment();
-                        ft.replace(R.id.main_content, twitterFragment);
-                        break;
-                }
-
-                ft.commit();
-
-                mDrawerList.setItemChecked(position, true);
-                setTitle(mNavigationTitles[position]);
-                mDrawerLayout.closeDrawer(mDrawerList);
-
+                case 5:
+                    TwitterFragment twitterFragment = new TwitterFragment();
+                    ft.replace(R.id.main_content, twitterFragment);
+                    break;
             }
+
+            ft.commit();
+
+            mDrawerList.setItemChecked(position, true);
+            setTitle(mNavigationTitles[position]);
+            mDrawerLayout.closeDrawer(mDrawerList);
 
         }
 
-     // ...to change the Titels on click events
+    }
+
+    // ...to change the Titels on click events
     @Override
     public void setTitle(CharSequence title) {
 

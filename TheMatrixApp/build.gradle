@@ -53,7 +53,6 @@ android {
     dependencies {
         compile 'com.android.support:appcompat-v7:18.+'
         compile 'com.android.support:support-v4:18.+'
-        compile 'com.android.support:gridlayout-v7:18.+'
         compile 'com.google.android.gms:play-services:3.+'
         compile 'com.facebook.android:facebook:3.+'
     }
@@ -79,7 +78,7 @@ android {
 
         publicBeta.initWith(buildTypes.release)
         publicBeta {
-        	versionNameSuffix " Beta " + versionProps['betaNumber']
+            versionNameSuffix " Beta " + versionProps['betaNumber']
         }
     }
 }
