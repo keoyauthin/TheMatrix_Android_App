@@ -1,16 +1,26 @@
 The Matrix Android App
 ======================
 
-This is the main source for the Android app to access your account on
+This is the source code for the Android app to access your account on
 
 [http://wir-sind-die-matrix.de][1]
 
-...much more to come ...step by step ...stay tuned
+...much more to come ...step by step ...stay tuned ...every help is 
+very, very welcome
 
 Finally I started fresh after spending hours trying to match the
 Google Design Guidelines. Now I code on a brand new fabric ...hope
 it will help to bring it on bigger, better, faster ^^
 
+Attention:
+----------
+...there are some files in called *.example.* ...add your values and remove
+the "example" tag.
+
+./keystore.properties.example
+./local.properties.example
+./version.properties.example
+./TheMatrixApp/src/main/res/values/keystore_strings.example.xml
 
 Developed By
 ------------

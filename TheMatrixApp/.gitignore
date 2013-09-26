@@ -39,6 +39,7 @@ proguard/
 
 # Keystores and Password Files
 keystore.properties
+keystore_strings.xml
 
 # AndroidStudio original
 .gradle
