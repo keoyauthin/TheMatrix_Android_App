@@ -269,10 +269,9 @@ public class TheMainActivity extends ActionBarActivity {
                         break;
 
                     case 3:
-                        TheFacebookLoaderFragment theFacebookLoaderFragment = new TheFacebookLoaderFragment();
-                        ft.replace(R.id.main_content, theFacebookLoaderFragment);
+                        TheFacebookLoaderFragment facebookFragment = new TheFacebookLoaderFragment();
+                        ft.replace(R.id.main_content, facebookFragment);
                         break;
-
                     case 4:
                         GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
                         ft.replace(R.id.main_content, googlePlusFragment);
@@ -294,8 +293,7 @@ public class TheMainActivity extends ActionBarActivity {
 
         }
 
-
-    // ...to change the Titels on click events
+     // ...to change the Titels on click events
     @Override
     public void setTitle(CharSequence title) {
 

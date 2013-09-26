@@ -20,7 +20,7 @@ the "example" tag.
 ./keystore.properties.example
 ./local.properties.example
 ./version.properties.example
-./TheMatrixApp/src/main/res/values/keystore_strings.example.xml
+./TheMatrixApp/src/main/res/values/keystore_strings.example => keystore_strings.xml
 
 Developed By
 ------------
