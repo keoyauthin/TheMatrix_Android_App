@@ -48,9 +48,6 @@ import com.derdoktor667.dev.thematrix.fragments.facebook.TheFacebookLoaderFragme
 
 public class TheMainActivity extends ActionBarActivity {
 
-    // Tag used when logging messages
-    protected static final String TAG = TheMainActivity.class.getSimpleName();
-
     // Boolean recording whether the activity has been resumed so that
     // the logic in onSessionStateChange is only executed if this is the case
     public boolean isResumed = false;
