@@ -52,11 +52,6 @@ public class TheMainActivity extends ActionBarActivity {
     // the logic in onSessionStateChange is only executed if this is the case
     public boolean isResumed = false;
 
-    // Constructor
-    public TheMainActivity() {
-        super();
-    }
-
     // ...set up the needed Stuff for the Side Navigation Drawer
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;

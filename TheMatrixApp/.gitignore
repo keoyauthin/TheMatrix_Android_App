@@ -47,3 +47,4 @@ keystore_strings.xml
 /.idea/workspace.xml
 .DS_Store
 /build
+gradle-app.setting
