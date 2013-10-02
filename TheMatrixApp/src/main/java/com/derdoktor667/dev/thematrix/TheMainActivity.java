@@ -25,6 +25,8 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -39,18 +41,20 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.derdoktor667.dev.thematrix.fragments.DropboxFragment;
-import com.derdoktor667.dev.thematrix.fragments.GoogleDriveFragment;
-import com.derdoktor667.dev.thematrix.fragments.GooglePlusFragment;
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
-import com.derdoktor667.dev.thematrix.fragments.TwitterFragment;
-import com.derdoktor667.dev.thematrix.fragments.facebook.TheFacebookLoaderFragment;
 
 public class TheMainActivity extends ActionBarActivity {
 
-    // Boolean recording whether the activity has been resumed so that
-    // the logic in onSessionStateChange is only executed if this is the case
-    public boolean isResumed = false;
+    // ...the Fragments
+    private static final int OVERVIEW = 0;
+    private static final int DROPBOX = 1;
+    private static final int GOOGLEDRIVE = 2;
+    private static final int FACEBOOK = 3;
+    private static final int GOOGLEPLUS = 4;
+    private static final int TWITTER = 5;
+    private static final int FRAGMENT_COUNT = TWITTER + 1;
+
+    private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
 
     // ...set up the needed Stuff for the Side Navigation Drawer
     private DrawerLayout mDrawerLayout;
@@ -64,15 +68,9 @@ public class TheMainActivity extends ActionBarActivity {
     // ...start with the usual onCreate Boilerplate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.thematrix_main_layout);
-
-        if (savedInstanceState == null) {
-            FragmentTransaction fmo = getSupportFragmentManager().beginTransaction();
-            OverviewFragment overviewFragment = new OverviewFragment();
-            fmo.replace(R.id.main_content, overviewFragment);
-            fmo.commit();
-        }
 
         mTitle = mDrawerTitle;
         mDrawerTitle = getTitle();
@@ -87,13 +85,11 @@ public class TheMainActivity extends ActionBarActivity {
         mDrawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_list_item, mNavigationTitles));
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
-        // enable SupportActionBar app icon to behave as action to toggle nav drawer
+        // enable SupportActionBar app icon to behave as action and toggle the drawer
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
-        // ActionBarDrawerToggle ties together the the proper interactions between the sliding drawer and the action bar app icon
         mDrawerToggle = new ActionBarDrawerToggle(
-
                 this,                  /* host Activity */
                 mDrawerLayout,         /* DrawerLayout object */
                 R.drawable.ic_drawer,  /* nav drawer image to replace 'Up' caret */
@@ -105,24 +101,38 @@ public class TheMainActivity extends ActionBarActivity {
         {
             public void onDrawerClosed(View view) {
                 getSupportActionBar().setTitle(mTitle);
-                supportInvalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+                supportInvalidateOptionsMenu();
             }
 
             public void onDrawerOpened(View drawerView) {
                 getSupportActionBar().setTitle(mDrawerTitle);
-                supportInvalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+                supportInvalidateOptionsMenu();
             }
         };
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
-    }
+        // ...the Fragments for the Drawer
+        FragmentManager fm = getSupportFragmentManager();
+        OverviewFragment overviewFragment = (OverviewFragment) fm.findFragmentById(R.id.overviewFragment);
 
-    // ...add a onResume Listener
-    @Override
-    public void onResume() {
-        super.onResume();
-        isResumed = true;
+        fragments[OVERVIEW] = overviewFragment;
+        fragments[DROPBOX] = fm.findFragmentById(R.id.dropboxFragment);
+        fragments[GOOGLEDRIVE] = fm.findFragmentById(R.id.goodriveFragment);
+        fragments[FACEBOOK] = fm.findFragmentById(R.id.userSettingsFragment);
+        fragments[GOOGLEPLUS] = fm.findFragmentById(R.id.gooplusFragment);
+        fragments[TWITTER] = fm.findFragmentById(R.id.twitterFragment);
+
+        FragmentTransaction transaction = fm.beginTransaction();
+
+        for (Fragment fragment : fragments) {
+            transaction.hide(fragment);
+        }
+
+        transaction.commit();
+
+        // ...for now, always show the "Overview" on App start
+        showOverviewFragment();
     }
 
     // ...draw the Main Menu into the ActionBar
@@ -142,12 +152,15 @@ public class TheMainActivity extends ActionBarActivity {
     // ...give the Main Menu some actions
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
 
         switch (item.getItemId()) {
+
+            case R.id.ab_action_refresh:
+                // ...refresh the actual Fragment
+                return true;
 
             case R.id.ab_action_settings:
                 // ...open the Main Settings
@@ -160,71 +173,87 @@ public class TheMainActivity extends ActionBarActivity {
 
                 // ...fill in the version...
                 TextView tv = null;
-
                 if (view != null) {
-
                     tv = (TextView) view.findViewById(R.id.version);
-
                 }
 
                 PackageManager pm = getPackageManager();
-
                 try {
-
                     PackageInfo pi;
 
                     //noinspection ConstantConditions
                     pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
-
                     if (tv != null) tv.setText(pi.versionName);
-
                 } catch (PackageManager.NameNotFoundException ignored) {
-
-                    // ...insert empty line ^^
-
+                    // ...insert empty constructor ^^
                 }
 
                 AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
-
                 final AlertDialog alrt = p.create();
-
                 alrt.setIcon(R.drawable.ic_launcher);
                 alrt.setTitle(getString(R.string.section_about));
-
                 alrt.setButton(DialogInterface.BUTTON_NEUTRAL, getString(R.string.about_website),
-
                         new DialogInterface.OnClickListener() {
 
                             @Override
                             public void onClick(DialogInterface dialog, int whichButton) {
                                 Uri uri = Uri.parse(getString(R.string.thematrix_http_url));
                                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
-
                             }
                         }
-
                 );
 
                 alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int whichButton) {
-
-                        // ....empty again
-
+                        // ....empty constructor again
                     }
                 });
-
                 alrt.show();
                 return true;
 
             case R.id.ab_action_exit:
                 finish();
                 return true;
-
         }
-
         return super.onOptionsItemSelected(item);
+    }
 
+    public void showOverviewFragment() {
+        showFragment(OVERVIEW);
+    }
+
+    public void showDropboxFragment() {
+        showFragment(DROPBOX);
+    }
+
+    public void showGoogleDriveFragment() {
+        showFragment(GOOGLEDRIVE);
+    }
+
+    public void showFacebookFragment() {
+        showFragment(FACEBOOK);
+    }
+
+    public void showGooglePlusFragment() {
+        showFragment(GOOGLEPLUS);
+    }
+
+    public void showTwitterFragment() {
+        showFragment(TWITTER);
+    }
+
+    private void showFragment(int fragmentIndex) {
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction transaction = fm.beginTransaction();
+        for (int i = 0; i < fragments.length; i++) {
+            if (i == fragmentIndex) {
+                transaction.show(fragments[i]);
+            } else {
+                transaction.hide(fragments[i]);
+            }
+        }
+        transaction.commit();
     }
 
     // The click listener for ListView in the navigation drawer
@@ -232,88 +261,66 @@ public class TheMainActivity extends ActionBarActivity {
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
             selectItem(position);
-
         }
 
-
         private void selectItem(int position) {
-
-            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
             // Locate Position
             switch (position) {
 
                 case 0:
-                    OverviewFragment overviewFragment = new OverviewFragment();
-                    ft.replace(R.id.main_content, overviewFragment);
+                    showOverviewFragment();
                     break;
 
                 case 1:
-                    DropboxFragment dropboxFragment = new DropboxFragment();
-                    ft.replace(R.id.main_content, dropboxFragment);
+                    showDropboxFragment();
                     break;
 
                 case 2:
-                    GoogleDriveFragment googleDriveFragment = new GoogleDriveFragment();
-                    ft.replace(R.id.main_content, googleDriveFragment);
+                    showGoogleDriveFragment();
                     break;
 
                 case 3:
-                    TheFacebookLoaderFragment facebookFragment = new TheFacebookLoaderFragment();
-                    ft.replace(R.id.main_content, facebookFragment);
+                    showFacebookFragment();
                     break;
+
                 case 4:
-                    GooglePlusFragment googlePlusFragment = new GooglePlusFragment();
-                    ft.replace(R.id.main_content, googlePlusFragment);
+                    showGooglePlusFragment();
                     break;
 
                 case 5:
-                    TwitterFragment twitterFragment = new TwitterFragment();
-                    ft.replace(R.id.main_content, twitterFragment);
+                    showTwitterFragment();
                     break;
             }
-
-            ft.commit();
-
-            mDrawerList.setItemChecked(position, true);
             setTitle(mNavigationTitles[position]);
             mDrawerLayout.closeDrawer(mDrawerList);
-
+            mDrawerList.setItemChecked(position, true);
         }
-
     }
 
     // ...to change the Titels on click events
     @Override
     public void setTitle(CharSequence title) {
-
         mTitle = title;
         getSupportActionBar().setTitle(mTitle);
-
     }
 
     // When using the ActionBarDrawerToggle, you must call it during onPostCreate() and onConfigurationChanged()
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
-
         super.onPostCreate(savedInstanceState);
 
         // Sync the toggle state after onRestoreInstanceState has occurred.
         mDrawerToggle.syncState();
-
     }
 
-    // ...keep the NaviDrawer up-to-date
+    // ...keep the NavigationDrawer up-to-date
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
-
         super.onConfigurationChanged(newConfig);
 
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
-
     }
-
 }

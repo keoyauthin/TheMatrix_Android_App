@@ -16,7 +16,6 @@
 
 package com.derdoktor667.dev.thematrix.fragments.facebook;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -28,8 +27,7 @@ import com.derdoktor667.dev.thematrix.R;
 public class TheFacebookLoaderFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.facebook_fragment_layout, container, false);
-
+        View view = inflater.inflate(R.layout.facebook_fragment_layout, container, false);
+        return view;
     }
-
 }

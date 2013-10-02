@@ -21,10 +21,49 @@
     android:layout_height="fill_parent">
 
     <!-- The main content view -->
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/main_content"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <fragment
+            android:name="com.derdoktor667.dev.thematrix.fragments.OverviewFragment"
+            android:id="@+id/overviewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:name="com.derdoktor667.dev.thematrix.fragments.DropboxFragment"
+            android:id="@+id/dropboxFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:name="com.derdoktor667.dev.thematrix.fragments.google.GoogleDriveFragment"
+            android:id="@+id/goodriveFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:name="com.facebook.widget.UserSettingsFragment"
+            android:id="@+id/userSettingsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:name="com.derdoktor667.dev.thematrix.fragments.google.GooglePlusFragment"
+            android:id="@+id/gooplusFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <fragment
+            android:name="com.derdoktor667.dev.thematrix.fragments.TwitterFragment"
+            android:id="@+id/twitterFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
 
     <!-- The navigation drawer -->
     <ListView

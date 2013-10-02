@@ -14,8 +14,20 @@
  *     limitations under the License.
  */
 
+package com.derdoktor667.dev.thematrix.fragments.google;
 
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
+import com.derdoktor667.dev.thematrix.R;
 
+public class GoogleDriveFragment extends Fragment {
 
-include ':TheMatrixApp'
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.googledrive_fragment_layout, container, false);
+        return view;
+    }
+}

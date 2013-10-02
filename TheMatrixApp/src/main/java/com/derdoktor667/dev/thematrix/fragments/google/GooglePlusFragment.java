@@ -14,8 +14,7 @@
  *     limitations under the License.
  */
 
-package com.derdoktor667.dev.thematrix.fragments;
-
+package com.derdoktor667.dev.thematrix.fragments.google;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -25,10 +24,10 @@ import android.view.ViewGroup;
 
 import com.derdoktor667.dev.thematrix.R;
 
-public class GoogleDriveFragment extends Fragment {
+public class GooglePlusFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.googledrive_fragment_layout, container, false);
+        View view = inflater.inflate(R.layout.googleplus_fragment_layout, container, false);
+        return view;
     }
-
 }

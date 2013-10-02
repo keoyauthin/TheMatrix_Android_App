@@ -14,21 +14,18 @@
  *     limitations under the License.
  */
 
-package com.derdoktor667.dev.thematrix.fragments;
+package com.derdoktor667.dev.thematrix;
 
+import android.app.Application;
 
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+/**
+ * ...we need this to communicate the fragment ladder
+ */
+public class TheExtendedApp extends Application {
 
-import com.derdoktor667.dev.thematrix.R;
+    private final static String TAG = "The Matrix";
 
-public class GooglePlusFragment extends Fragment {
-
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.googleplus_fragment_layout, container, false);
+    public void onCreate() {
+        super.onCreate();
     }
-
 }
