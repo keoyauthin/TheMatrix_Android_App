@@ -24,6 +24,7 @@ import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceScreen;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -42,8 +43,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
+import com.derdoktor667.dev.thematrix.fragments.preferences.PreferencesListFragment;
 
-public class TheMainActivity extends ActionBarActivity {
+public class TheMainActivity extends ActionBarActivity implements PreferencesListFragment.OnPreferenceAttachedListener {
 
     // ...the Fragments
     private static final int OVERVIEW = 0;
@@ -52,7 +54,8 @@ public class TheMainActivity extends ActionBarActivity {
     private static final int FACEBOOK = 3;
     private static final int GOOGLEPLUS = 4;
     private static final int TWITTER = 5;
-    private static final int FRAGMENT_COUNT = TWITTER + 1;
+    private static final int SETTINGS = 6;
+    private static final int FRAGMENT_COUNT = SETTINGS + 1;
 
     private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
 
@@ -122,6 +125,7 @@ public class TheMainActivity extends ActionBarActivity {
         fragments[FACEBOOK] = fm.findFragmentById(R.id.userSettingsFragment);
         fragments[GOOGLEPLUS] = fm.findFragmentById(R.id.gooplusFragment);
         fragments[TWITTER] = fm.findFragmentById(R.id.twitterFragment);
+        fragments[SETTINGS] = fm.findFragmentById(R.id.settingsFragment);
 
         FragmentTransaction transaction = fm.beginTransaction();
 
@@ -133,6 +137,7 @@ public class TheMainActivity extends ActionBarActivity {
 
         // ...for now, always show the "Overview" on App start
         showOverviewFragment();
+        setTitle(R.string.app_name);
     }
 
     // ...draw the Main Menu into the ActionBar
@@ -149,6 +154,11 @@ public class TheMainActivity extends ActionBarActivity {
         return super.onPrepareOptionsMenu(menu);
     }
 
+    @Override
+    public void onPreferenceAttached(PreferenceScreen root, int xmlId) {
+
+    }
+
     // ...give the Main Menu some actions
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -159,11 +169,10 @@ public class TheMainActivity extends ActionBarActivity {
         switch (item.getItemId()) {
 
             case R.id.ab_action_refresh:
-                // ...refresh the actual Fragment
                 return true;
 
             case R.id.ab_action_settings:
-                // ...open the Main Settings
+                showSettingsFragment();
                 return true;
 
             case R.id.ab_action_about:
@@ -241,6 +250,10 @@ public class TheMainActivity extends ActionBarActivity {
 
     public void showTwitterFragment() {
         showFragment(TWITTER);
+    }
+
+    public void showSettingsFragment() {
+        showFragment(SETTINGS);
     }
 
     private void showFragment(int fragmentIndex) {

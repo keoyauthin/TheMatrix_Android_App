@@ -23,7 +23,7 @@ import android.app.Application;
  */
 public class TheExtendedApp extends Application {
 
-    private final static String TAG = "The Matrix";
+    private static final String TAG = "TheMatrix";
 
     public void onCreate() {
         super.onCreate();

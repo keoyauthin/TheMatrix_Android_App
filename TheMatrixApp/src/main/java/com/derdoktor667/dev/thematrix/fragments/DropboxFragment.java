@@ -28,7 +28,6 @@ import com.derdoktor667.dev.thematrix.R;
 public class DropboxFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.dropbox_fragment_layout, container, false);
-        return view;
+        return inflater.inflate(R.layout.dropbox_fragment_layout, container, false);
     }
 }
