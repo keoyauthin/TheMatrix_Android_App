@@ -17,5 +17,6 @@
 <resources>
 
     <string name="dropbox_title">Dropbox</string>
+    <string name="dropbox_login">Login</string>
 
 </resources>

@@ -14,20 +14,42 @@
  *     limitations under the License.
  */
 
-package com.derdoktor667.dev.thematrix.fragments;
-
+package com.derdoktor667.dev.thematrix.fragments.dropbox;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.derdoktor667.dev.thematrix.R;
+import com.dropbox.chooser.android.DbxChooser;
 
 public class DropboxFragment extends Fragment {
 
+    static final String APP_KEY = "ldutdh6ixrto8yn";
+    static final int DBX_CHOOSER_REQUEST = 0;
+
+    private Button mChooserButton;
+    private DbxChooser mChooser;
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.dropbox_fragment_layout, container, false);
+        View view = inflater.inflate(R.layout.dropbox_fragment_layout, container, false);
+
+        mChooser = new DbxChooser(APP_KEY);
+
+        if (view != null) {
+            mChooserButton = (Button) view.findViewById(R.id.chooser_button);
+        }
+        mChooserButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mChooser.forResultType(DbxChooser.ResultType.PREVIEW_LINK)
+                        .launch(DropboxFragment.this, DBX_CHOOSER_REQUEST);
+            }
+        });
+        return view;
     }
 }
+

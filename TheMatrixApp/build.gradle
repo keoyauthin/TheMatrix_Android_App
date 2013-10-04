@@ -14,10 +14,12 @@
  *     limitations under the License.
  */
 
+
 buildscript {
     repositories {
         mavenCentral()
     }
+
     dependencies {
         classpath 'com.android.tools.build:gradle:0.6.+'
     }
@@ -30,7 +32,6 @@ repositories {
         url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
     }
     mavenCentral()
-
 }
 
 android {
@@ -49,13 +50,15 @@ android {
     }
 
     dependencies {
-        compile 'com.android.support:appcompat-v7:18.+'
-        compile 'com.android.support:support-v4:18.+'
-        compile 'com.google.android.gms:play-services:3.+'
-        compile 'com.facebook.android:facebook:3.+'
-    }
+    	compile files('libs/libGoogleAnalyticsServices.jar')
+    	compile 'com.dropbox.chooser:android:1.0.0'
+        compile 'com.facebook.android:facebook:3.5.2'
+        compile 'com.android.support:appcompat-v7:18.0.0'
+        compile 'com.android.support:support-v4:18.0.0'
+        compile 'com.google.android.gms:play-services:3.2.65'
+        }
 
-    signingConfigs {
+signingConfigs {
         release {
             def Properties localProps = new Properties()
             localProps.load new FileInputStream(file('../local.properties'))

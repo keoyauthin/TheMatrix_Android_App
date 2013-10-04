@@ -44,9 +44,10 @@ import android.widget.TextView;
 
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
 import com.derdoktor667.dev.thematrix.fragments.preferences.PreferencesListFragment;
+import com.google.analytics.tracking.android.EasyTracker;
 
 public class TheMainActivity extends ActionBarActivity implements PreferencesListFragment.OnPreferenceAttachedListener {
-
+    
     // ...the Fragments
     private static final int OVERVIEW = 0;
     private static final int DROPBOX = 1;
@@ -139,7 +140,7 @@ public class TheMainActivity extends ActionBarActivity implements PreferencesLis
         showOverviewFragment();
         setTitle(R.string.app_name);
     }
-
+    
     // ...draw the Main Menu into the ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -335,5 +336,18 @@ public class TheMainActivity extends ActionBarActivity implements PreferencesLis
 
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    // ...add the onXXX Stuff
+    @Override
+    public void onStart() {
+        super.onStart();
+        EasyTracker.getInstance(this).activityStart(this);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        EasyTracker.getInstance(this).activityStop(this);
     }
 }

@@ -19,7 +19,7 @@
     <string name="facebook_title">Facebook</string>
     <string name="facebook_logo">Facebook Logo</string>
     <string name="loginbutton">LoginButton</string>
-    <string name="facebook_start">...easily log into Facebook</string>
+    <string name="facebook_start">Log in </string>
     <string name="login">Login</string>
     <string name="logout">Logout</string>
     <string name="facebook_empty"> </string>

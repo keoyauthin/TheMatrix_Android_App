@@ -34,7 +34,7 @@
             android:layout_height="match_parent" />
 
         <fragment
-            android:name="com.derdoktor667.dev.thematrix.fragments.DropboxFragment"
+            android:name="com.derdoktor667.dev.thematrix.fragments.dropbox.DropboxFragment"
             android:id="@+id/dropboxFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
