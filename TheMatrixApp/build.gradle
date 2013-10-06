@@ -38,7 +38,7 @@ android {
     buildToolsVersion "18.1.0"
 
     def Properties versionProps = new Properties()
-    versionProps.load new FileInputStream('version.properties')
+    versionProps.load new FileInputStream(file('../version.properties'))
 
     defaultConfig {
         minSdkVersion 8
@@ -61,10 +61,10 @@ android {
 signingConfigs {
         release {
             def Properties localProps = new Properties()
-            localProps.load new FileInputStream('local.properties')
+            localProps.load new FileInputStream(file('../local.properties'))
             def Properties keyProps = new Properties()
-            assert localProps.getAt('keystore.props.file');
-            keyProps.load new FileInputStream(localProps.getAt('keystore.props.file'))
+            assert localProps.getAt('keystore.props.file')
+            keyProps.load new FileInputStream(file(localProps['keystore.props.file']))
             storeFile file(keyProps.getAt("store"))
             keyAlias keyProps.getAt("alias")
             storePassword keyProps.getAt("storePass")
@@ -75,20 +75,22 @@ signingConfigs {
     buildTypes {
         release {
             runProguard false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
             signingConfig signingConfigs.release
         }
 
-        debug.initWith(buildTypes.release)
         debug {
             runProguard false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
             versionNameSuffix " Debug "
             signingConfig signingConfigs.release
         }
 
-        publicBeta.initWith(buildTypes.release)
-        publicBeta {
+        beta {
             runProguard false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
             versionNameSuffix " Beta "
+            signingConfig signingConfigs.release
         }
     }
 }
