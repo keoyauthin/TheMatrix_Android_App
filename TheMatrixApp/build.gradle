@@ -20,7 +20,7 @@ buildscript {
     }
 
     dependencies {
-         classpath 'com.android.tools.build:gradle:0.6.+'
+        classpath 'com.android.tools.build:gradle:0.6.+'
     }
 }
 
@@ -49,16 +49,16 @@ android {
     }
 
     dependencies {
-    	compile files('libs/libGoogleAnalyticsServices.jar')
+        compile files('libs/libGoogleAnalyticsServices.jar')
         compile 'com.android.support:appcompat-v7:18.+'
         compile 'com.android.support:support-v4:18.+'
         compile 'com.google.android.gms:play-services:3.+'
         compile 'com.android.support:support-v13:18.+'
-    	compile 'com.dropbox.chooser:android:1.+'
+        compile 'com.dropbox.chooser:android:1.+'
         compile 'com.facebook.android:facebook:3.+'
-        }
+    }
 
-signingConfigs {
+    signingConfigs {
         release {
             def Properties localProps = new Properties()
             localProps.load new FileInputStream(file('../local.properties'))
