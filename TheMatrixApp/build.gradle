@@ -14,6 +14,16 @@
  *     limitations under the License.
  */
 
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+         classpath 'com.android.tools.build:gradle:0.6.+'
+    }
+}
+
 apply plugin: 'android'
 
 repositories {
@@ -24,11 +34,11 @@ repositories {
 }
 
 android {
-    compileSdkVersion 18
+    compileSdkVersion 'Google Inc.:Google APIs:18'
     buildToolsVersion "18.1.0"
 
     def Properties versionProps = new Properties()
-    versionProps.load new FileInputStream(file("../version.properties"))
+    versionProps.load new FileInputStream('version.properties')
 
     defaultConfig {
         minSdkVersion 8
@@ -40,25 +50,21 @@ android {
 
     dependencies {
     	compile files('libs/libGoogleAnalyticsServices.jar')
-        compile 'com.squareup.dagger:dagger:1.1.+'
-        compile 'com.jakewharton:butterknife:3.0.+'
-        compile 'com.squareup:javawriter:2.2.+'
-        compile 'com.squareup.picasso:picasso:2.1.+'
-    	compile 'com.dropbox.chooser:android:1.0.+'
-        compile 'com.facebook.android:facebook:3.5.+'
-        compile 'com.android.support:appcompat-v7:18.0.+'
-        compile 'com.android.support:support-v4:18.0.+'
-        compile 'com.google.android.gms:play-services:3.2.+'
-        compile 'com.android.support:support-v13:18.0.+'
+        compile 'com.android.support:appcompat-v7:18.+'
+        compile 'com.android.support:support-v4:18.+'
+        compile 'com.google.android.gms:play-services:3.+'
+        compile 'com.android.support:support-v13:18.+'
+    	compile 'com.dropbox.chooser:android:1.+'
+        compile 'com.facebook.android:facebook:3.+'
         }
 
 signingConfigs {
         release {
             def Properties localProps = new Properties()
-            localProps.load new FileInputStream(file('../local.properties'))
+            localProps.load new FileInputStream('local.properties')
             def Properties keyProps = new Properties()
             assert localProps.getAt('keystore.props.file');
-            keyProps.load new FileInputStream(file(localProps.getAt('keystore.props.file')))
+            keyProps.load new FileInputStream(localProps.getAt('keystore.props.file'))
             storeFile file(keyProps.getAt("store"))
             keyAlias keyProps.getAt("alias")
             storePassword keyProps.getAt("storePass")
@@ -68,27 +74,21 @@ signingConfigs {
 
     buildTypes {
         release {
-            // runProguard true
-            // proguardFiles getDefaultProguardFile('proguard-android.txt'),
-            // file('proguard-project.txt')
+            runProguard false
+            signingConfig signingConfigs.release
+        }
+
+        debug.initWith(buildTypes.release)
+        debug {
+            runProguard false
+            versionNameSuffix " Debug "
             signingConfig signingConfigs.release
         }
 
         publicBeta.initWith(buildTypes.release)
         publicBeta {
-            // runProguard true
-            // proguardFiles getDefaultProguardFile('proguard-android.txt'),
-            // file('proguard-project.txt')
-            versionNameSuffix " Beta " + versionProps['betaNumber']
-        }
-
-        publicDebug.initWith(buildTypes.publicBeta)
-        publicDebug {
-            debuggable true
-            // runProguard true
-            // proguardFiles getDefaultProguardFile('proguard-android.txt'),
-            // file('proguard-project.txt')
-            versionNameSuffix " Debug Beta " + versionProps['betaNumber']
+            runProguard false
+            versionNameSuffix " Beta "
         }
     }
 }

@@ -25,12 +25,6 @@ import android.view.ViewGroup;
 
 import com.derdoktor667.dev.thematrix.R;
 
-import dagger.Module;
-
-@Module(
-        injects = TwitterFragment.class
-)
-
 public class TwitterFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

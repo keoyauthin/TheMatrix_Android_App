@@ -14,16 +14,4 @@
  *     limitations under the License.
  */
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-
-    dependencies {
-         classpath 'com.android.tools.build:gradle:0.6.+'
-    }
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.8'
-}
+// ...nothing to do here ^^
