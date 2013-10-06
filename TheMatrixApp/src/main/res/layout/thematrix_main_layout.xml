@@ -58,7 +58,7 @@
             android:layout_height="match_parent" />
 
         <fragment
-            android:name="com.derdoktor667.dev.thematrix.fragments.TwitterFragment"
+            android:name="com.derdoktor667.dev.thematrix.fragments.twitter.TwitterFragment"
             android:id="@+id/twitterFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

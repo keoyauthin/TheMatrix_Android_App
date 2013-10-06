@@ -52,4 +52,3 @@ public class DropboxFragment extends Fragment {
         return view;
     }
 }
-

@@ -24,7 +24,6 @@ import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
-import android.preference.PreferenceScreen;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -43,11 +42,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
-import com.derdoktor667.dev.thematrix.fragments.preferences.PreferencesListFragment;
 import com.google.analytics.tracking.android.EasyTracker;
 
-public class TheMainActivity extends ActionBarActivity implements PreferencesListFragment.OnPreferenceAttachedListener {
-    
+public class TheMainActivity extends ActionBarActivity {
+
     // ...the Fragments
     private static final int OVERVIEW = 0;
     private static final int DROPBOX = 1;
@@ -140,7 +138,7 @@ public class TheMainActivity extends ActionBarActivity implements PreferencesLis
         showOverviewFragment();
         setTitle(R.string.app_name);
     }
-    
+
     // ...draw the Main Menu into the ActionBar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -153,11 +151,6 @@ public class TheMainActivity extends ActionBarActivity implements PreferencesLis
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         return super.onPrepareOptionsMenu(menu);
-    }
-
-    @Override
-    public void onPreferenceAttached(PreferenceScreen root, int xmlId) {
-
     }
 
     // ...give the Main Menu some actions
@@ -229,6 +222,7 @@ public class TheMainActivity extends ActionBarActivity implements PreferencesLis
         return super.onOptionsItemSelected(item);
     }
 
+
     public void showOverviewFragment() {
         showFragment(OVERVIEW);
     }
@@ -256,6 +250,7 @@ public class TheMainActivity extends ActionBarActivity implements PreferencesLis
     public void showSettingsFragment() {
         showFragment(SETTINGS);
     }
+
 
     private void showFragment(int fragmentIndex) {
         FragmentManager fm = getSupportFragmentManager();

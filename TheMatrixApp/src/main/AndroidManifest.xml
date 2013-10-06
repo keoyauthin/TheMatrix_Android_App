@@ -16,8 +16,7 @@
   ~     limitations under the License.
   -->
 
-<manifest 
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.derdoktor667.dev.thematrix"
     android:installLocation="auto"
     android:versionCode="1099"

@@ -18,12 +18,7 @@ package com.derdoktor667.dev.thematrix;
 
 import android.app.Application;
 
-/**
- * ...we need this to communicate the fragment ladder
- */
 public class TheExtendedApp extends Application {
-
-    private static final String TAG = "TheMatrix";
 
     public void onCreate() {
         super.onCreate();

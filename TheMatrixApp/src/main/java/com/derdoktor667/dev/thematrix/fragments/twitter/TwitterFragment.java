@@ -14,7 +14,7 @@
  *     limitations under the License.
  */
 
-package com.derdoktor667.dev.thematrix.fragments;
+package com.derdoktor667.dev.thematrix.fragments.twitter;
 
 
 import android.os.Bundle;
@@ -24,6 +24,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.derdoktor667.dev.thematrix.R;
+
+import dagger.Module;
+
+@Module(
+        injects = TwitterFragment.class
+)
 
 public class TwitterFragment extends Fragment {
 
