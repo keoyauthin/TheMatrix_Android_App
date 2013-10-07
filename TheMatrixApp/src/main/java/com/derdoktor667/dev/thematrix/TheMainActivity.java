@@ -121,7 +121,7 @@ public class TheMainActivity extends ActionBarActivity {
         fragments[OVERVIEW] = overviewFragment;
         fragments[DROPBOX] = fm.findFragmentById(R.id.dropboxFragment);
         fragments[GOOGLEDRIVE] = fm.findFragmentById(R.id.goodriveFragment);
-        fragments[FACEBOOK] = fm.findFragmentById(R.id.userSettingsFragment);
+        fragments[FACEBOOK] = fm.findFragmentById(R.id.facebookFragment);
         fragments[GOOGLEPLUS] = fm.findFragmentById(R.id.gooplusFragment);
         fragments[TWITTER] = fm.findFragmentById(R.id.twitterFragment);
         fragments[SETTINGS] = fm.findFragmentById(R.id.settingsFragment);

@@ -20,7 +20,6 @@ import android.app.Application;
 
 public class TheExtendedApp extends Application {
 
-    public void onCreate() {
-        super.onCreate();
+    public TheExtendedApp() {
     }
 }

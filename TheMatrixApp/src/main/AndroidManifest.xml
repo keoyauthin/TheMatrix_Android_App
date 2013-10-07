@@ -37,6 +37,7 @@
         android:label="@string/app_name"
         android:name=".TheExtendedApp"
         android:theme="@style/TheMatrix.Compat.Universal.Theme"
+        android:windowSoftInputMode="adjustResize"
         android:backupAgent="BackupAgent"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
