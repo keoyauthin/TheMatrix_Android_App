@@ -16,13 +16,7 @@
 
 package com.derdoktor667.dev.thematrix;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.content.res.Configuration;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
@@ -31,7 +25,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -39,12 +32,16 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
-import com.google.analytics.tracking.android.EasyTracker;
+import com.derdoktor667.dev.thematrix.utils.HelpUtils;
+import com.derdoktor667.dev.thematrix.utils.LogUtils;
+
+import static com.derdoktor667.dev.thematrix.utils.LogUtils.LOGD;
 
 public class TheMainActivity extends ActionBarActivity {
+
+    private static final String TAG = LogUtils.makeLogTag(TheMainActivity.class);
 
     // ...the Fragments
     private static final int OVERVIEW = 0;
@@ -170,49 +167,7 @@ public class TheMainActivity extends ActionBarActivity {
                 return true;
 
             case R.id.ab_action_about:
-                // ...get the Layout for this Action
-                LayoutInflater li = LayoutInflater.from(this);
-                View view = li.inflate(R.layout.about_popup_layout, null);
-
-                // ...fill in the version...
-                TextView tv = null;
-                if (view != null) {
-                    tv = (TextView) view.findViewById(R.id.version);
-                }
-
-                PackageManager pm = getPackageManager();
-                try {
-                    PackageInfo pi;
-
-                    //noinspection ConstantConditions
-                    pi = pm.getPackageInfo(getApplicationContext().getPackageName(), 0);
-                    if (tv != null) tv.setText(pi.versionName);
-                } catch (PackageManager.NameNotFoundException ignored) {
-                    // ...insert empty constructor ^^
-                }
-
-                AlertDialog.Builder p = new AlertDialog.Builder(this).setView(view);
-                final AlertDialog alrt = p.create();
-                alrt.setIcon(R.drawable.ic_launcher);
-                alrt.setTitle(getString(R.string.section_about));
-                alrt.setButton(DialogInterface.BUTTON_NEUTRAL, getString(R.string.about_website),
-                        new DialogInterface.OnClickListener() {
-
-                            @Override
-                            public void onClick(DialogInterface dialog, int whichButton) {
-                                Uri uri = Uri.parse(getString(R.string.thematrix_http_url));
-                                startActivity(new Intent(Intent.ACTION_VIEW, uri));
-                            }
-                        }
-                );
-
-                alrt.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ok), new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int whichButton) {
-                        // ....empty constructor again
-                    }
-                });
-                alrt.show();
+                HelpUtils.showAboutDialog(this);
                 return true;
 
             case R.id.ab_action_exit:
@@ -333,16 +288,18 @@ public class TheMainActivity extends ActionBarActivity {
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
-    // ...add the onXXX Stuff
+    // ...add the onFoo Stuff
     @Override
     public void onStart() {
         super.onStart();
-        EasyTracker.getInstance(this).activityStart(this);
+        // EasyTracker.getInstance(this).activityStart(this);
+        LOGD(TAG, "onStart; started TheMatrixApp.");
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        EasyTracker.getInstance(this).activityStop(this);
+        // EasyTracker.getInstance(this).activityStop(this);
+        LOGD(TAG, "onStop; stopped TheMatrixApp.");
     }
 }

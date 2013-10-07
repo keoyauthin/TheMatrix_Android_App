@@ -20,6 +20,4 @@ import android.app.Application;
 
 public class TheExtendedApp extends Application {
 
-    public TheExtendedApp() {
-    }
-}
+   }

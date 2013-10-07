@@ -34,7 +34,7 @@ repositories {
 }
 
 android {
-    compileSdkVersion 'Google Inc.:Google APIs:18'
+    compileSdkVersion 18
     buildToolsVersion "18.1.0"
 
     def Properties versionProps = new Properties()
@@ -49,7 +49,6 @@ android {
     }
 
     dependencies {
-        compile files('libs/libGoogleAnalyticsServices.jar')
         compile 'com.android.support:appcompat-v7:18.+'
         compile 'com.android.support:support-v4:18.+'
         compile 'com.google.android.gms:play-services:3.+'

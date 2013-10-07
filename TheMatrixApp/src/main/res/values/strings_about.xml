@@ -28,4 +28,19 @@
     <string name="about_version">Version:</string>
     <string name="thematrix_http_url">http://wir-sind-die-matrix.de</string>
 
+    <string name="app_name_and_version" translatable="false"><![CDATA[
+        <b>TheMatrix</b>&nbsp;<font color="#888888">v%1$s</font>
+    ]]></string>
+    <string name="about_body"><![CDATA[
+        Copyright 2012-2013 Google Inc. All Rights Reserved.<br>
+        <a href="http://m.google.com/utos">Terms of Service</a>
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        <a href="http://www.google.com/policies/privacy/">Privacy Policy</a><br><br>
+        Many thanks to these open source tools:<br><br>
+        <b><a href="http://www.androidicons.com/">Android Developer Icons</a></b><br>
+        <i>by Günther Beyer of <a href="http://www.opoloo.com/">Opoloo</a></i><br><br>
+        <b><a href="https://github.com/bauerca/drag-sort-listview">DragSortListView</a></b><br>
+        <i>by Carl A. Bauer</i>
+    ]]></string>
+
 </resources>
