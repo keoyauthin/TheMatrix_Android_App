@@ -1,9 +1,7 @@
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:columnCount="5"
-    android:rowCount="5"
-    android:columnOrderPreserved="true"
-    android:rowOrderPreserved="true">
+<LinearLayout
 
-</GridLayout>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+</LinearLayout>

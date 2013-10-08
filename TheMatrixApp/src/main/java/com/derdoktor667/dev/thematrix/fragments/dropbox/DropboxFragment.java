@@ -29,7 +29,7 @@ import com.dropbox.chooser.android.DbxChooser;
 public class DropboxFragment extends Fragment {
 
     static final String APP_KEY = "ldutdh6ixrto8yn";
-    static final int DBX_CHOOSER_REQUEST = 0;
+    static final int DBX_CHOOSER_REQUEST = 1;
 
     private Button mChooserButton;
     private DbxChooser mChooser;
@@ -45,7 +45,7 @@ public class DropboxFragment extends Fragment {
         mChooserButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mChooser.forResultType(DbxChooser.ResultType.PREVIEW_LINK)
+                mChooser.forResultType(DbxChooser.ResultType.FILE_CONTENT)
                         .launch(DropboxFragment.this, DBX_CHOOSER_REQUEST);
             }
         });

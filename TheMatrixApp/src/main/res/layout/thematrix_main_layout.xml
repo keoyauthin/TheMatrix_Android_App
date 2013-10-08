@@ -25,6 +25,7 @@
     <!-- The main content view -->
     <RelativeLayout
         android:id="@+id/main_content"
+        android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:gravity="center" >
@@ -32,9 +33,10 @@
         <fragment
             android:name="com.derdoktor667.dev.thematrix.fragments.OverviewFragment"
             android:id="@+id/overviewFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout="@layout/overview_fragment_layout" />
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:layout="@layout/overview_fragment_layout"
+            android:layout_centerInParent="true" />
 
         <fragment
             android:name="com.derdoktor667.dev.thematrix.fragments.dropbox.DropboxFragment"
@@ -77,7 +79,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:layout="@layout/settings_fragment" />
-
 
     </RelativeLayout>
 

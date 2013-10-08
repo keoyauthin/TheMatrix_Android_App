@@ -18,29 +18,18 @@
 
     <string name="section_about">About</string>
     <string name="about_menu_button">About</string>
-    <string name="about_title">About "The Matrix"</string>
-    <string name="about_description">Developed by: Wastl Kraus</string>
-    <string name="about_website">Website</string>
-    <string name="about_website_dot">Website:</string>
-    <string name="about_siteurl">http://wir-sind-die-matrix.de</string>
-    <string name="about_email">Email:</string>
-    <string name="about_emailurl">derdoktor667@gmail.com</string>
-    <string name="about_version">Version:</string>
-    <string name="thematrix_http_url">http://wir-sind-die-matrix.de</string>
-
+   
     <string name="app_name_and_version" translatable="false"><![CDATA[
-        <b>TheMatrix</b>&nbsp;<font color="#888888">v%1$s</font>
+        <b>The Matrix</b>&nbsp;<font color="#888888">v%1$s</font>
     ]]></string>
     <string name="about_body"><![CDATA[
-        Copyright 2012-2013 Google Inc. All Rights Reserved.<br>
-        <a href="http://m.google.com/utos">Terms of Service</a>
-        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-        <a href="http://www.google.com/policies/privacy/">Privacy Policy</a><br><br>
-        Many thanks to these open source tools:<br><br>
-        <b><a href="http://www.androidicons.com/">Android Developer Icons</a></b><br>
-        <i>by Günther Beyer of <a href="http://www.opoloo.com/">Opoloo</a></i><br><br>
-        <b><a href="https://github.com/bauerca/drag-sort-listview">DragSortListView</a></b><br>
-        <i>by Carl A. Bauer</i>
+        Copyright 2013 - <b>Wir sind die Matrix</b><br>
+        All Rights Reserved.<br><br>
+        <i><b>Many thanks to my wife for her support and patience.</i></b><br><br>
+        <b><a href="http://wir-sind-die-matrix.de/">Wir sind die Matrix</a></b><br>
+        <i>by <a href="https://plus.google.com/111500666746491450335/">Wastl Kraus</a></i><br><br>
+        <b><a href="https://github.com/derdoktor667/TheMatrix_Android_App">Application Source</a></b><br>
+        <i>by derdoktor667</i>
     ]]></string>
 
 </resources>

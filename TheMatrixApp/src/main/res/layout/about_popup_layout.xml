@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:divider="?android:dividerVertical"
-    android:showDividers="middle">
+    android:showDividers="middle"
+    android:clickable="false">
 
     <TextView android:id="@+id/app_name_and_version"
         android:layout_width="wrap_content"

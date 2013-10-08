@@ -35,15 +35,10 @@ import android.widget.ListView;
 
 import com.derdoktor667.dev.thematrix.fragments.OverviewFragment;
 import com.derdoktor667.dev.thematrix.utils.HelpUtils;
-import com.derdoktor667.dev.thematrix.utils.LogUtils;
-
-import static com.derdoktor667.dev.thematrix.utils.LogUtils.LOGD;
 
 public class TheMainActivity extends ActionBarActivity {
 
-    private static final String TAG = LogUtils.makeLogTag(TheMainActivity.class);
-
-    // ...the Fragments
+    // ...introduce the Fragments
     private static final int OVERVIEW = 0;
     private static final int DROPBOX = 1;
     private static final int GOOGLEDRIVE = 2;
@@ -128,12 +123,35 @@ public class TheMainActivity extends ActionBarActivity {
         for (Fragment fragment : fragments) {
             transaction.hide(fragment);
         }
-
         transaction.commit();
+    }
 
-        // ...for now, always show the "Overview" on App start
-        showOverviewFragment();
-        setTitle(R.string.app_name);
+    private void showOverviewFragment() {
+        showFragment(OVERVIEW);
+    }
+
+    private void showDropboxFragment() {
+        showFragment(DROPBOX);
+    }
+
+    private void showGoogleDriveFragment() {
+        showFragment(GOOGLEDRIVE);
+    }
+
+    private void showFacebookFragment() {
+        showFragment(FACEBOOK);
+    }
+
+    private void showGooglePlusFragment() {
+        showFragment(GOOGLEPLUS);
+    }
+
+    private void showTwitterFragment() {
+        showFragment(TWITTER);
+    }
+
+    private void showSettingsFragment() {
+        showFragment(SETTINGS);
     }
 
     // ...draw the Main Menu into the ActionBar
@@ -176,36 +194,6 @@ public class TheMainActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-
-    public void showOverviewFragment() {
-        showFragment(OVERVIEW);
-    }
-
-    public void showDropboxFragment() {
-        showFragment(DROPBOX);
-    }
-
-    public void showGoogleDriveFragment() {
-        showFragment(GOOGLEDRIVE);
-    }
-
-    public void showFacebookFragment() {
-        showFragment(FACEBOOK);
-    }
-
-    public void showGooglePlusFragment() {
-        showFragment(GOOGLEPLUS);
-    }
-
-    public void showTwitterFragment() {
-        showFragment(TWITTER);
-    }
-
-    public void showSettingsFragment() {
-        showFragment(SETTINGS);
-    }
-
 
     private void showFragment(int fragmentIndex) {
         FragmentManager fm = getSupportFragmentManager();
@@ -270,7 +258,7 @@ public class TheMainActivity extends ActionBarActivity {
         getSupportActionBar().setTitle(mTitle);
     }
 
-    // When using the ActionBarDrawerToggle, you must call it during onPostCreate() and onConfigurationChanged()
+    // ...call during onPostCreate() and onConfigurationChanged()
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
@@ -291,15 +279,13 @@ public class TheMainActivity extends ActionBarActivity {
     // ...add the onFoo Stuff
     @Override
     public void onStart() {
+        setTitle(R.string.app_name);
+        showOverviewFragment();
         super.onStart();
-        // EasyTracker.getInstance(this).activityStart(this);
-        LOGD(TAG, "onStart; started TheMatrixApp.");
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        // EasyTracker.getInstance(this).activityStop(this);
-        LOGD(TAG, "onStop; stopped TheMatrixApp.");
     }
 }

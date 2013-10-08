@@ -14,26 +14,43 @@
   ~     limitations under the License.
   -->
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFFFFF">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:divider="?android:dividerVertical"
+    android:showDividers="middle"
+    android:clickable="false">
 
     <TextView
-        android:text="@string/coming_soon"
-        android:textStyle="bold"
+        android:id="@+id/app_name_and_version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp" />
 
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressBar"
-        android:layout_above="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/about_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:fontFamily="sans-serif-light"
+            android:textIsSelectable="true" />
+
+    </ScrollView>
+
+</LinearLayout>

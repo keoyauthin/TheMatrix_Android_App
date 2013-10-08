@@ -16,17 +16,70 @@
 
 package com.derdoktor667.dev.thematrix.fragments;
 
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.derdoktor667.dev.thematrix.R;
 
 public class OverviewFragment extends Fragment {
 
+    private static final String VERSION_UNAVAILABLE = "N/A";
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.overview_fragment_layout, container, false);
+        View view = inflater.inflate(R.layout.overview_fragment_layout, container, false);
+
+        PackageManager pm = getActivity().getPackageManager();
+        String packageName = getActivity().getPackageName();
+        String versionName = null;
+
+        try {
+            PackageInfo info = null;
+
+            if (pm != null) {
+                info = pm.getPackageInfo(packageName, 0);
+            }
+
+            if (info != null) {
+                versionName = info.versionName;
+            }
+
+        } catch (PackageManager.NameNotFoundException e) {
+            versionName = VERSION_UNAVAILABLE;
+        }
+
+        TextView nameAndVersionView = null;
+
+        if (view != null) {
+            nameAndVersionView = (TextView) view.findViewById(R.id.app_name_and_version);
+        }
+
+        if (nameAndVersionView != null) {
+            nameAndVersionView.setText(Html.fromHtml(getString(R.string.app_name_and_version, versionName)));
+        }
+
+        TextView aboutBodyView = null;
+
+        if (view != null) {
+            aboutBodyView = (TextView) view.findViewById(R.id.about_body);
+        }
+
+        if (aboutBodyView != null) {
+            aboutBodyView.setText(Html.fromHtml(getString(R.string.about_body)));
+        }
+
+        if (aboutBodyView != null) {
+            aboutBodyView.setMovementMethod(new LinkMovementMethod());
+        }
+
+        return view;
     }
 }
+

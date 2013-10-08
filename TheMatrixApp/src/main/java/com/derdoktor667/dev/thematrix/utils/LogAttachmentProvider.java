@@ -49,7 +49,10 @@ public class LogAttachmentProvider extends ContentProvider {
                         String orderBy) {
         // Ensure logfile exists
         List<String> pathSegments = uri.getPathSegments();
-        String fileName = pathSegments.get(0);
+        String fileName = null;
+        if (pathSegments != null) {
+            fileName = pathSegments.get(0);
+        }
         File logFile = getContext().getCacheDir();
         if (logFile == null) {
             LogUtils.LOGE(TAG, "No cache dir.");
