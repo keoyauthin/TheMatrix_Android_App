@@ -1,5 +1,16 @@
 package com.derdoktor667.dev.thematrix.utils;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.TimeZone;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -11,17 +22,6 @@ import android.widget.Toast;
 
 import com.derdoktor667.dev.thematrix.BuildConfig;
 import com.derdoktor667.dev.thematrix.R;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.TimeZone;
 
 public class LogUtils {
     private static final String TAG = makeLogTag(LogUtils.class);
@@ -125,7 +125,7 @@ public class LogUtils {
 
             try {
                 // Append app's logs
-                String[] logcatCmd = new String[]{ "logcat", "-v", "threadtime", "-d", };
+                String[] logcatCmd = new String[]{"logcat", "-v", "threadtime", "-d",};
                 Process process = Runtime.getRuntime().exec(logcatCmd);
                 BufferedReader bufferedReader = new BufferedReader(
                         new InputStreamReader(process.getInputStream()));

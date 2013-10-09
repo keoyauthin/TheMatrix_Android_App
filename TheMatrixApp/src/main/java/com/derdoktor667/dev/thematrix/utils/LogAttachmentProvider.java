@@ -16,6 +16,12 @@
 
 package com.derdoktor667.dev.thematrix.utils;
 
+import static com.derdoktor667.dev.thematrix.utils.LogUtils.makeLogTag;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.List;
+
 import android.content.ContentProvider;
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -23,12 +29,6 @@ import android.database.MatrixCursor;
 import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.provider.OpenableColumns;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.List;
-
-import static com.derdoktor667.dev.thematrix.utils.LogUtils.makeLogTag;
 
 /**
  * Content provider for exposing log files as attachments.

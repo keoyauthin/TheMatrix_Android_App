@@ -16,11 +16,11 @@
 
 package com.derdoktor667.dev.thematrix;
 
+import static com.derdoktor667.dev.thematrix.utils.LogUtils.LOGD;
+
 import android.app.Application;
 
 import com.derdoktor667.dev.thematrix.utils.LogUtils;
-
-import static com.derdoktor667.dev.thematrix.utils.LogUtils.LOGD;
 
 public class TheExtendedApp extends Application {
 

@@ -1,5 +1,4 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -7,7 +6,8 @@
     android:showDividers="middle"
     android:clickable="false">
 
-    <TextView android:id="@+id/app_name_and_version"
+    <TextView
+        android:id="@+id/app_name_and_version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_launcher"
@@ -20,7 +20,8 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="8dp" />
 
-    <ScrollView android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 

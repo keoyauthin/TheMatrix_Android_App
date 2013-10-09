@@ -16,8 +16,7 @@
   ~     limitations under the License.
   -->
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="fill_parent"
     android:layout_width="fill_parent"
@@ -30,6 +29,6 @@
         android:id="@+id/fragment"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        tools:layout="@layout/com_facebook_usersettingsfragment"/>
+        tools:layout="@layout/com_facebook_usersettingsfragment" />
 
 </RelativeLayout>
