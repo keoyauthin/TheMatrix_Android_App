@@ -14,7 +14,7 @@
  *     limitations under the License.
  */
 
-package com.derdoktor667.dev.thematrix.fragments;
+package com.derdoktor667.dev.thematrix.fragments.overview;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -34,9 +34,10 @@ public class OverviewFragment extends Fragment {
     private static final String VERSION_UNAVAILABLE = "N/A";
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.overview_fragment_layout, container, false);
+        View view = inflater.inflate(R.layout.about_popup_layout, container, false);
 
-        PackageManager pm = getActivity().getPackageManager();
+        PackageManager pm;
+        pm = getActivity().getPackageManager();
         String packageName = getActivity().getPackageName();
         String versionName = null;
 
@@ -62,7 +63,8 @@ public class OverviewFragment extends Fragment {
         }
 
         if (nameAndVersionView != null) {
-            nameAndVersionView.setText(Html.fromHtml(getString(R.string.app_name_and_version, versionName)));
+            nameAndVersionView.setText(Html.fromHtml(getString(R.string.app_name_and_version,
+                    versionName)));
         }
 
         TextView aboutBodyView = null;
@@ -80,5 +82,11 @@ public class OverviewFragment extends Fragment {
         }
 
         return view;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        getView();
     }
 }

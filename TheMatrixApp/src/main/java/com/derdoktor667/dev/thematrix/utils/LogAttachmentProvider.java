@@ -46,7 +46,7 @@ public class LogAttachmentProvider extends ContentProvider {
 
     @Override
     public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs,
-                        String orderBy) {
+            String orderBy) {
         // Ensure logfile exists
         List<String> pathSegments = uri.getPathSegments();
         String fileName = null;
@@ -67,7 +67,7 @@ public class LogAttachmentProvider extends ContentProvider {
 
         // Create matrix cursor
         if (projection == null) {
-            projection = new String[]{
+            projection = new String[] {
                     "_data",
                     OpenableColumns.DISPLAY_NAME,
                     OpenableColumns.SIZE,
@@ -111,7 +111,7 @@ public class LogAttachmentProvider extends ContentProvider {
 
     @Override
     public int update(Uri uri, ContentValues contentValues, String selection,
-                      String[] selectionArgs) {
+            String[] selectionArgs) {
         throw new UnsupportedOperationException("update not supported");
     }
 }

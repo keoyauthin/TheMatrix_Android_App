@@ -1,3 +1,4 @@
+
 package com.derdoktor667.dev.thematrix.utils;
 
 import android.app.AlertDialog;
@@ -26,14 +27,14 @@ public class HelpUtils {
         FragmentManager fm = activity.getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
 
-        Fragment prev = fm.findFragmentByTag("dialog_about");
+        Fragment prev = fm.findFragmentByTag("about_popup_layout");
         if (prev != null) {
 
             ft.remove(prev);
         }
 
         ft.addToBackStack(null);
-        new AboutDialog().show(ft, "dialog_about");
+        new AboutDialog().show(ft, "about_popup_layout");
     }
 
     public static class AboutDialog extends DialogFragment {
@@ -82,7 +83,8 @@ public class HelpUtils {
 
             if (nameAndVersionView != null) {
 
-                nameAndVersionView.setText(Html.fromHtml(getString(R.string.app_name_and_version, versionName)));
+                nameAndVersionView.setText(Html.fromHtml(getString(R.string.app_name_and_version,
+                        versionName)));
             }
 
             TextView aboutBodyView = null;

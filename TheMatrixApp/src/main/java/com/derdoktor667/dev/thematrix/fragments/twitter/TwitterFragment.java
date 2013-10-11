@@ -16,7 +16,6 @@
 
 package com.derdoktor667.dev.thematrix.fragments.twitter;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;

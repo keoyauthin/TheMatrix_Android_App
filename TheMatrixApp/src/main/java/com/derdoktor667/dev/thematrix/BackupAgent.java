@@ -21,17 +21,18 @@ import android.app.backup.SharedPreferencesBackupHelper;
 
 /**
  * The backup agent for TheMatrix. See the developer guide documentation for <a
- * href="http://developer.android.com/guide/topics/data/backup.html">Data Backup</a> for details.
+ * href="http://developer.android.com/guide/topics/data/backup.html">Data
+ * Backup</a> for details.
  */
 
 public class BackupAgent extends BackupAgentHelper {
 
     private static final String PREFS_BACKUP_KEY = "preferences";
 
-    // Allocate a helper and add it to the backup agent
+    /* Allocate a helper and add it to the backup agent */
     @Override
     public void onCreate() {
-        // Compute the default preferences filename.
+        /* Compute the default preferences filename. */
         String defaultPrefsFilename = getPackageName() + "_settings";
         addHelper(PREFS_BACKUP_KEY, new SharedPreferencesBackupHelper(this, defaultPrefsFilename));
     }

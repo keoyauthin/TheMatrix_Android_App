@@ -30,7 +30,7 @@
         android:gravity="center">
 
         <fragment
-            android:name="com.derdoktor667.dev.thematrix.fragments.OverviewFragment"
+            android:name="com.derdoktor667.dev.thematrix.fragments.overview.OverviewFragment"
             android:id="@+id/overviewFragment"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
@@ -52,7 +52,7 @@
             tools:layout="@layout/googledrive_fragment_layout" />
 
         <fragment
-            android:name="com.derdoktor667.dev.thematrix.fragments.facebook.TheFacebookLoaderFragment"
+            android:name="com.facebook.widget.UserSettingsFragment"
             android:id="@+id/facebookFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

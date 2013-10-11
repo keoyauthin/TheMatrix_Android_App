@@ -16,8 +16,6 @@
 
 package com.derdoktor667.dev.thematrix;
 
-import static com.derdoktor667.dev.thematrix.utils.LogUtils.LOGD;
-
 import android.app.Application;
 
 import com.derdoktor667.dev.thematrix.utils.LogUtils;
@@ -26,8 +24,4 @@ public class TheExtendedApp extends Application {
 
     private static final String TAG = LogUtils.makeLogTag(TheExtendedApp.class);
 
-    public void onCreate() {
-        LOGD(TAG, "onCreate; created TheExtendedApp (TheMatrix)");
-        super.onCreate();
-    }
 }

@@ -17,6 +17,7 @@
 buildscript {
     repositories {
         mavenCentral()
+        mavenLocal()
     }
 
     dependencies {
@@ -31,6 +32,7 @@ repositories {
         url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
     }
     mavenCentral()
+    mavenLocal()
 }
 
 android {
@@ -64,10 +66,10 @@ android {
             def Properties keyProps = new Properties()
             assert localProps.getAt('keystore.props.file')
             keyProps.load new FileInputStream(file(localProps['keystore.props.file']))
-            storeFile file(keyProps.getAt("store"))
-            keyAlias keyProps.getAt("alias")
-            storePassword keyProps.getAt("storePass")
-            keyPassword keyProps.getAt("pass")
+            storeFile file(keyProps["store"])
+            keyAlias keyProps["alias"]
+            storePassword keyProps["storePass"]
+            keyPassword keyProps["pass"]
         }
     }
 

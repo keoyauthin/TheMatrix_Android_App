@@ -1,3 +1,4 @@
+
 package com.derdoktor667.dev.thematrix.utils;
 
 import java.io.BufferedReader;
@@ -49,28 +50,28 @@ public class LogUtils {
     }
 
     public static void LOGD(final String tag, String message) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
+        // noinspection PointlessBooleanExpression,ConstantConditions
         if (BuildConfig.DEBUG || Log.isLoggable(tag, Log.DEBUG)) {
             Log.d(tag, message);
         }
     }
 
     public static void LOGD(final String tag, String message, Throwable cause) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
+        // noinspection PointlessBooleanExpression,ConstantConditions
         if (BuildConfig.DEBUG || Log.isLoggable(tag, Log.DEBUG)) {
             Log.d(tag, message, cause);
         }
     }
 
     public static void LOGV(final String tag, String message) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
+        // noinspection PointlessBooleanExpression,ConstantConditions
         if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {
             Log.v(tag, message);
         }
     }
 
     public static void LOGV(final String tag, String message, Throwable cause) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
+        // noinspection PointlessBooleanExpression,ConstantConditions
         if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {
             Log.v(tag, message, cause);
         }
@@ -104,7 +105,7 @@ public class LogUtils {
      * Only for use with debug versions of the app!
      */
     public static void sendDebugLog(Context context) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
+        // noinspection PointlessBooleanExpression,ConstantConditions
         if (BuildConfig.DEBUG) {
             StringBuilder log = new StringBuilder();
 
@@ -125,7 +126,9 @@ public class LogUtils {
 
             try {
                 // Append app's logs
-                String[] logcatCmd = new String[]{"logcat", "-v", "threadtime", "-d",};
+                String[] logcatCmd = new String[] {
+                        "logcat", "-v", "threadtime", "-d",
+                };
                 Process process = Runtime.getRuntime().exec(logcatCmd);
                 BufferedReader bufferedReader = new BufferedReader(
                         new InputStreamReader(process.getInputStream()));
