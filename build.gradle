@@ -24,11 +24,3 @@
          classpath 'com.android.tools.build:gradle:0.6.+'
      }
  }
-
- repositories {
-     maven {
-         url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
-     }
-     mavenCentral()
-     mavenLocal()
- }
