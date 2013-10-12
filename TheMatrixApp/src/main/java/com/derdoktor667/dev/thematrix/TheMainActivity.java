@@ -36,7 +36,7 @@ import com.derdoktor667.dev.thematrix.utils.TheUtils;
 
 public class TheMainActivity extends ActionBarActivity {
 
-    // ...introduce the Fragments
+    /* ...introduce the Fragments */
     private static final int OVERVIEW = 0;
     private static final int DROPBOX = 1;
     private static final int GOOGLEDRIVE = 2;
@@ -47,7 +47,7 @@ public class TheMainActivity extends ActionBarActivity {
 
     private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
 
-    // ...set up the needed Stuff for the Side Navigation Drawer
+    /* ...set up the needed Stuff for the Side Navigation Drawer */
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -101,19 +101,19 @@ public class TheMainActivity extends ActionBarActivity {
                                        * "close drawer" description for
                                        * accessibility
                                        */
-                )
+        )
 
-                /* ...set the matching Titels by the array Names */{
-                    public void onDrawerClosed(View view) {
-                        getSupportActionBar().setTitle(mTitle);
-                        supportInvalidateOptionsMenu();
-                    }
+                /* ...set the matching Titels by the array Names */ {
+            public void onDrawerClosed(View view) {
+                getSupportActionBar().setTitle(mTitle);
+                supportInvalidateOptionsMenu();
+            }
 
-                    public void onDrawerOpened(View drawerView) {
-                        getSupportActionBar().setTitle(mDrawerTitle);
-                        supportInvalidateOptionsMenu();
-                    }
-                };
+            public void onDrawerOpened(View drawerView) {
+                getSupportActionBar().setTitle(mDrawerTitle);
+                supportInvalidateOptionsMenu();
+            }
+        };
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 

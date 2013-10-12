@@ -44,7 +44,7 @@ public class DropboxFragment extends Fragment {
         mChooserButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mChooser.forResultType(DbxChooser.ResultType.FILE_CONTENT)
+                mChooser.forResultType(DbxChooser.ResultType.PREVIEW_LINK)
                         .launch(DropboxFragment.this, DBX_CHOOSER_REQUEST);
             }
         });

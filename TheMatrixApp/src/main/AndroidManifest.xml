@@ -18,7 +18,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.derdoktor667.dev.thematrix"
-          android:installLocation="auto" >
+          android:installLocation="auto">
 
     <uses-sdk
             android:minSdkVersion="8"
@@ -34,7 +34,7 @@
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
             android:name=".TheExtendedApp"
-            android:theme="@style/AppBaseTheme"
+            android:theme="@style/TheMatrix.Compat.Universal.Theme"
             android:backupAgent=".BackupAgent"
             android:allowBackup="true"
             android:hardwareAccelerated="true"
@@ -43,7 +43,7 @@
         <activity
                 android:name=".TheMainActivity"
                 android:label="@string/app_name"
-                android:theme="@style/AppBaseTheme"
+                android:theme="@style/TheMatrix.Compat.Universal.Theme"
                 android:uiOptions="splitActionBarWhenNarrow"
                 android:configChanges="keyboardHidden|orientation|screenSize">
 
