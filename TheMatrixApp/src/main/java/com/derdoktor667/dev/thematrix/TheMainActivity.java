@@ -101,19 +101,19 @@ public class TheMainActivity extends ActionBarActivity {
                                        * "close drawer" description for
                                        * accessibility
                                        */
-        )
+                )
 
-                /* ...set the matching Titels by the array Names */ {
-            public void onDrawerClosed(View view) {
-                getSupportActionBar().setTitle(mTitle);
-                supportInvalidateOptionsMenu();
-            }
+                /* ...set the matching Titels by the array Names */{
+                    public void onDrawerClosed(View view) {
+                        getSupportActionBar().setTitle(mTitle);
+                        supportInvalidateOptionsMenu();
+                    }
 
-            public void onDrawerOpened(View drawerView) {
-                getSupportActionBar().setTitle(mDrawerTitle);
-                supportInvalidateOptionsMenu();
-            }
-        };
+                    public void onDrawerOpened(View drawerView) {
+                        getSupportActionBar().setTitle(mDrawerTitle);
+                        supportInvalidateOptionsMenu();
+                    }
+                };
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 

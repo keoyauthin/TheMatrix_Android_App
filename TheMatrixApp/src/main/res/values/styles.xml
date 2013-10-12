@@ -21,23 +21,13 @@
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="Theme.Base.AppCompat.Light.DarkActionBar">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
 
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-
-    </style>
-
-    <!-- ...the Compat Theme -->
-    <style name="TheMatrix.Compat.Universal.Theme" parent="Theme.Base.AppCompat.Light.DarkActionBar">
-
-    </style>
 
 </resources>

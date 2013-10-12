@@ -13,6 +13,7 @@ import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
+
 import com.derdoktor667.dev.thematrix.R;
 
 public class TheUtils {
@@ -24,7 +25,6 @@ public class TheUtils {
 
         Fragment prev = fm.findFragmentByTag("about_popup_layout");
         if (prev != null) {
-
             ft.remove(prev);
         }
 
@@ -37,12 +37,13 @@ public class TheUtils {
         private static final String VERSION_UNAVAILABLE = "N/A";
 
         public AboutDialog() {
+
         }
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
 
-            // Get app version
+            /* Get app version */
             PackageManager pm = getActivity().getPackageManager();
             String packageName = getActivity().getPackageName();
             String versionName = null;
@@ -65,25 +66,22 @@ public class TheUtils {
                 versionName = VERSION_UNAVAILABLE;
             }
 
-            // Build the about body view and append the link to see OSS licenses
+            /* Build the about body view and append the link to see OSS licenses */
             LayoutInflater layoutInflater = getActivity().getLayoutInflater();
             View rootView = layoutInflater.inflate(R.layout.about_popup_layout, null);
             TextView nameAndVersionView = null;
 
             if (rootView != null) {
-
                 nameAndVersionView = (TextView) rootView.findViewById(
                         R.id.app_name_and_version);
             }
 
             if (nameAndVersionView != null) {
-
                 nameAndVersionView.setText(Html.fromHtml(getString(R.string.app_name_and_version,
                         versionName)));
             }
 
             TextView aboutBodyView = null;
-
             if (rootView != null) {
 
                 aboutBodyView = (TextView) rootView.findViewById(R.id.about_body);
@@ -100,17 +98,14 @@ public class TheUtils {
             }
 
             return new AlertDialog.Builder(getActivity())
+
                     .setView(rootView)
-                    .setPositiveButton(R.string.close,
-                            new DialogInterface.OnClickListener() {
-
-                                public void onClick(DialogInterface dialog, int whichButton) {
-
-                                    dialog.dismiss();
-                                }
-                            }
-                    )
-                    .create();
+                    .setPositiveButton(R.string.close, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            dialog.dismiss();
+                        }
+                    }
+                    ).create();
         }
     }
 }
