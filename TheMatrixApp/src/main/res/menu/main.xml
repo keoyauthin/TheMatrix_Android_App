@@ -15,41 +15,41 @@
   -->
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:thematrix="http://schemas.android.com/apk/res-auto">
+      xmlns:thematrix="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/ab_action_refresh"
-        android:icon="@drawable/ic_action_refresh_light"
-        android:title="@string/ab_action_refresh"
-        android:orderInCategory="60"
-        thematrix:showAsAction="ifRoom" />
+            android:id="@+id/ab_action_refresh"
+            android:icon="@drawable/ic_action_refresh_light"
+            android:title="@string/ab_action_refresh"
+            android:orderInCategory="60"
+            thematrix:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/ab_action_settings"
-        android:icon="@drawable/ic_action_settings_light"
-        android:title="@string/ab_action_settings"
-        android:orderInCategory="70"
-        thematrix:showAsAction="ifRoom" />
+            android:id="@+id/ab_action_settings"
+            android:icon="@drawable/ic_action_settings_light"
+            android:title="@string/ab_action_settings"
+            android:orderInCategory="70"
+            thematrix:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/ab_action_about"
-        android:icon="@drawable/ic_action_about_light"
-        android:title="@string/ab_action_about"
-        android:orderInCategory="80"
-        thematrix:showAsAction="ifRoom" />
+            android:id="@+id/ab_action_about"
+            android:icon="@drawable/ic_action_about_light"
+            android:title="@string/ab_action_about"
+            android:orderInCategory="80"
+            thematrix:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/ab_action_help"
-        android:icon="@drawable/ic_action_help_light"
-        android:title="@string/ab_action_help"
-        android:orderInCategory="90"
-        thematrix:showAsAction="never" />
+            android:id="@+id/ab_action_help"
+            android:icon="@drawable/ic_action_help_light"
+            android:title="@string/ab_action_help"
+            android:orderInCategory="90"
+            thematrix:showAsAction="never"/>
 
     <item
-        android:id="@+id/ab_action_exit"
-        android:icon="@drawable/ic_action_exit_light"
-        android:title="@string/ab_action_exit"
-        android:orderInCategory="100"
-        thematrix:showAsAction="never" />
+            android:id="@+id/ab_action_exit"
+            android:icon="@drawable/ic_action_exit_light"
+            android:title="@string/ab_action_exit"
+            android:orderInCategory="100"
+            thematrix:showAsAction="never"/>
 
 </menu>

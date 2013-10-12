@@ -18,10 +18,6 @@ package com.derdoktor667.dev.thematrix;
 
 import android.app.Application;
 
-import com.derdoktor667.dev.thematrix.utils.LogUtils;
-
 public class TheExtendedApp extends Application {
-
-    private static final String TAG = LogUtils.makeLogTag(TheExtendedApp.class);
 
 }

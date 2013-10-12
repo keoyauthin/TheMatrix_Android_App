@@ -32,8 +32,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import com.derdoktor667.dev.thematrix.utils.HelpUtils;
+import com.derdoktor667.dev.thematrix.utils.TheUtils;
 
 public class TheMainActivity extends ActionBarActivity {
 
@@ -44,8 +43,7 @@ public class TheMainActivity extends ActionBarActivity {
     private static final int FACEBOOK = 3;
     private static final int GOOGLEPLUS = 4;
     private static final int TWITTER = 5;
-    private static final int SETTINGS = 6;
-    private static final int FRAGMENT_COUNT = SETTINGS + 1;
+    private static final int FRAGMENT_COUNT = TWITTER + 1;
 
     private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
 
@@ -103,20 +101,19 @@ public class TheMainActivity extends ActionBarActivity {
                                        * "close drawer" description for
                                        * accessibility
                                        */
-                )
+        )
 
-                /* ...set the matching Titels by the array Names */
-                {
-                    public void onDrawerClosed(View view) {
-                        getSupportActionBar().setTitle(mTitle);
-                        supportInvalidateOptionsMenu();
-                    }
+                /* ...set the matching Titels by the array Names */ {
+            public void onDrawerClosed(View view) {
+                getSupportActionBar().setTitle(mTitle);
+                supportInvalidateOptionsMenu();
+            }
 
-                    public void onDrawerOpened(View drawerView) {
-                        getSupportActionBar().setTitle(mDrawerTitle);
-                        supportInvalidateOptionsMenu();
-                    }
-                };
+            public void onDrawerOpened(View drawerView) {
+                getSupportActionBar().setTitle(mDrawerTitle);
+                supportInvalidateOptionsMenu();
+            }
+        };
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
@@ -129,7 +126,6 @@ public class TheMainActivity extends ActionBarActivity {
         fragments[FACEBOOK] = fm.findFragmentById(R.id.facebookFragment);
         fragments[GOOGLEPLUS] = fm.findFragmentById(R.id.gooplusFragment);
         fragments[TWITTER] = fm.findFragmentById(R.id.twitterFragment);
-        fragments[SETTINGS] = fm.findFragmentById(R.id.settingsFragment);
 
         FragmentTransaction transaction = fm.beginTransaction();
 
@@ -164,10 +160,6 @@ public class TheMainActivity extends ActionBarActivity {
         showFragment(TWITTER);
     }
 
-    private void showSettingsFragment() {
-        showFragment(SETTINGS);
-    }
-
     /* ...draw the Main Menu into the ActionBar */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -195,11 +187,10 @@ public class TheMainActivity extends ActionBarActivity {
                 return true;
 
             case R.id.ab_action_settings:
-                showSettingsFragment();
                 return true;
 
             case R.id.ab_action_about:
-                HelpUtils.showAboutDialog(this);
+                TheUtils.showAboutDialog(this);
                 return true;
 
             case R.id.ab_action_exit:
