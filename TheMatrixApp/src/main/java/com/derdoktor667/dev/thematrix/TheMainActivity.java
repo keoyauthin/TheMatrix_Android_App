@@ -32,6 +32,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
 import com.derdoktor667.dev.thematrix.utils.TheUtils;
 
 public class TheMainActivity extends ActionBarActivity {
@@ -101,19 +102,19 @@ public class TheMainActivity extends ActionBarActivity {
                                        * "close drawer" description for
                                        * accessibility
                                        */
-        )
+                )
 
-                /* ...set the matching Titels by the array Names */ {
-            public void onDrawerClosed(View view) {
-                getSupportActionBar().setTitle(mTitle);
-                supportInvalidateOptionsMenu();
-            }
+                /* ...set the matching Titels by the array Names */{
+                    public void onDrawerClosed(View view) {
+                        getSupportActionBar().setTitle(mTitle);
+                        supportInvalidateOptionsMenu();
+                    }
 
-            public void onDrawerOpened(View drawerView) {
-                getSupportActionBar().setTitle(mDrawerTitle);
-                supportInvalidateOptionsMenu();
-            }
-        };
+                    public void onDrawerOpened(View drawerView) {
+                        getSupportActionBar().setTitle(mDrawerTitle);
+                        supportInvalidateOptionsMenu();
+                    }
+                };
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 

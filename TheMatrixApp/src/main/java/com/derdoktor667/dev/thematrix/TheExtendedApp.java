@@ -20,4 +20,11 @@ import android.app.Application;
 
 public class TheExtendedApp extends Application {
 
+    public static final int PICK_ACCOUNT_REQUEST = 1;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+    }
 }

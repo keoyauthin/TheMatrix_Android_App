@@ -38,11 +38,12 @@ android {
 
     dependencies {
         compile 'com.android.support:appcompat-v7:18.+'
-        compile 'com.android.support:support-v4:18.+'
+        compile 'com.android.support:support-v4:18.0.+'
         compile 'com.google.android.gms:play-services:3.+'
         compile 'com.android.support:support-v13:18.+'
         compile 'com.dropbox.chooser:android:1.+'
         compile 'com.facebook.android:facebook:3.+'
+        compile 'com.google.apis:google-api-services-drive:v2-rev102-1.17.0-rc'
     }
 
     signingConfigs {

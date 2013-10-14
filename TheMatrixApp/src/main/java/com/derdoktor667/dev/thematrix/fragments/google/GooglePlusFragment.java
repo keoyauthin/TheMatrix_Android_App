@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
  *
@@ -22,6 +21,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.derdoktor667.dev.thematrix.R;
 
 public class GooglePlusFragment extends Fragment {
