@@ -60,6 +60,12 @@ android {
             signingConfig signingConfigs.release
         }
 
+        debug {
+            runProguard false
+            versionNameSuffix " Debug "
+            signingConfig signingConfigs.release
+        }
+
         beta {
             runProguard false
             versionNameSuffix " Beta "
