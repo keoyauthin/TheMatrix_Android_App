@@ -43,7 +43,6 @@ android {
         compile 'com.android.support:support-v13:18.+'
         compile 'com.dropbox.chooser:android:1.+'
         compile 'com.facebook.android:facebook:3.+'
-        compile 'com.google.apis:google-api-services-drive:v2-rev102-1.17.0-rc'
     }
 
     signingConfigs {
@@ -58,13 +57,11 @@ android {
     buildTypes {
         release {
             runProguard false
-            proguardFile getDefaultProguardFile('proguard-android.txt')
             signingConfig signingConfigs.release
         }
 
         beta {
             runProguard false
-            proguardFile getDefaultProguardFile('proguard-android.txt')
             versionNameSuffix " Beta "
             signingConfig signingConfigs.release
         }
