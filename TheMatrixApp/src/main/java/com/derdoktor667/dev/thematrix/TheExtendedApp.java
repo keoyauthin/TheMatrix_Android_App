@@ -17,14 +17,35 @@
 package com.derdoktor667.dev.thematrix;
 
 import android.app.Application;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBarActivity;
+
+import com.derdoktor667.dev.thematrix.utils.AboutDialog;
 
 public class TheExtendedApp extends Application {
-
-    public static final int PICK_ACCOUNT_REQUEST = 1;
 
     @Override
     public void onCreate() {
         super.onCreate();
-
     }
+
+    /*
+     * ...create an About Dialog for global usage
+     */
+    public static void showAboutDialog(ActionBarActivity activity) {
+
+        FragmentManager fm = activity.getSupportFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+
+        Fragment prev = fm.findFragmentByTag("about_popup_layout");
+        if (prev != null) {
+            ft.remove(prev);
+        }
+
+        ft.addToBackStack(null);
+        new AboutDialog().show(ft, "about_popup_layout");
+    }
+
 }

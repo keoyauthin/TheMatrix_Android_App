@@ -33,8 +33,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.derdoktor667.dev.thematrix.utils.TheUtils;
-
 public class TheMainActivity extends ActionBarActivity {
 
     /* ...introduce the Fragments */
@@ -191,7 +189,7 @@ public class TheMainActivity extends ActionBarActivity {
                 return true;
 
             case R.id.ab_action_about:
-                TheUtils.showAboutDialog(this);
+                TheExtendedApp.showAboutDialog(this);
                 return true;
 
             case R.id.ab_action_exit:

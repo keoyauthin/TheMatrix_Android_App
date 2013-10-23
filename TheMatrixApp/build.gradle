@@ -18,10 +18,9 @@ apply plugin: 'android'
 
 repositories {
     maven {
-        url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
+        url('https://github.com/derdoktor667/mvn-repo/raw/master/')
     }
     mavenCentral()
-    mavenLocal()
 }
 
 android {
@@ -31,22 +30,37 @@ android {
     defaultConfig {
         minSdkVersion 8
         targetSdkVersion 18
-
         versionName project.VERSION_NAME
         versionCode Integer.parseInt(project.VERSION_CODE)
     }
 
     dependencies {
-        compile 'com.android.support:appcompat-v7:18.+'
+        //ActionBarCompat
+        compile 'com.android.support:appcompat-v7:18.0.+'
+
+        // Support Libraries
         compile 'com.android.support:support-v4:18.0.+'
+
+        // Google Play Services
         compile 'com.google.android.gms:play-services:3.+'
-        compile 'com.android.support:support-v13:18.+'
+
+        // Dropbox Chooser Library
         compile 'com.dropbox.chooser:android:1.+'
+
+        // The Facebook SDK Library
         compile 'com.facebook.android:facebook:3.+'
     }
 
     signingConfigs {
+
         release {
+            keyAlias project.ALIAS
+            storePassword project.KEY
+            keyPassword project.KEY
+            storeFile file(project.STORE)
+        }
+
+        beta {
             keyAlias project.ALIAS
             storePassword project.KEY
             keyPassword project.KEY
@@ -55,6 +69,7 @@ android {
     }
 
     buildTypes {
+
         release {
             runProguard false
             signingConfig signingConfigs.release
@@ -63,13 +78,12 @@ android {
         debug {
             runProguard false
             versionNameSuffix " Debug "
-            signingConfig signingConfigs.release
         }
 
         beta {
             runProguard false
             versionNameSuffix " Beta "
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.beta
         }
     }
 }

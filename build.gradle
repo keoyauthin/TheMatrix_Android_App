@@ -17,20 +17,22 @@
 buildscript {
     repositories {
         mavenCentral()
-        mavenLocal()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.6.3'
+        classpath 'com.android.tools.build:gradle:0.6.+'
     }
 }
 
 allprojects {
     version = VERSION_NAME
-    group = GROUP
+    group = PACKAGE_NAME
 
     repositories {
         mavenCentral()
     }
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.8'
+}

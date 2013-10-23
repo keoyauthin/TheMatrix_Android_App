@@ -28,8 +28,8 @@ import com.dropbox.chooser.android.DbxChooser;
 
 public class DropboxFragment extends Fragment {
 
+    public static final int DBX_CHOOSER_REQUEST = 1;
     private static final String APP_KEY = String.valueOf(R.string.dropbox_chooser_key_string);
-    static final int DBX_CHOOSER_REQUEST = 1;
 
     private Button mChooserButton;
     private DbxChooser mChooser;
@@ -42,13 +42,15 @@ public class DropboxFragment extends Fragment {
         if (view != null) {
             mChooserButton = (Button) view.findViewById(R.id.chooser_button);
         }
+
         mChooserButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mChooser.forResultType(DbxChooser.ResultType.DIRECT_LINK)
                         .launch(DropboxFragment.this, DBX_CHOOSER_REQUEST);
             }
-        });
+        }
+                );
         return view;
     }
 }
