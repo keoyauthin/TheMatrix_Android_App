@@ -47,5 +47,4 @@ public class TheExtendedApp extends Application {
         ft.addToBackStack(null);
         new AboutDialog().show(ft, "about_popup_layout");
     }
-
 }

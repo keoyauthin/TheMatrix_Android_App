@@ -202,6 +202,7 @@ public class TheMainActivity extends ActionBarActivity {
     private void showFragment(int fragmentIndex) {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
+
         for (int i = 0; i < fragments.length; i++) {
             if (i == fragmentIndex) {
                 transaction.show(fragments[i]);
@@ -284,6 +285,7 @@ public class TheMainActivity extends ActionBarActivity {
     @Override
     public void onStart() {
         super.onStart();
+        mDrawerLayout.openDrawer(mDrawerList);
     }
 
     @Override

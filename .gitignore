@@ -3,7 +3,6 @@
 # clean IDE Stuff
 .idea
 .gradle
-gradle/
 build/
 
 # built application files

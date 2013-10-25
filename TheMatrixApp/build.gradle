@@ -36,10 +36,10 @@ android {
 
     dependencies {
         //ActionBarCompat
-        compile 'com.android.support:appcompat-v7:18.0.+'
+        compile 'com.android.support:appcompat-v7:18.+'
 
         // Support Libraries
-        compile 'com.android.support:support-v4:18.0.+'
+        compile 'com.android.support:support-v4:18.+'
 
         // Google Play Services
         compile 'com.google.android.gms:play-services:3.+'
@@ -49,6 +49,11 @@ android {
 
         // The Facebook SDK Library
         compile 'com.facebook.android:facebook:3.+'
+
+        // The Google+ Login Libraries
+        compile 'com.google.api-client:google-api-client:1.+'
+        compile 'com.google.api-client:google-api-client-android:1.+'
+        compile 'com.google.apis:google-api-services-drive:v2-rev102-1.17.+'
     }
 
     signingConfigs {

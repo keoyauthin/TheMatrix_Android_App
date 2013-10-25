@@ -14,8 +14,9 @@
 #     limitations under the License.
 #
 
-VERSION_NAME=0.8.1.3
-VERSION_CODE=22
+VERSION_NAME=1.1.0.5
+VERSION_CODE=1105
+PACKAGE_NAME=com.derdoktor667.dev.thematrix
 GROUP=com.derdoktor667.dev.thematrix
 STORE=/path/to/your/signed/Keystore
 ALIAS=your_keystoreUserName
