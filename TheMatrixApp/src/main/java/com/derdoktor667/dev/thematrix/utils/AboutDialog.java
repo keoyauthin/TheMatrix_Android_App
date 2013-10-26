@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,6 +23,10 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBarActivity;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
@@ -33,12 +37,26 @@ import com.derdoktor667.dev.thematrix.R;
 
 public class AboutDialog extends DialogFragment {
 
-    private static final String VERSION_UNAVAILABLE = "N/A";
+    public static void showAboutDialog(ActionBarActivity activity) {
+
+        FragmentManager fm = activity.getSupportFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+
+        Fragment prev = fm.findFragmentByTag("about_popup_layout");
+        if (prev != null) {
+            ft.remove(prev);
+        }
+
+        ft.addToBackStack(null);
+        new AboutDialog().show(ft, "about_popup_layout");
+    }
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
 
-        /* Get app version */
+        /**
+         * Get Application Version
+         */
         PackageManager pm = getActivity().getPackageManager();
         String packageName = getActivity().getPackageName();
         TextView nameAndVersionView = null;
@@ -54,13 +72,11 @@ public class AboutDialog extends DialogFragment {
             if (info != null) {
                 versionName = info.versionName;
             }
+        } catch (PackageManager.NameNotFoundException e) {
+            versionName = Constants.VERSION_UNAVAILABLE;
         }
 
-        catch (PackageManager.NameNotFoundException e) {
-            versionName = VERSION_UNAVAILABLE;
-        }
-
-        /*
+        /**
          * Build the aboutTextView aboutBodyView = null; body view and append
          * the link to see OSS licenses
          */
@@ -94,7 +110,7 @@ public class AboutDialog extends DialogFragment {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         dialog.dismiss();
                     }
-                })
-                .create();
+                }
+                ).create();
     }
 }

@@ -16,8 +16,7 @@
   ~     limitations under the License.
   -->
 
-<manifest 
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.derdoktor667.dev.thematrix"
     android:installLocation="auto">
 
@@ -52,14 +51,11 @@
         android:backupAgent=".BackupAgent"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:uiOptions="splitActionBarWhenNarrow">
+        android:configChanges="keyboardHidden|orientation|screenSize" >
 
         <activity
             android:name=".TheMainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/TheMatrix.Compat.Universal.Theme"
-            android:uiOptions="splitActionBarWhenNarrow"
-            android:configChanges="keyboardHidden|orientation|screenSize">
+            android:label="@string/app_name">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -14,21 +14,11 @@
  *     limitations under the License.
  */
 
-package com.derdoktor667.dev.thematrix.fragments.google;
+package com.derdoktor667.dev.thematrix.utils;
 
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import com.derdoktor667.dev.thematrix.R;
-
-public class GoogleDriveFragment extends Fragment {
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.googledrive_fragment_layout, container, false);
-
-    }
+public class Constants {
+    public static boolean DEBUG;
+    public static final String TAG = "TheMatrix";
+    public static final String PREFS_NAME = "preferences";
+    public static final String VERSION_UNAVAILABLE = "N/A";
 }

@@ -14,14 +14,14 @@
  *     limitations under the License.
  */
 
-apply plugin: 'android'
-
 repositories {
     maven {
-        url('https://github.com/derdoktor667/mvn-repo/raw/master/')
+        url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
     }
     mavenCentral()
 }
+
+apply plugin: 'android'
 
 android {
     compileSdkVersion 18
@@ -35,25 +35,28 @@ android {
     }
 
     dependencies {
-        //ActionBarCompat
-        compile 'com.android.support:appcompat-v7:18.+'
+        // ActionBarCompat
+        compile 'com.android.support:appcompat-v7:18.0.+'
 
         // Support Libraries
-        compile 'com.android.support:support-v4:18.+'
+        compile 'com.android.support:support-v4:18.0.+'
 
         // Google Play Services
-        compile 'com.google.android.gms:play-services:3.+'
+        compile 'com.google.android.gms:play-services:3.2.+'
+
+        // Google Analytics Plugin
+        compile fileTree(dir: 'libs', includes: ['*.jar'], excludes: ['android-support-v4.jar'])
 
         // Dropbox Chooser Library
-        compile 'com.dropbox.chooser:android:1.+'
+        compile 'com.dropbox.chooser:android:1.0.+'
 
         // The Facebook SDK Library
-        compile 'com.facebook.android:facebook:3.+'
+        compile 'com.facebook.android:facebook:3.5.+'
 
         // The Google+ Login Libraries
-        compile 'com.google.api-client:google-api-client:1.+'
-        compile 'com.google.api-client:google-api-client-android:1.+'
-        compile 'com.google.apis:google-api-services-drive:v2-rev102-1.17.+'
+        // compile 'com.google.api-client:google-api-client:1.+'
+        // compile 'com.google.api-client:google-api-client-android:1.+'
+        // compile 'com.google.apis:google-api-services-drive:v2-rev102-1.17.+'
     }
 
     signingConfigs {

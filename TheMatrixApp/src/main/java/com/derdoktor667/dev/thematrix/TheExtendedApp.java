@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright 2013 Wastl Kraus <derdoktor667@gmail.com>
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,34 +17,32 @@
 package com.derdoktor667.dev.thematrix;
 
 import android.app.Application;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 
-import com.derdoktor667.dev.thematrix.utils.AboutDialog;
+import com.derdoktor667.dev.thematrix.utils.Constants;
+import com.derdoktor667.dev.thematrix.utils.PreferenceHelper;
 
 public class TheExtendedApp extends Application {
 
     @Override
     public void onCreate() {
-        super.onCreate();
-    }
 
-    /*
-     * ...create an About Dialog for global usage
-     */
-    public static void showAboutDialog(ActionBarActivity activity) {
-
-        FragmentManager fm = activity.getSupportFragmentManager();
-        FragmentTransaction ft = fm.beginTransaction();
-
-        Fragment prev = fm.findFragmentByTag("about_popup_layout");
-        if (prev != null) {
-            ft.remove(prev);
+        Log.d(Constants.TAG, "Setting workaround for AsyncTask...");
+        try {
+            Class.forName("android.os.AsyncTask");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         }
 
-        ft.addToBackStack(null);
-        new AboutDialog().show(ft, "about_popup_layout");
+        /**
+         * Set Debug level based on preference
+         */
+        if (PreferenceHelper.getDebugEnabled(this)) {
+            Constants.DEBUG = true;
+            Log.d(Constants.TAG, "Debug set to true by preference!");
+        } else {
+            Constants.DEBUG = false;
+        }
+        super.onCreate();
     }
 }
