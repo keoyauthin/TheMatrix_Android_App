@@ -16,10 +16,13 @@
 
 buildscript {
     repositories {
+        maven {
+            url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
+        }
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.6.3'
+        classpath 'com.android.tools.build:gradle:0.6.+'
     }
 }
 
@@ -28,6 +31,9 @@ allprojects {
     group = PACKAGE_NAME
 
     repositories {
+        maven {
+            url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
+        }
         mavenCentral()
     }
 }

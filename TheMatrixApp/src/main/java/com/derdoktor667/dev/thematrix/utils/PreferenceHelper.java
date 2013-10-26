@@ -23,20 +23,6 @@ import com.derdoktor667.dev.thematrix.R;
 
 public class PreferenceHelper {
 
-    public static boolean getUpdateCheck(Context context) {
-        SharedPreferences prefs = context.getSharedPreferences(Constants.PREFS_NAME,
-                Context.MODE_PRIVATE);
-        return prefs.getBoolean(context.getString(R.string.pref_update_check_key),
-                Boolean.parseBoolean(context.getString(R.string.pref_update_check_def)));
-    }
-
-    public static String getApplyMethod(Context context) {
-        SharedPreferences prefs = context.getSharedPreferences(Constants.PREFS_NAME,
-                Context.MODE_PRIVATE);
-        return prefs.getString(context.getString(R.string.pref_apply_method_key),
-                context.getString(R.string.pref_apply_method_def));
-    }
-
     public static boolean getDebugEnabled(Context context) {
         SharedPreferences prefs = context.getSharedPreferences(Constants.PREFS_NAME,
                 Context.MODE_PRIVATE);
