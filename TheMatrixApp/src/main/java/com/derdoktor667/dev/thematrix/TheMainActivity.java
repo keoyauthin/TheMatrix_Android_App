@@ -34,6 +34,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.derdoktor667.dev.thematrix.utils.AboutDialog;
+import com.google.analytics.tracking.android.EasyTracker;
 
 public class TheMainActivity extends ActionBarActivity {
 
@@ -159,6 +160,7 @@ public class TheMainActivity extends ActionBarActivity {
         }
         transaction.commit();
         showOverviewFragment();
+        EasyTracker.getInstance(this);
     }
 
     private void showOverviewFragment() {
@@ -284,6 +286,7 @@ public class TheMainActivity extends ActionBarActivity {
     public void onStart() {
         super.onStart();
         mDrawerLayout.openDrawer(mDrawerList);
+        EasyTracker.getInstance(this).activityStart(this);
     }
 
     @Override
@@ -294,6 +297,7 @@ public class TheMainActivity extends ActionBarActivity {
     @Override
     public void onStop() {
         super.onStop();
+        EasyTracker.getInstance(this).activityStop(this);
     }
 
     /**

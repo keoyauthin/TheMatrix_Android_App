@@ -45,7 +45,7 @@ android {
         compile 'com.google.android.gms:play-services:3.2.+'
 
         // Google Analytics Plugin
-        compile fileTree(dir: 'libs', includes: ['*.jar'], excludes: ['android-support-v4.jar'])
+        compile fileTree(dir: 'libs', includes: ['*.jar'])
 
         // Dropbox Chooser Library
         compile 'com.dropbox.chooser:android:1.0.+'
