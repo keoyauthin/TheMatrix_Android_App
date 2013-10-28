@@ -48,43 +48,49 @@ android {
     defaultConfig {
         minSdkVersion 8
         targetSdkVersion 18
-        versionName project.VERSION_NAME
-        versionCode Integer.parseInt(project.VERSION_CODE)
-    }
 
-    signingConfigs {
-
-        release {
-            keyAlias project.ALIAS
-            storePassword project.KEY
-            keyPassword project.KEY
-            storeFile file(project.STORE)
-        }
-
-        beta {
-            keyAlias project.ALIAS
-            storePassword project.KEY
-            keyPassword project.KEY
-            storeFile file(project.STORE)
+        if (project.hasProperty('versionNumber') &&
+        project.hasProperty('versionRevision')) {
+            versionName project.versionNumber
+            versionCode Integer.parseInt(project.versionRevision)
         }
     }
 
-    buildTypes {
+    if (project.hasProperty('signingStoreLocation') &&
+    project.hasProperty('signingStorePassword') &&
+    project.hasProperty('signingKeyAlias') &&
+    project.hasProperty('signingKeyPassword')) {
+        println ""
+        println "Found sign properties in gradle.properties! Signing build…"
+        println ""
 
-        release {
-            runProguard false
-            signingConfig signingConfigs.release
+        signingConfigs {
+
+            release {
+                storeFile file(signingStoreLocation)
+                storePassword signingStorePassword
+                keyAlias signingKeyAlias
+                keyPassword signingKeyPassword
+            }
+                    
+            beta {
+                storeFile file(signingStoreLocation)
+                storePassword signingStorePassword
+                keyAlias signingKeyAlias
+                keyPassword signingKeyPassword
+            }
         }
 
-        debug {
-            runProguard false
-            versionNameSuffix " Debug "
-        }
+        buildTypes {
 
-        beta {
-            runProguard false
-            versionNameSuffix " Beta "
-            signingConfig signingConfigs.beta
+            release {
+                signingConfig signingConfigs.release
+            }
+                 
+            beta {
+                versionNameSuffix " Beta "
+                signingConfig signingConfigs.beta
+            }
         }
     }
 }
