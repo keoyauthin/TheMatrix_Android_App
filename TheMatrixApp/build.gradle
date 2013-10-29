@@ -26,7 +26,7 @@ dependencies {
     // Google Play Services
     compile 'com.google.android.gms:play-services:3.+'
 
-    // Google Analytics Plugin
+    // The libs Folder
     compile fileTree(dir: 'libs', includes: ['*.jar'])
 
     // Dropbox Chooser Library
@@ -34,11 +34,6 @@ dependencies {
 
     // The Facebook SDK Library
     compile 'com.facebook.android:facebook:3.+'
-
-    // The Google+ Login Libraries
-    // compile 'com.google.api-client:google-api-client:1.+'
-    // compile 'com.google.api-client:google-api-client-android:1.+'
-    // compile 'com.google.apis:google-api-services-drive:v2-rev102-1.17.+'
 }
 
 android {

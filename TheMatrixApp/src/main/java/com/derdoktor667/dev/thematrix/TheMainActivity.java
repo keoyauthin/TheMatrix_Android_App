@@ -34,9 +34,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.derdoktor667.dev.thematrix.utils.AboutDialog;
+import com.derdoktor667.dev.thematrix.utils.Log;
 import com.google.analytics.tracking.android.EasyTracker;
 
 public class TheMainActivity extends ActionBarActivity {
+
+    private final String TAG = TheMainActivity.class.getSimpleName();
 
     /**
      * ...introduce the Fragments
@@ -48,7 +51,6 @@ public class TheMainActivity extends ActionBarActivity {
     private static final int GOOGLEPLUS = 4;
     private static final int TWITTER = 5;
     private static final int FRAGMENT_COUNT = TWITTER + 1;
-
     private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
 
     /**
@@ -164,10 +166,12 @@ public class TheMainActivity extends ActionBarActivity {
     }
 
     private void showOverviewFragment() {
+        Log.i(TAG, "show Overview Fragment");
         showFragment(OVERVIEW);
     }
 
     private void showDropboxFragment() {
+        Log.i(TAG, "show Dropbox Fragment");
         showFragment(DROPBOX);
     }
 

@@ -16,6 +16,9 @@
 
 buildscript {
     repositories {
+        maven {
+            url project.mavenAddons
+        }
         mavenCentral()
     }
 
@@ -25,11 +28,15 @@ buildscript {
 }
 
 allprojects {
-    
+
     repositories {
         maven {
-            url 'https://github.com/derdoktor667/mvn-repo/raw/master/'
+            url project.mavenAddons
         }
         mavenCentral()
     }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.8'
 }

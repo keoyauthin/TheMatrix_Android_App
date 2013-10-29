@@ -46,14 +46,14 @@
 
   <!-- ...we need to extend Application to keep the logins up ...this is why we need a runner -->
   <application
+    android:name=".TheExtendedApp"
+    android:allowBackup="true"
+    android:backupAgent=".BackupAgent"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:hardwareAccelerated="true"
     android:icon="@drawable/ic_launcher"
     android:label="@string/app_name"
-    android:name=".TheExtendedApp"
-    android:theme="@style/TheMatrix.Compat.Universal.Theme"
-    android:backupAgent=".BackupAgent"
-    android:allowBackup="true"
-    android:hardwareAccelerated="true"
-    android:configChanges="keyboardHidden|orientation|screenSize" >
+    android:theme="@style/TheMatrix.Compat.Universal.Theme" >
 
     <activity
       android:name=".TheMainActivity"

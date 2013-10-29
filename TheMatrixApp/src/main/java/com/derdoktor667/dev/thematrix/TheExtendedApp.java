@@ -17,32 +17,16 @@
 package com.derdoktor667.dev.thematrix;
 
 import android.app.Application;
-import android.util.Log;
 
-import com.derdoktor667.dev.thematrix.utils.Constants;
-import com.derdoktor667.dev.thematrix.utils.PreferenceHelper;
+import com.derdoktor667.dev.thematrix.utils.Log;
 
 public class TheExtendedApp extends Application {
 
+    private static final String TAG = TheExtendedApp.class.getSimpleName();
+
     @Override
     public void onCreate() {
-
-        Log.d(Constants.TAG, "Setting workaround for AsyncTask...");
-        try {
-            Class.forName("android.os.AsyncTask");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        /**
-         * Set Debug level based on preference
-         */
-        if (PreferenceHelper.getDebugEnabled(this)) {
-            Constants.DEBUG = true;
-            Log.d(Constants.TAG, "Debug set to true by preference!");
-        } else {
-            Constants.DEBUG = false;
-        }
+        Log.i(TAG, "start TheExtendedApp");
         super.onCreate();
     }
 }

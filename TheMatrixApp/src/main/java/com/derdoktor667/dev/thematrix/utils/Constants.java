@@ -18,7 +18,6 @@ package com.derdoktor667.dev.thematrix.utils;
 
 public class Constants {
     public static boolean DEBUG;
-    public static final String TAG = "TheMatrix";
     public static final String PREFS_NAME = "preferences";
     public static final String VERSION_UNAVAILABLE = "N/A";
 }
