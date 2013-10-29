@@ -64,6 +64,11 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
 
+      <intent-filter>
+         <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"></action>
+         <category android:name="android.intent.category.DEFAULT" ></category>
+      </intent-filter>
+
     </activity>
 
     <!-- ...the Facebook Login Part like provided by the SDK -->
