@@ -22,10 +22,23 @@ the "example" tag.
 ./version.properties.example
 ./TheMatrixApp/src/main/res/values/keystore_strings.example => keystore_strings.xml
 
-Developed By
-------------
+Credits
+-------
 
-* Wastl Kraus - <derdoktor667@gmail.com>
+Author: Wastl Kraus (derdoktor667@gmail.com)
+
+<a href="https://plus.google.com/u/0/111500666746491450335">
+  <img alt="Follow me on Google+"
+       src="https://github.com/derdoktor667/derdoktor667.github.io/raw/master/png/g%2B64.png" />
+</a>
+<a href="https://twitter.com/derdoktor667">
+  <img alt="Follow me on Twitter"
+       src="https://github.com/derdoktor667/derdoktor667.github.io/raw/master/png/twitter64.png" />
+</a>
+<a href="http://facebook.com/wastl.kraus">
+  <img alt="Contact me on Facebook"
+       src="https://github.com/derdoktor667/derdoktor667.github.io/raw/master/png/facebook64.png" />
+</a>
 
 
 License
@@ -45,7 +58,7 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
-
+----------------------------------------------------------------------------
 
 
  [1]: http://wir-sind-die-matrix.de
