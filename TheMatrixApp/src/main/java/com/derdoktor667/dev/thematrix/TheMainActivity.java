@@ -39,8 +39,6 @@ import com.google.analytics.tracking.android.EasyTracker;
 
 public class TheMainActivity extends ActionBarActivity {
 
-    private final String TAG = TheMainActivity.class.getSimpleName();
-
     /**
      * ...introduce the Fragments
      */
@@ -51,8 +49,8 @@ public class TheMainActivity extends ActionBarActivity {
     private static final int GOOGLEPLUS = 4;
     private static final int TWITTER = 5;
     private static final int FRAGMENT_COUNT = TWITTER + 1;
+    private final String TAG = TheMainActivity.class.getSimpleName();
     private Fragment[] fragments = new Fragment[FRAGMENT_COUNT];
-
     /**
      * ...set up the Navigation Drawer
      */
