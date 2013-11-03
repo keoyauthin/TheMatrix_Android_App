@@ -18,10 +18,10 @@ apply plugin: 'android'
 
 dependencies {
     // ActionBarCompat
-    compile 'com.android.support:appcompat-v7:18.+'
+    compile 'com.android.support:appcompat-v7:19.+'
 
     // Support Libraries
-    compile 'com.android.support:support-v4:18.+'
+    compile 'com.android.support:support-v4:19.+'
 
     // Google Play Services
     compile 'com.google.android.gms:play-services:3.+'
@@ -37,12 +37,12 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion "18.1.1"
+    compileSdkVersion "Google Inc.:Google APIs:19"
+    buildToolsVersion "19.0.0"
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 18
+        targetSdkVersion 19
 
         if (project.hasProperty('versionNumber') &&
         project.hasProperty('versionRevision')) {
@@ -68,6 +68,13 @@ android {
                 keyAlias signingKeyAlias
                 keyPassword signingKeyPassword
             }
+
+            debug {
+                storeFile file(signingStoreLocation)
+                storePassword signingStorePassword
+                keyAlias signingKeyAlias
+                keyPassword signingKeyPassword
+            }
                     
             beta {
                 storeFile file(signingStoreLocation)
@@ -80,11 +87,22 @@ android {
         buildTypes {
 
             release {
+                debuggable false
+                zipAlign true
                 signingConfig signingConfigs.release
+            }
+
+            debug {
+                versionNameSuffix " Debug "
+                debuggable true
+                zipAlign true
+                signingConfig signingConfigs.debug
             }
                  
             beta {
                 versionNameSuffix " Beta "
+                debuggable true
+                zipAlign true
                 signingConfig signingConfigs.beta
             }
         }
